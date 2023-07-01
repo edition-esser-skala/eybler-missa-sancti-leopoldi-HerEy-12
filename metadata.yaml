@@ -1,0 +1,30 @@
+composer:
+  last: Eybler
+  first: Joseph Leopold Edler von
+title: Missa Sancti Leopoldi
+id: HerEy 12
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cl (\flat B), 2 fag, 2 cor (D), 2 clno (D), timp (D–A), 3 trb, 2 vl, 2 vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 168
+    rism: 600037958
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/624.html
+    license: public domain
+    notes: parts for S (2×), A (2×), T, B, cl 1, cl 2, vl 1 (2×), vl 2 (2×), vla 1, vla 2, vlc, vlne, and org
+  C1:
+    siglum: A-Wn
+    shelfmark: F24.St.Peter.A68(I)
+    date: 1827
+    url: https://data.onb.ac.at/rec/AC14328819
+    license: public domain
+    principal: true
+    notes: full score; Tobias Haslinger, Vienna, plate number 5045
+imslp:
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in \flat B
+  ottoni: Clarino I, II in D\\Timpani in D–A
