@@ -6,22 +6,32 @@
 \book {
   \bookpart {
     \section "1" "Kyrie"
-    % \addTocEntry
-    \paper { indent = 3\cm }
+    \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      indent = 3\cm
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
             \partCombine #'(0 . 10) \KyrieOboeI \KyrieOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
+            \set Staff.soloText = \markup \remark \medium "cl 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \KyrieClarinettoI \KyrieClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
+            \set Staff.soloText = \markup \remark \medium "fag 1"
             \partCombine #'(0 . 10) \KyrieFagottoI \KyrieFagottoII
           }
         >>
@@ -99,7 +109,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 45 }
     }
   }
 }

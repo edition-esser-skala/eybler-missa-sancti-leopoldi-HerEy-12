@@ -6,6 +6,9 @@
 \include "ees_articulate.ly"
 
 
+perd = \markup \remark "perd."
+
+
 tempoKyrie = \tempoMarkup "Adagio ma non tanto"
 
 
