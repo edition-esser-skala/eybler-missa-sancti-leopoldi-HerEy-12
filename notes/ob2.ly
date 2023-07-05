@@ -53,3 +53,209 @@ KyrieOboeII = {
     R1\fermata \bar "|." %65 finis
   }
 }
+
+GloriaOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoGloria
+    \grace { s16*3 }
+      d'4\f cis d d
+    d fis g e
+    d1
+    h2 g
+    e4 a cis e %5
+    d2. r4
+    R1*7 %13
+    r4 fis,8.\f fis16 fis4 fis
+    fis r r2 %15
+    R1*6 %21
+    r4 d\f fis a
+    d2 a
+    g4 e d a'
+    d4.\trill cis16 d e4 d %25
+    cis r r2
+    R1*5 %31
+    r4 e,\fE a cis
+    e a,2 cis4
+    h a r2
+    r4 gis2 a8 h %35
+    a4 cis r2
+    r4 ais2 cis4
+    h d r2
+    r4 h2 c8 d
+    e2 g %40
+    f4 r f, r
+    e r r2
+    r4 g2 h4
+    c g r2
+    r4 h2 dis4 %45
+    e_\critnote h r2
+    r4 d!2 fis4
+    g d e c8 a
+    d h g h d2~
+    d4 r r2 %50
+    r4 fis,2 a4
+    g h r2
+    r4 ais2 cis4
+    h d r2
+    r4 cis2 e4 %55
+    d2 e
+    fis4 a~ a8( g h, g)
+    fis4 a2 cis4
+    d a fis d
+    R1*4 %63
+    a'1\f
+    h %65
+    g
+    a4 cis2 cis4
+    cis1
+    d2. e4
+    d2 cis %70
+    d8 a' fis d a fis' d a
+    fis d' a fis d4 d
+    d r r2
+    R1*11 %84
+    r2 cis'~\p\< %85
+    \after 2 \> cis1~
+    cis2\! r
+    R1
+    r2 cis(\<
+    e\> cis) %90
+    e,4\! r r2
+    R1*36 %127
+    r2 cis'~\p\<
+    \after 2 \> cis1~
+    cis2\! r %130
+    R1
+    r2 g~\sfp
+    g e
+    R1*10 %143
+    d'4\f cis d d
+    d fis g e %145
+    d1
+    h2 g
+    e4 a cis e
+    d2. r4
+    R1*4 %153
+    d4\f cis d d
+    d fis g e %155
+    d1
+    h2 g
+    e4 a cis e
+    d2. r4
+    R1*6 %165
+    r4 e2\p d4
+    cis r r2
+    cis2.\fz r4
+    R1
+    cis2.\fz r4 %170
+    R1
+    e\fz
+    d2. e4
+    fis2 e
+    d4 d h g %175
+    e e' cis a
+    fis fis' d h
+    g e'2 e4
+    a, d, e fis
+    g a h cis %180
+    d2 e
+    fis4. e8 d2
+    cis4 e d2
+    e4 cis d2
+    cis4 r r\fermata r %185
+    r4 d8 cis h4 e8 d
+    cis d cis h a4 d8 cis
+    h cis d2 cis4
+    d8 cis d e fis4 a,
+    r a2 gis8 fis %190
+    e4 e'8 d cis h a4
+    r fis'8 e d cis d e
+    cis d cis h a g! fis e
+    d4 d' r2
+    R1*2 %196
+    r2 r4 d
+    fis cis d2\trill
+    e4 h cis2\trill
+    d4 cis h2\trillE %200
+    a4 r r2
+    r4 d8 cis h4 e8 d
+    cis d cis h a4 d8 cis
+    h cis d2 cis4~
+    cis h2 ais4 %205
+    h r r2
+    R1
+    r4 g'8 fis e d e fis
+    d4 e8 d c h c d
+    h4 c8 h a g a h %210
+    g4 e r2
+    r r4 d'
+    e h c2\trillE
+    d4 a h r
+    r d8 c h4 e8 d %215
+    c d c h a4 d8 c
+    h cis d4 e2
+    d4 r r2
+    r r4 fis~
+    fis8 g! fis e d e d cis %220
+    h4 r r e~
+    e8 fis e d cis d cis h
+    a4 r r d~
+    d8 e d cis h cis h a
+    gis4 r r cis~ %225
+    cis8 d cis h a4 d~
+    d8 e d cis h4 e~
+    e8 fis e d cis h a gis
+    fis4 h8 a gis a gis fis
+    e4 a8 gis fis gis a4~ %230
+    a gis8 fis eis2
+    fis4 cis' d a
+    h d e! h
+    cis e fis cis
+    d2\trill e4 h %235
+    cis2\trillE d4 r
+    r2 r4 cis
+    h e d2\trill
+    cis4 fis e2\trill
+    d4 g fis8 e fis gis %240
+    a4 a,8 h cis4 g!8 a
+    h a h cis d4 a8 h
+    cis e d cis h2
+    a4 d2 cis4
+    h e2 dis4 %245
+    e8 dis e fis g4 cis,8 d
+    e d cis h a4 h8 cis
+    d cis d e fis4 h,8 cis
+    d cis h a g4 a8 h
+    cis h cis d e d e fis %250
+    g fis e d cis2
+    d4 d8 cis h4 e8 d
+    cis d cis h a4 d8 cis
+    h a g4~ g8 e a g
+    fis4 d' e h %255
+    cis2\trill d4 a
+    h8 cis d2 cis4
+    d8 e fis2 eis4
+    fis8 gis a2 gis4
+    a r r2 %260
+    R1
+    r4 d, fis cis
+    d2\trill e4 h
+    cis a~ a8 gis a h
+    cis4 cis~ cis8 h cis d %265
+    e4 e~ e8 d e fis
+    g! fis e d cis h a g
+    fis4 d'8\cresc cis h4 e8 d
+    cis d cis h a4 d8 cis
+    h4 e2 g4~ %270
+    g fis e2
+    d4 d2\ff d4
+    d1
+    d
+    d2 e~ %275
+    e4 d2 cis4
+    d d( e2)
+    d4 d( cis2)
+    d4 r r2\fermata \bar "|." %279 finis
+  }
+}

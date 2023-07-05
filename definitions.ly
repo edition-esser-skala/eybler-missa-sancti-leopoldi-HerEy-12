@@ -7,9 +7,26 @@
 
 
 perd = \markup \remark "perd."
+vlne = \markup \remark "vlne"
+org = \markup \remark "org"
+semprepel = \markup \whiteout \remark "sempre piano e legato"
+tinyGroupDistance = \setGroupDistance #12 #12
+fivehat = \markup {
+  \combine
+  \figured-bass 5
+  \path #.15 #'(
+    (rmoveto 0 1.2)
+    (rlineto .5 .5)
+    (rlineto .5 -.5))
+}
+slurpos = #(define-music-function
+  (parser location beg end)
+  (number? number?)
+  #{ \once \override Slur.positions = #(cons beg end) #})
 
 
 tempoKyrie = \tempoMarkup "Adagio ma non tanto"
+tempoGloria = \tempoMarkup "Allegro spiritoso"
 
 
 \include "notes/ob1.ly"
@@ -23,7 +40,7 @@ tempoKyrie = \tempoMarkup "Adagio ma non tanto"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/trb1.ly"
-\include "notes/trb2.ly"
+\include "notes/trb2.ly" % no clef in notes -> add in parts!
 \include "notes/trb3.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
