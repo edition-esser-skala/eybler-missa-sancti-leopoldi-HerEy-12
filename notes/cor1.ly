@@ -188,3 +188,130 @@ GloriaCornoI = {
     c4 r r2\fermata \bar "|." %279 finis
   }
 }
+
+CredoCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \tempoCredo
+    d'2.\f e4 r r
+    c c c c2.
+    d e
+    d e4 e e
+    e r r e e e %5
+    e r r r e e
+    \pao d r r d r r
+    \pao d r r r d d
+    d2. e2 f4
+    e2 d4 c r r %10
+    d2. e4 r r
+    r c c c2.~
+    c4 r r d2.
+    c4 r r r2 r4
+    R1. %15
+    r2 r4 r e e
+    e2. f
+    r4 e e e2.~
+    e4 e e e2.~
+    e4 r r c2.\fz %20
+    f r4 e e
+    c r r e2.\fz
+    c4 r r r2 r4
+    r d d c d e
+    f2 d4 g2. %25
+    e f
+    d c4 \pao g c
+    d \pao c d d2 e4
+    d r r r e e
+    e r r r \pa d d \pd %30
+    d r r r2 r4
+    R1.
+    d2. e
+    d d4 r r
+    R1. %35
+    r4 \pa d d \pd d r r
+    \pa d2. g,4 \pd r r
+    d'2. e4 r r
+    r2 r4 r e e
+    e r r r2 r4 %40
+    R1.
+    d2.~\fz d4 d d
+    e2.~\fz e4 e e
+    e r r r e c
+    g2. e4 r r %45
+    R1.*2 \noBreak
+    R1.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      R1 \noBreak
+    R1\fermata %50
+    R1*23 %73
+    e'2.\fz r4
+    R1 %75
+    f2.\fz r4
+    R1
+    d2.\fz r4
+    R1*2 %80
+    r4 \pa e2 e4
+    f2 e \pd
+    R1
+    d2~\fz d8 f-!\ff f-! f-!
+    f4-\parenthesize-! r r2 %85
+    R1*5 \noBreak %90
+    R1\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoEtResurrexit \newSpacingSection
+      R2*6 %97
+    c2\f
+    e
+    R2*8 %107
+    f4 e8 d
+    c2
+    R2*8 %117
+    c2
+    e
+    R2*29 %148
+    f4\fE d
+    c2 %150
+    R2*17 %167
+    \pao e2
+    f4 r
+    R2*12 %181
+    e2\fz
+    c4 r
+    R2*20 %102
+    \pa d2
+    g,4 \pd r %205
+    R2*16 %221
+    e'2
+    c4 r
+    R2*10 %233
+    e4 \pao d
+    d2 %235
+    R2*8 %243
+    r4 d
+    e c %245
+    R2*3
+    d2~
+    d4 r %250
+    R2\fermata
+    c\ff
+    d
+    e
+    e %255
+    e
+    d4 d
+    f e
+    d2
+    c4 r %260
+    R2*4
+    d2 %265
+    c4 e
+    f d
+    c r
+    c2\ff
+    c %270
+    c
+    c4 c
+    c r
+    c r
+    c r\fermata \bar "|." %275 finis
+  }
+}

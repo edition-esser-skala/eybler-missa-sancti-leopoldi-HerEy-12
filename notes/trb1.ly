@@ -193,3 +193,227 @@ GloriaTromboneI = {
     \pao d4 r r2\fermata \bar "|." %279 finis
   }
 }
+
+CredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 6/4 \tempoCredo
+    e2.\f fis4 r r
+    d d d d2 fis4
+    e2. fis
+    g fis4 fis e
+    d r r fis r r %5
+    cis r r r d d
+    e2. e2 fis4
+    e2 d4 cis e e
+    e2 g4 fis2 g4
+    fis2 e4 \pao d r r %10
+    e2. fis
+    g a
+    h2 g4 g2.~
+    g4 r r d2.~
+    d e~ %15
+    e fis~
+    fis4 r r g2 e4
+    cis r r cis2.
+    d4 e fis fis2 e4
+    d r r r2 r4 %20
+    g2\fz e4 cis2.
+    d4 r r cis2.\fz
+    d4 d fis e2.
+    e d4 e fis
+    g2 e4 a2 fis4 %25
+    \pao d2 fis4 g2 e4
+    cis2. d4 cis d
+    e fis g g2 fis4
+    e r r fis2.
+    \pao d4 r r e2. %30
+    cis4 r r r2 r4
+    R1.
+    e2. fis
+    gis a~
+    a2 cis,4 d r d %35
+    cis d h \pao a r r
+    e'2. \pao cis4 r r
+    cis2. d4. e8 fis4
+    g2. fis4 fis fis
+    fis r r r2 r4 %40
+    R1.
+    e2.~\fz e4 e e
+    fis2.~\fz fis4 fis fis
+    fis r r r2 r4
+    e2. \pao d4 r r %45
+    R1.*2 \noBreak
+    R1.\fermata \bar "||"
+    \twotwotime \key h \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      dis2\ff r \noBreak
+    R1\fermata %50
+    R1*22 %72
+    \key h \minor R1 \noBreak
+    R1*17 \noBreak %90
+    R1\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
+      r4 a\f \noBreak
+    h d
+    d d
+    d cis8 d %95
+    e2
+    d4 r
+    d2
+    fis4 r
+    R2 %100
+    d
+    e
+    fis
+    h,4 cis
+    d2 %105
+    cis
+    h4 r
+    e2
+    \pao d4 r
+    R2*2 %111
+    a2
+    h4 d
+    d2
+    cis4 d %115
+    e2
+    d4 r
+    d2
+    fis4 r
+    R2*5 %124
+    d2~\f %125
+    d~
+    d~
+    d~
+    d
+    f\fz %130
+    d
+    e
+    f~
+    f~
+    f~ %135
+    f4 r
+    R2*7 %143
+    cis!4\f cis
+    d e8 f %145
+    g4 f
+    e2
+    d4 r
+    e2
+    f4 r %150
+    R2*4
+    g,4 h! %155
+    d2
+    h4 d
+    e2
+    d4 d~
+    d8 d e c %160
+    d4 h
+    r g'8 fis
+    e4. d8
+    c4. h8
+    a4 g8 a %165
+    g4 fis
+    e r
+    fis'2
+    g4 r
+    cis,! cis %170
+    d cis8 h
+    ais4. h8
+    cis4 r
+    R2*3 %176
+    r4 fis\f
+    e! g
+    fis h,
+    d cis %180
+    h r
+    fis'2
+    \pao d4 r
+    R2
+    a4 a %185
+    d2
+    cis4 r
+    a h
+    cis2
+    fis,4 r %190
+    cis'2
+    \pao a4 r
+    r h~
+    h h~
+    h h %195
+    h2
+    h4 r
+    r e
+    e e
+    fis4. e8 %200
+    d4 cis
+    h2
+    a4 r
+    e'2
+    cis4 r %205
+    R2*4
+    r4 a %210
+    h d~
+    d d
+    e2
+    d4 r
+    r fis~ %215
+    fis e
+    g fis
+    e d
+    cis h
+    ais2 %220
+    h4 r
+    cis2
+    d
+    e
+    fis %225
+    fis
+    fis4 fis
+    e fis
+    g2
+    fis %230
+    e4 d
+    cis d
+    e r
+    fis e8 d
+    \pao cis4 a~ %235
+    a a
+    cis e
+    g2\fz
+    fis4 d
+    h cis %240
+    d2
+    e
+    d4 r
+    d e
+    fis d~ %245
+    d e~
+    e fis~
+    fis g~
+    g e
+    cis r %250
+    R2\fermata
+    d\ff
+    e
+    fis
+    fis %255
+    fis
+    e
+    g4 fis
+    e2
+    \pao d4 r %260
+    R2*4
+    g4 e %265
+    a fis
+    g e
+    \pao d d~\ff
+    d fis~
+    fis a %270
+    fis fis
+    fis fis
+    fis r
+    fis r
+    fis r\fermata \bar "|." %275 finis
+  }
+}

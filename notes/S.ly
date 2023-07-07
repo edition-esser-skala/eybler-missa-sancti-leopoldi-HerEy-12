@@ -676,55 +676,342 @@ GloriaSopranoLyrics = \lyricmode {
   men. %279 finis
 }
 
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 6/4 \autoBeamOff \tempoCredo
+    \mvTr a'2.\f^\tuttiE fis4 r r
+    h h h a( d) fis
+    e2 a,4 fis' d a
+    g'2. fis4 r r
+    d cis h fis'2.~ %5
+    fis4 fis, e e d r
+    h'( gis) e' cis a! fis'
+    e2 d4 cis r r
+    r e g! fis( h,) e
+    a,2 cis4 d r r %10
+    a2.\fz fis4 r r
+    r2 r4 r d' c
+    h( d) g g2 e4
+    d r r d2 c4
+    c2 h4 e4. e8 d4 %15
+    d2 cis4 fis2 e4
+    d e fis g2 e4
+    cis ais cis fis2 ais,4
+    h cis d fis2( e4)
+    d r r r h h %20
+    g'4.\fz e8 cis4 fis2 ais,4
+    h r r fis2.\fz
+    d4 r r e' e e
+    cis2 a!4 d e fis
+    g!4. e8 cis4 a'2 fis4 %25
+    d( fis) h, g'2 e4
+    cis( e) a, d cis d
+    e( fis) g g2( fis4)
+    e r r fis2 fis4
+    d r h e2. %30
+    cis4 a! a cis( h) h
+    d( cis) cis e( d) d
+    r e e fis4. e8 d4
+    gis4. fis8 e4 a2.~
+    a~ a4 gis8([ fis)] e([ d)] %35
+    cis4( d) h a r r
+    e2.\fz cis4 r r
+    r r a' d4. e8 fis4
+    g,!2 g4 fis r r
+    d' d fis gis,2 a4 %40
+    h8([ cis)] d([ fis)] e([ d)] cis([ d)] e4 a,
+    g'!2( e4) cis r a
+    a'2( fis4) d r r
+    r r a g'8([ fis)] e([ d]) fis([ d)]
+    a2. fis4 r r %45
+    R1.*2 \noBreak
+    R1.\fermata \bar "||"
+    \twotwotime \key h \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
+    r4 \mvDl dis'\f^\tutti dis dis \noBreak
+    dis4. dis,8 dis2\fermata %50
+    R1
+    r2 r4 \clef "treble_8" \mvTr fis,\pE^\solo
+    dis'2\< fis4. e8
+    e4(\! dis) cis r
+    e4.\pp dis8 cis4 dis %55
+    h2 gis'->\cresc
+    gis8([ fis)] e dis cis4.(\p dis16[ e)]
+    dis4 r \clef treble \mvTr e'2\p^\tutti
+    e8([ dis)] cis h ais4.( h16[ cis)]
+    h4 r \clef "treble_8" \mvTr dis,8([\f^\solo eis)] fis([ dis)] %60
+    cis4. ais8 \appoggiatura cis16 h8([\p ais)] h([ cis)]
+    ais4 \clef treble \mvTr fis'(\f^\tutti h) dis
+    fis8([ cis)] cis([ ais)] gis4.\p ais16([ h)]
+    ais4 r \clef "treble_8" \mvTr cis,\pE^\solo cisis
+    dis4. h8 eis4.\cresc cis8 %65
+    fis1~
+    fis8[\f eis gis fis] cisis[ dis] h([ gis)]
+    dis'4(-> cis2)\p eis,4\pp
+    fis \clef treble \mvTr fis'\f^\tutti dis gis
+    cis2~\pp cis8[ dis] cis([ h)] %70
+    ais4 r r2 \noBreak
+    R1
+    \key h \minor r2 fis4\f fis \noBreak
+    d'2 h
+    r fis4 fis %75
+    e'2 cis
+    h4. h8 cis4 d
+    e2 g4 cis,
+    d4.( e8) fis4 fis
+    g4. g8 e4 cis %80
+    fis2 d
+    r4 h2 h4
+    ais2 h
+    R1
+    r2 e\ff %85
+    r e,~\p
+    e d
+    cis!2. cis4
+    h2 r
+    R1 \noBreak %90
+    R\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
+      R2*5 %96
+    r4 r8 \mvTr a'\f^\tuttiE
+    h4 a8 g
+    fis([ g)] a4
+    R2*7 %106
+    r4 r8 fis
+    g4 fis8 e
+    d([ e)] fis4
+    R2*7 %116
+    r4 r8 a
+    h4 a8 g
+    fis([ g)] a4
+    R2*20 %139
+    r4 r8 e\p %140
+    f4 e8 d
+    cis!([ d)] e4
+    R2*5 %147
+    r4 r8 a\fE
+    b4 a8 g
+    f([ g)] a4 %150
+    R2*17 %167
+    h2\fz
+    g4 r
+    R2*12 %181
+    fis2\fz
+    d4 r
+    R2*7 %190
+    cis'2\fz
+    a4 r
+    R2*11 %203
+    e2\fz
+    cis4 r %205
+    R2*15 %220
+    r4 fis
+    fis4. fis8
+    fis4 r
+    R2*9 %232
+    r4 r8 e
+    fis4 e8 d
+    cis([ d)] e4 %235
+    R2*7 %242
+    r4 r8 a
+    h4 a8 g
+    fis([ g)] a d %245
+    d([ h)] h e
+    e([ cis)] cis([ fis)]
+    fis([ d)] d g
+    g2~
+    g4 e %250
+    cis2\fermata
+    d\ff
+    e
+    fis
+    fis %255
+    fis
+    e4 e
+    g fis
+    e4. e8
+    d4 r8 a(\< %260
+    h4\! a8) g
+    fis([ g)] a r
+    R2
+    r4 r8 h(
+    g'4) e %265
+    a fis
+    e8 g cis,4
+    d r8 d,(
+    fis4) d8 fis(
+    a4) fis8 a %270
+    d2~
+    d
+    d,4 r
+    R2
+    R\fermata \bar "|." %275 finis
+  }
+}
+
+CredoSopranoLyrics = \lyricmode {
+  Cre -- do
+  in u -- num De -- um,
+  Pa -- trem o -- mni -- po --
+  ten -- tem,
+  fa -- cto -- rem coe -- %5
+  li et ter -- rae,
+  vi -- si -- bi -- li -- um
+  o -- mni -- um
+  et in -- vi -- si --
+  bi -- li -- um. %10
+  Cre -- do.
+  Et in
+  u -- num Do -- mi --
+  num Je -- sum
+  Chri -- stum, Fi -- li -- um %15
+  De -- i u -- ni --
+  ge -- ni -- tum, Fi -- li --
+  um, et ex Pa -- tre
+  na -- tum, ex Pa --
+  tre an -- te %20
+  o -- mni -- a sae -- cu --
+  la. Cre --
+  do. De -- um de
+  De -- o, lu -- men de
+  lu -- mi -- ne, De -- um %25
+  ve -- rum, De -- um
+  ve -- rum, De -- um de
+  De -- o ve --
+  ro, ge -- ni --
+  tum non fa -- %30
+  ctum, con -- sub -- stan -- ti --
+  a -- lem Pa -- tri,
+  per quem o -- mni -- a,
+  o -- mni -- a, o --
+  mni -- a __ %35
+  fa -- cta sunt.
+  Cre -- do.
+  Qui pro -- pter nos
+  ho -- mi -- nes
+  et pro -- pter no -- stram, %40
+  no -- stram sa -- lu -- tem de
+  coe -- lis, de
+  coe -- lis,
+  de coe -- lis __ de --
+  scen -- dit. %45
+
+  Et in -- car -- %49
+  na -- tus est %50
+
+  de
+  Spi -- ri -- tu
+  San -- cto,
+  in -- car -- na -- tus %55
+  est de
+  Spi -- ri -- tu San --
+  cto, de
+  Spi -- ri -- tu San --
+  cto ex __ Ma -- %60
+  ri -- a Vir -- gi --
+  ne, ex __ Ma --
+  ri -- a __ Vir -- gi --
+  ne, in -- car --
+  na -- tus est et %65
+  ho --
+  _ mo __
+  fa -- ctus
+  est, et ho -- mo
+  fa -- ctus %70
+  est.
+
+  Cru -- ci --
+  fi -- xus,
+  cru -- ci -- %75
+  fi -- xus
+  e -- ti -- am pro
+  no -- bis, pro
+  no -- bis sub
+  Pon -- ti -- o Pi -- %80
+  la -- to,
+  pas -- sus,
+  pas -- sus
+
+  et, %85
+  et __
+  se --
+  pul -- tus
+  est.
+
+  Se -- %97
+  cun -- dum Scri --
+  ptu -- ras,
+
+  se -- %107
+  cun -- dum Scri --
+  ptu -- ras,
+
+  se -- %117
+  cun -- dum Scri --
+  ptu -- ras,
+
+  se -- %140
+  cun -- dum Scri --
+  ptu -- ras,
+
+  se -- %148
+  cun -- dum Scri --
+  ptu -- ras, %150
+
+  cre -- %168
+  do,
+
+  cre -- %182
+  do,
+
+  cre -- %191
+  do,
+
+  cre -- %204
+  do,
+
+  con -- %212
+  fi -- te --
+  or,
+
+  se -- %233
+  cun -- dum Scri --
+  ptu -- ras,
+
+  se -- %243
+  cun -- dum Scri --
+  ptu -- ras, ex -- %245
+  pe -- cto ven --
+  tu -- ri __
+  sae -- cu -- li
+  vi --
+  _ %250
+  tam,
+  et
+  ex --
+  pe --
+  cto %255
+  vi --
+  tam ven --
+  tu -- ri
+  sae -- cu --
+  li, a -- %260
+  men,
+  a -- men,
+
+  a --
+  men, %265
+  a -- men,
+  a -- men, a --
+  men, a --
+  men, a --
+  men, a -- %270
+  _
+
+  men. %273 finis
+}
 
 
-
-% Cre -- do in u -- num De -- um,
-% Pa -- trem o -- mni -- po -- ten -- tem,
-% fa -- cto -- rem coe -- li et ter -- rae,
-% vi -- si -- bi -- li -- um o -- mni -- um
-% et in -- vi -- si -- bi -- li -- um.
-% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
-% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
-% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-% De -- um de De -- o, lu -- men de lu -- mi -- ne,
-% De -- um ve -- rum de De -- o ve -- ro,
-% ge -- ni -- tum non fa -- ctum,
-% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
-% per quem o -- mni -- a fa -- cta sunt.
-% Qui pro -- pter nos ho -- mi -- nes
-% et pro -- pter no -- stram sa -- lu -- tem
-% de -- scen -- dit de coe -- lis.
-
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
-
-% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
-% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
-
-% Et re -- sur -- re -- xit ter -- ti -- a di -- e
-% se -- cun -- dum Scri -- ptu -- ras,
-% et a -- scen -- dit in coe -- lum,
-% se -- det ad dex -- te -- ram Pa -- tris.
-% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
-% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
-% cu -- ius re -- gni non e -- rit fi -- nis.
-% Et in Spi -- ri -- tum San -- ctum,
-% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
-% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
-% Qui cum Pa -- tre et Fi -- li -- o
-% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
-% qui lo -- cu -- tus est per Pro -- phe -- tas.
-% Et u -- nam san -- ctam ca -- tho -- li -- cam
-% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
-% Con -- fi -- te -- or u -- num ba -- ptis -- ma
-% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
-% et vi -- tam ven -- tu -- ri sae -- cu -- li.
-% A -- men.
-
-
-% ## Sanctus
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.

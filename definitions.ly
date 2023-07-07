@@ -6,10 +6,14 @@
 \include "ees_articulate.ly"
 
 
-perd = \markup \remark "perd."
-vlne = \markup \remark "vlne"
+eperd = \markup \whiteout \remark "e perdendosi"
 org = \markup \remark "org"
-semprepel = \markup \whiteout \remark "sempre piano e legato"
+perd = \markup \remark "perd."
+sempreel = \markup \whiteout \remark "sempre e legato"
+silevano = \markup \whiteout \remark "si levano i sordini"
+vlne = \markup \remark "vlne"
+
+forceclef = \set Staff.forceClef = ##t
 tinyGroupDistance = \setGroupDistance #12 #12
 fivehat = \markup {
   \combine
@@ -27,6 +31,9 @@ slurpos = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Adagio ma non tanto"
 tempoGloria = \tempoMarkup "Allegro spiritoso"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio ma non troppo"
+  tempoEtResurrexit = \tempoMarkup "Allegro vivace"
 
 
 \include "notes/ob1.ly"

@@ -154,7 +154,7 @@ GloriaViola = {
     a a, d fis a4 <cis e, a,> %70
     <d fis, a, d,> r8 d, a' fis d a
     fis' d a fis d4 d
-    \mvTr d2(\p-\semprepel b'
+    \mvTr d2(\p-\sempreel b'
     a g
     f e %75
     d cis!)
@@ -359,5 +359,285 @@ GloriaViola = {
     fis a fis d a' e' cis a
     d a fis d a'4 <a a,>
     <fis a,> r r2\fermata \bar "|." %279 finis
+  }
+}
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 6/4 \tempoCredo
+    a8\f a' h, a' cis, a' d, d' e, d' fis, d'
+    g, d' h d g, d' fis, d' a d d, d'
+    cis, a' a, a' cis, a' d, a' a, a' d, a'
+    e a a, a' e a d, a' fis a cis, ais'
+    h, h' cis, cis' d, d' ais, ais' h, h' cis, cis' %5
+    fis,, fis' gis, gis' ais, ais' h, h' fis h h, h'
+    gis e' e, e' gis, e' a, e' cis e a, cis
+    gis e' e, e' gis, e' a, cis e, a cis, e
+    a, a' cis, a' a, a' ais, ais' h, h' g,! g'!
+    a, a' fis d a' a, d a' fis a d, a' %10
+    cis, a' e a cis, a' c, a' fis a c, a'
+    h, g' d g h, g' fis, d' a d fis, d'
+    g, g' h, g' g, g' c, g' e g c, g'
+    h, g' d g h, g' fis d' d, d' fis, d'
+    g, d' d, d' g, d' gis, e' e, e' gis, e' %15
+    a, e' e, e' a, e' ais, fis' fis, fis' ais, fis'
+    h, fis' cis fis d fis e, e' e, d cis e
+    fis ais cis, fis ais, cis fis, fis' cis fis e fis
+    d fis cis fis h, fis' ais, fis' fis, fis' ais, fis'
+    h, h' fis h d, fis h, h' fis h d, d' %20
+    e, e' g, e' e, e' fis, fis' cis fis fis, fis'
+    h,, fis' d fis h, fis' ais, fis' cis fis ais, fis'
+    h, fis' d fis h, d gis, e' h e gis, e'
+    a,! a'! e a a, a' fis a e a d, a'
+    cis, a' e a g! a fis, fis' a, fis' a fis %25
+    h, h' d, h' d h e,, e' g, e' h e
+    a, a' cis, a' cis a fis a e a d, a'
+    cis, a' h, a' a, a' d, cis d e fis gis
+    a gis a e cis a ais fis' fis, fis' ais, fis'
+    h, h' cis, h' d, h' gis, e' e, e' gis, e' %30
+    a,! a'! cis, a' a, a' a, gis' d gis a, gis'
+    a, g' e g a, g' a, a' fis a a, a'
+    a, a' cis, a' a, a' a, a' d, a' a, a'
+    a, d' h d a, d' cis a a, a' h, a'
+    cis, a' d, a' e a d, d' a d d, d' %35
+    e, e' gis, e' e, e' a, e' cis e a, e'
+    gis, e' h e gis, e' a, e' cis e a, e'
+    g, e' cis e g, e' fis, a e a d, a'
+    e e' h, h' cis, cis' ais, fis' cis fis ais, fis'
+    h, h' d, h' h, h' e, e' d e cis e %40
+    h e gis, e' e, e' a, cis e, a cis, e
+    a, h cis d e fis g fis e d cis h
+    a cis d e fis g a fis g a h cis
+    d( cis h a g fis) e( d cis d fis d)
+    a a' cis, a' a, a' d,, d' h h' g, g' %45
+    e, e' cis cis' a, a' fis, fis' d d' h, h'
+    g, g' e, e' cis, cis' d fis h g e g \noBreak
+    fis4 d, r r2 r4\fermata \bar "||"
+    \twotwotime \key h \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      R1 \noBreak
+    R\fermata %50
+    \after 2 \! <fis fis'>1\pE\<^\conSord
+    q2. r4
+    R1*4 %56
+    r2 r4 ais\p
+    h( dis,) e h'~
+    h fis'2 fis,4~
+    fis fis r fis %60
+    r fis r gis
+    r fis2\cresc fis4~
+    fis ais r eis\pp
+    fis fis2 fis4
+    fis fis' r cis\cresc %65
+    cis fis2 fis4
+    fis r r2
+    R1
+    r4 fis\f fis h
+    ais(\pp fis gis gis,) %70
+    fis <g g'>2(\fz e'!4) \noBreak
+    cis-! fis2(\fz d4)
+    \key h \minor \mvTr h8\f(-\sempreel ais d-> cis h ais d-> cis) \noBreak
+    h( ais h cis d cis d h)
+    ais( h d-> cis ais h d-> cis) %75
+    ais(\< h cis d e\! g fis cis)
+    d( fis g fis e d cis h)
+    a!( h cis d e fis g e)
+    fis( g fis e d e d cis)
+    h( cis d h cis d e cis) %80
+    ais( h ais cis h cis h d)
+    e(\< dis e eis fis g fis eis)\!
+    e(\< dis e eis fis g fis eis)\!
+    e( g, a h c) <g g'>-!\ff q-! <g f'>-!
+    <g e'>4-! r r2 %85
+    g2\p^\tenuto r-\silevano
+    R1*2
+    \mvTrr h1~\pp-\eperd
+    h~ \noBreak %90
+    h2 r\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
+      d'8\f d,16 cis d8 d' \noBreak
+    h h,16 a h8 h'
+    fis fis,16 e fis8 fis'
+    h h,16 a h8 h' %95
+    g g,16 fis g8 g'
+    fis fis,16 e fis8 fis'
+    g g,16 a h8 h'
+    d d,16 cis d8 d'
+    cis cis,16 h cis8 cis' %100
+    h h,16 a h8 h'
+    a a,16 g a8 a'
+    d d,16 cis d8 d'
+    e, e,16 d e8 e'
+    fis, fis'16 d h8 d %105
+    g, g'16 e cis8 e
+    d fis16 d h8 h'
+    ais ais,16 h ais8 ais'
+    h h,16 ais h8 h'
+    h h,16 ais h8 h' %110
+    a! a,!16 h a8 a'
+    a a,16 h a8 a'
+    g! g,!16 a g8 g'
+    h h,16 a h8 h'
+    a, a'16 g fis8 d %115
+    g e16 g a8 a,
+    h d16 h fis8 fis'
+    g g,16 a h8 h'
+    d a16 g fis8 a
+    d, g16 a h8 g %120
+    cis, fis16 g a8 fis
+    h, e16 fis g8 e
+    a, d16 e fis8 d
+    e g16 e a8 a,
+    d d'16 d, c8 c' %125
+    b, b'16 b, a8 a'
+    g, g'16 g, f8 f'
+    g, g'16 fis g8 g,
+    b b'16 a b8 b,
+    f f'16 e f8 f, %130
+    d d'16 cis! d8 d,
+    e e'16 d e8 e,
+    f f'16 e f8 f,
+    d d'16 c d8 d,
+    a' a'16 g a8 a, %135
+    b b'16 a b8 b,
+    fis!\decresc fis'!16 e fis8 fis,
+    g\p g'16 g, f8 f'
+    d b16 a b8 d,
+    e a16 gis a8 a' %140
+    gis h,!16 a h8 gis'
+    a, a'16 gis a8 a,
+    b\cresc b'16 a b8 b,
+    g!\f g'!16 fis! g8 g,
+    f f'16 e f8 f, %145
+    cis'! e16 cis d8 d'
+    b g16 e a8 a,
+    d f16 e d8 f
+    g e16 d e8 a,
+    a d16 cis! d8 f %150
+    a a,16 g a8 a'
+    d d,16 cis d8 d'
+    d d,16 cis d8 d'
+    d h16 g d8 d'
+    g, d16 c h8 g' %155
+    a d,16 e d8 d'
+    h g16 e h'8 h,
+    c c'16 h a8 g
+    fis a16 g fis8 d
+    g a16 h c8 a %160
+    fis d16 fis g8 fis
+    e g,16 h e8 d
+    c e,16 g c8 h
+    a c,16 e a8 g
+    fis dis16 fis g8 a %165
+    h e16 g h8 h,
+    e g16 h e8 e,
+    dis fis16 dis h8 fis'
+    g e16 d cis!8 h
+    ais cis16 h ais8 ais' %170
+    h h,16 cis d8 d,
+    e e'16 d cis8 d
+    ais cis16 h ais8 h
+    fis'\p cis16 ais fis8 fis'
+    fis d16 h fis8 h %175
+    d h16 g d8 d'
+    fis ais,16 cis fis8\f d
+    h e16 d cis8 e
+    fis, gis16 ais h8 g'
+    fis d16 h fis'8 fis, %180
+    h d16 fis h8 h,
+    ais cis16 fis ais8 ais,
+    h d16 fis h8 h,
+    cis e16 a! cis8 cis,
+    d fis16 a d8 d, %185
+    h d16 gis h8 h,
+    fis a16 cis fis8 fis,
+    d' fis16 a d8 d,
+    cis eis16 gis cis8 h
+    a cis16 h a8 fis %190
+    eis gis16 fis eis8 cis
+    fis a16 gis fis8 e
+    dis fis16 e dis8 cis
+    h dis16 cis h8 a
+    gis h16 e gis8 e %195
+    dis fis16 dis h8 dis
+    e gis16 h e8 h
+    gis h16 gis e8 d!
+    cis e16 a cis8 cis,
+    d fis16 a d8 ais %200
+    h fis16 gis a8 cis,
+    d h16 d e8 e,
+    a cis16 e a8 a,
+    gis h16 e gis8 gis,
+    g cis16 e g8 g, %205
+    fis a16 d fis8 a
+    d, h'16 a g8 e
+    cis a'16 g fis8 d
+    h g'16 fis e8 cis
+    a d16 cis d8 fis %210
+    h h,16 a h8 d
+    g g,16 fis g8 g'
+    e e,16 d e8 e'
+    a, d16 cis d8 cis
+    h d16 cis h8 a %215
+    g h16 a g8 fis
+    e h'16 cis d8 d'
+    cis gis16 ais h8 h,
+    e e,16 fis g!8 g'!
+    fis ais,16 cis fis,8 e' %220
+    d fis16 d h8 h'
+    ais cis16 ais fis8 ais
+    h fis16 d h8 h'
+    a! e16 cis a8 a'
+    d d,16 cis d8 d' %225
+    h h,16 ais h8 h'
+    fis d16 e fis8 d
+    a! a'16 g fis8 d
+    h' h,16 a h8 g
+    d d'16 e fis8 d %230
+    cis e16 cis a8 d
+    e a16 g fis8 d
+    a cis16 e a8 a,
+    d d'16 h gis8 gis,
+    a a'16 gis a8 a, %235
+    cis cis'16 h cis8 cis,
+    e, e'16 d cis8 h
+    a cis16 e a8 a,
+    h d16 fis h8 h,
+    g h'16 g e8 a %240
+    fis a16 fis d8 fis
+    g e16 g a8 a,
+    d a16 fis d8 fis
+    g g'16 e cis8 e
+    a, d16 a fis8 fis' %245
+    g, g'16 fis g8 gis,
+    a a'16 gis a8 ais,
+    h h'16 ais h8 h,
+    cis cis,16 e a8 e16 a
+    cis4 r %250
+    R2\fermata
+    d'8\ff d,16 cis d8 d'
+    a a,16 gis a8 a'
+    d d,16 cis d8 d'
+    h h,16 ais h8 h' %255
+    fis fis,16 e fis8 fis'
+    a, a'16 gis a8 a,
+    e' dis16 e fis8 g
+    a, a'16 gis a8 a,
+    d a16 d fis8 fis, %260
+    g g'16 e cis8 e
+    d a16 g fis8 a
+    fis' g16 a h,8 fis'
+    e e,16 dis e8 e'
+    cis e16 cis a'8 a %265
+    d,! fis16 d h'8 h
+    g e16 g a8 a,
+    d4 r
+    <d a d,> r
+    q d16 d d d %270
+    d8 d,16 fis a8 fis16 a
+    d8 a16 d fis8 d16 fis
+    a4 r
+    <fis a, d,> r
+    <d a d,> r\fermata \bar "|." %275 finis
   }
 }

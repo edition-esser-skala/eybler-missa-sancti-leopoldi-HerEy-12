@@ -136,3 +136,148 @@ GloriaClarinoII = {
     e r r2\fermata \bar "|." %279 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \tempoCredo
+    g2.\f c4 r r
+    c r8 c16 c c8 c c4 r r
+    R1.
+    g'2. c4 e, e8. e16
+    e4 r r e r e8. e16 %5
+    e4 r r r2 r4
+    R1.
+    r2 r4 r g, g
+    g r r r2 r4
+    c'2 g4 e c e %10
+    g,2. c4 c c
+    c r r r2 r4
+    R1.*3 %15
+    r2 r4 e r8 e16 e e8 e
+    e4 r r r2 r4
+    r e e e r r
+    R1.*3 %21
+    r4 e e e2.\fz
+    c4 r r r2 r4
+    r2 r4 e g c
+    d2 g,4 e'2. %25
+    c d
+    g, r2 r4
+    r g, g g2 c4
+    g' r r e r8 e16 e e8 e
+    e4 r r r2 r4 %30
+    g, r r r2 r4
+    g r r r2 r4
+    g r r r2 r4
+    r2 r4 r g g
+    g g g c r r %35
+    R1.
+    r2 r4 r g g
+    g'2. c4 r r
+    R1.*3 %41
+    g,4 r r r g g
+    g r r r g g
+    g r r r2 r4
+    g2. c4 r r %45
+    R1.*2
+    R1.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      R1 \noBreak
+    R1\fermata %50
+    R1*40 \noBreak %90
+    R1\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoEtResurrexit \newSpacingSection
+      c4\f r \noBreak
+    c r
+    c r
+    c r %95
+    r g'
+    c, r
+    c r
+    c r
+    g r %100
+    e' r
+    g r
+    c r
+    R2
+    e,4 r %105
+    r e8. e16
+    e4 r
+    R2*3 %110
+    g2
+    c,4 r
+    c r
+    c r
+    g r %115
+    r g'
+    c, r
+    c r
+    c r
+    R2*5 %124
+    c4\f r8 c16 c %125
+    c4 r8 c16 c
+    c4 r8 c16 c
+    c4 r8 c16 c
+    c4 c
+    c2~\fz %130
+    c4 r
+    R2*20 %151
+    c4\fE r
+    c c8. c16
+    c4 r
+    R2*25 %179
+    e8\fE e16 e e8 e %180
+    e4 r
+    e2\fz
+    c4 r
+    g2
+    c4 r %185
+    R2*19 %204
+    g'2 %205
+    c4 r
+    R2*3
+    g,4 r %210
+    c r
+    c r
+    r g'
+    e e8. e16
+    e4 r %215
+    R2*6 %221
+    e4 e8. e16
+    c4 r
+    R2
+    c4 r %225
+    e r
+    g r
+    R2
+    c,4 r
+    c r %230
+    R2*2
+    g4 r
+    R2*4 %237
+    g'2
+    e4 r
+    R2*3 %242
+    c4 r
+    R2*7 %250
+    R2\fermata
+    e2\ff
+    g
+    c
+    c %255
+    c
+    g4 r
+    r c~
+    c g
+    e r %260
+    R2*8 %268
+    c4\ff c8. c16
+    e4 e8. e16 %270
+    e4 c8. c16
+    c4 c
+    c r
+    e r
+    c r\fermata \bar "|." %275 finis
+  }
+}

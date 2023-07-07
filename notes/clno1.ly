@@ -136,3 +136,149 @@ GloriaClarinoI = {
     c r r2\fermata \bar "|." %279 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \tempoCredo
+    g'2.\f e4 r r
+    \pao c r8 \pa c16 c c8 c c4 \pd r r
+    R1.
+    d'2. e4 e, e8. e16
+    e4 r r e r e8. e16 %5
+    e4 r r r2 r4
+    R1.
+    r2 r4 r g g
+    g r r r2 r4
+    e'2 d4 c \pa c, e \pd %10
+    g2. e4 \pa c c
+    c \pd r r r2 r4
+    R1.*3 %15
+    r2 r4 e r8 e16 e e8 e
+    e4 r r r2 r4
+    r e e e r r
+    R1.*3 %21
+    r4 e e e2.\fz
+    c4 r r r2 r4
+    r2 r4 c' d e
+    f2 d4 g2. %25
+    e f
+    d r2 r4
+    r g, g g2 e'4
+    d r r \pao e, r8 \pa e16 e e8 e
+    e4 \pd r r r2 r4 %30
+    g r r r2 r4
+    g r r r2 r4
+    g r r r2 r4
+    r2 r4 r g g
+    g g g e r r %35
+    R1.
+    r2 r4 r g g
+    d'2. e4 r r
+    R1.*3 %41
+    g,4 r r r g g
+    e r r r e e
+    e r r r2 r4
+    g2. e4 r r %45
+    R1.*2
+    R1.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      R1 \noBreak
+    R1\fermata %50
+    R1*40 \noBreak %90
+    R1\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoEtResurrexit \newSpacingSection
+      c'4\f r \noBreak
+    c r
+    c r
+    c r %95
+    r d
+    c r
+    \pao c, r
+    e r
+    g r %100
+    c r
+    d r
+    e r
+    R2
+    \pao e,4 r %105
+    r \pa e8. e16
+    e4 \pd r
+    R2*3 %110
+    d'2
+    c4 r
+    c r
+    c r
+    g r %115
+    r d'
+    c r
+    \pao c, r
+    e r
+    R2*5 %124
+    c4\f r8 c16 c %125
+    c4 r8 c16 c
+    c4 r8 c16 c
+    c4 r8 c16 c
+    c4 c
+    c2~\fz %130
+    c4 r
+    R2*20 %151
+    c'4\fE r
+    c c8. c16
+    c4 r
+    R2*25 %179
+    e,8\fE e16 e e8 e %180
+    e4 r
+    e2\fz
+    c4 r
+    g'2
+    e4 r %185
+    R2*19 %204
+    d'2 %205
+    e4 r
+    R2*3
+    g,4 r %210
+    c r
+    c r
+    r d
+    c \pa e,8. e16
+    e4 \pd r %215
+    R2*6 %221
+    e4 e8. e16
+    c4 r
+    R2
+    c4 r %225
+    e r
+    g r
+    R2
+    c4 r
+    c r %230
+    R2*2
+    g4 r
+    R2*4 %237
+    d'2
+    c4 r
+    R2*3 %242
+    c4 r
+    R2*7 %250
+    R2\fermata
+    c2\ff
+    d
+    e
+    e %255
+    e
+    d4 r
+    r e
+    d2
+    c4 r %260
+    R2*7 %267
+    \pa c,4\ff c8. c16 \pd
+    e4 e8. e16
+    g4 g8. g16 %270
+    c4 e,8. e16
+    e4 e
+    e r
+    g r
+    \pao c, r\fermata \bar "|." %275 finis
+  }
+}

@@ -289,3 +289,259 @@ GloriaClarinettoI = {
     a4 r r2\fermata \bar "|." %279 finis
   }
 }
+
+CredoClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 6/4 \tempoCredo
+    r2 r4 a'\f b c
+    b2. c
+    c c
+    c c2 cis4
+    d g, a a2. %5
+    a~ a4 a a
+    g2. g2 c4
+    \pa g2. g4 \pd c c
+    c2 g4 a f b
+    a2 g4 f f a %10
+    c r r c2.
+    f, f
+    f4 b b b2.
+    b4 f f f2.
+    f d4 g g %15
+    g2. e4 a a
+    a g f b2.
+    a4 a a a2.
+    a a~
+    a4 d d f2 d4 %20
+    b2. a
+    a4 \pa d, f a \pd r r
+    a2. g4 g g
+    g2. f4 c' c
+    c2. c %25
+    a g
+    g f4 b a
+    g f e f c' d
+    g, c c a2 a4
+    a r a g2. %30
+    g4 e e f2.
+    g c
+    r4 c c c2.
+    f e4 c c
+    c2 e,4 f g a %35
+    g2 f4 e c e
+    g r r g2.
+    g f4. e8 f4
+    d f g a a a
+    a a f g2. %40
+    g~ g2 r4
+    c2.~ c4 g b
+    a2.~ a4 a a
+    a8( g b a g f) c'2.
+    c a4 r r %45
+    R1.*2 \noBreak
+    R1.\fermata \bar "||"
+    \twotwotime \key d \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      \pao fis2\ff r \noBreak
+    R1\fermata %50
+    R1*22 %72
+    \key d \minor R1 \noBreak
+    \mvTr a2.\f-\tenuto r4
+    R1 %75
+    b2.-\tenuto r4
+    R1
+    c!2.-\tenuto r4
+    R1
+    d2 b %80
+    a1
+    R1*2
+    g2~ g8 f-!\ff g-! b-!
+    b4-! r r2 %85
+    R1*5 \noBreak %90
+    R1\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoEtResurrexit \newSpacingSection
+      f2\f \noBreak
+    f
+    f
+    f %95
+    f4 e
+    f2
+    f
+    f8 g a4
+    g2 %100
+    a
+    c
+    c
+    b
+    a %105
+    b4 a
+    a2
+    g4 a8 b
+    a2
+    g~ %110
+    g
+    f~
+    f
+    f
+    g4 f~ %115
+    f e
+    f2~
+    f~
+    f4 c'
+    d2 %120
+    c
+    b
+    a
+    g
+    f4 f~ %125
+    f f~
+    f f
+    f2~
+    f~
+    f4 as %130
+    c2
+    es~
+    es
+    f
+    es %135
+    des
+    r4 f,~\p
+    f f~
+    f f
+    g2 %140
+    as4 g8 f
+    e4 r
+    b'2\cresc
+    g\f
+    c %145
+    c
+    des4 c
+    c2
+    des4 c8 b
+    as2 %150
+    a
+    b
+    c
+    d!
+    b %155
+    c
+    b~
+    b4 es8 d
+    c4 c
+    d8 b4 es8 %160
+    c4 b
+    b2~
+    b8 es,4 f8
+    g c,4 d8
+    d4. c8 %165
+    d2
+    b4 g'8 b
+    d4 r
+    R2
+    a~ %170
+    a
+    b4. a8
+    \pao g4. b8
+    a4 r
+    R2*2 %176
+    r4 a\f
+    d, g~
+    g f8 b
+    a2 %180
+    f4 d8 f
+    a4 r
+    a2
+    g
+    f~ %185
+    f
+    a~
+    a4 d
+    h2
+    c4 a8 c %190
+    e4 r
+    R2
+    a,~
+    a
+    g! %195
+    a
+    g
+    h
+    c
+    c4. e8 %200
+    a, d g,4
+    a g
+    e c8 e
+    g4 r
+    c2~ %205
+    c
+    d
+    c
+    b
+    a %210
+    b
+    d
+    c
+    c
+    d4 a %215
+    b d
+    g, a
+    cis8 e a,4
+    g d
+    e2 %220
+    f
+    a~
+    a
+    c
+    c %225
+    d
+    c~
+    c
+    b
+    c %230
+    c
+    c
+    c~
+    c4 d
+    c g~ %235
+    g c~
+    c c
+    e2\fz
+    f4 a,
+    b2 %240
+    c4 a
+    f b
+    a r
+    R2
+    r4 f~ %245
+    f8 b g4~
+    g8 c a4~
+    a8 d b4
+    c2~
+    c4 r %250
+    R2\fermata
+    c\ff
+    e
+    f~
+    f~ %255
+    f
+    e
+    d8 e f4~
+    f e
+    f r %260
+    R2
+    r4 r8 c\<
+    es4\! d8 c
+    b c d r
+    r4 c~ %265
+    c d~
+    d c
+    c r
+    c,2\ff
+    f %270
+    a
+    c4 c
+    c r
+    c r
+    c r\fermata \bar "|." %275 finis
+  }
+}

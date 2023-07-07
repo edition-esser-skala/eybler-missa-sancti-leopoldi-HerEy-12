@@ -188,3 +188,130 @@ GloriaCornoII = {
     e4 r r2\fermata \bar "|." %279 finis
   }
 }
+
+CredoCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \tempoCredo
+    g'2.\f c4 r r
+    c, c c c2.
+    g' c
+    g c4 e, e
+    e r r e e e %5
+    e r r r c' c
+    d r r g, r r
+    d' r r r g, g
+    g2. e4 c' d
+    c2 g4 e r r %10
+    g2. c4 r r
+    r c, c c2.~
+    c4 r r b'2.
+    c,4 r r r2 r4
+    R1. %15
+    r2 r4 r e e
+    e2. d'
+    r4 e, e e2.~
+    e4 e e e2.~
+    e4 r r e2.\fz %20
+    d' r4 e, e
+    e r r e2.\fz
+    c4 r r r2 r4
+    r g' g e g c
+    d2 g,4 e'2. %25
+    c d
+    g, e4 g e
+    g c g g2 c4
+    g r r r e e
+    c' r r r d d %30
+    g, r r r2 r4
+    R1.
+    g2. c
+    c g4 r r
+    R1. %35
+    r4 d' d g, r r
+    d'2. g,4 r r
+    g2. c4 r r
+    r2 r4 r e, e
+    e r r r2 r4 %40
+    R1.
+    g2.~ g4 g g
+    c2.~ c4 c c
+    c r r r e, c
+    g2. c4 r r %45
+    R1.*2 \noBreak
+    R1.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      R1 \noBreak
+    R1\fermata %50
+    R1*23 %73
+    c'2.\fz r4
+    R1 %75
+    d2.\fz r4
+    R1
+    g,2.\fz r4
+    R1*2 %80
+    r4 e'2 e4
+    f2 e
+    R1
+    b2~\fz b8 b-!\ff b-! c-!
+    d4-\parenthesize-! r r2 %85
+    R1*5 \noBreak %90
+    R1\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoEtResurrexit \newSpacingSection
+      R2*6 %97
+    c,2\f
+    c'
+    R2*8 %107
+    d4 e,
+    e2
+    R2*8 %117
+    c2
+    c'
+    R2*29 %148
+    d4\fE g,
+    c,2 %150
+    R2*17 %167
+    e'2
+    d4 r
+    R2*12 %181
+    e,2\fz
+    c4 r
+    R2*20 %203
+    d'2
+    g,4 r %205
+    R2*16 %221
+    e2
+    e4 r
+    R2*10 %233
+    c'4 d
+    g,2 %235
+    R2*8 %243
+    r4 g
+    c c, %245
+    R2*3
+    g'2~
+    g4 r %250
+    R2\fermata
+    e\ff
+    g
+    c
+    c %255
+    c
+    g4 g
+    d' c~
+    c g
+    e r %260
+    R2*4
+    g2 %265
+    e4 c'
+    d g,
+    e r
+    c2\ff
+    c %270
+    c
+    c4 c
+    c r
+    c r
+    c r\fermata \bar "|." %275 finis
+  }
+}

@@ -193,3 +193,142 @@ GloriaTromboneIII = {
     d,4 r r2\fermata \bar "|." %279 finis
   }
 }
+
+CredoTromboneIII = {
+  \relative c {
+    \clef bass
+    \key d \major \time 6/4 \tempoCredo
+    cis2.\f d4 r r
+    g g g fis2 d4
+    cis2. d
+    e d4 d cis
+    h r r ais r r %5
+    fis' r r r h, h
+    gis'2. a!
+    gis r4 a a
+    a2. ais4 h g
+    a2. d,4 r r %10
+    cis2. c
+    h fis'
+    g c,
+    h4 r r fis'2.
+    g gis %15
+    a ais
+    h4 r r cis,2.
+    fis4 r r fis2 e4
+    d cis h ais2.
+    h4 r r r2 r4 %20
+    e2.\fz fis
+    h,4 r r ais2.\fz
+    h4 h h' gis2.
+    a! fis4 e d
+    cis2 g'4 fis2 a4 %25
+    h,2 d4 e2 g4
+    a2. fis4 e d
+    cis h a d2 gis4
+    a r r ais2.
+    h4 r r gis2. %30
+    a!4 r r r2 r4
+    R1.
+    a2. d,~
+    d cis4 a' h
+    cis d e d r d, %35
+    e2. a,4 r r
+    gis'2. a4 r r
+    g2. fis4 e d
+    e h cis ais ais' ais
+    h r r r2 r4 %40
+    R1.
+    a!2.~\fz a4 a a
+    a2.~\fz a4 a a
+    a r r r2 r4
+    a2. d,4 r r %45
+    R1.*2 \noBreak
+    R1.\fermata \bar "||"
+    \twotwotime \key h \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
+      dis2\ff r \noBreak
+    R1\fermata %50
+    R1*22 %72
+    \key h \minor R1 \noBreak
+    R1*17 \noBreak %90
+    R1\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
+      R2*6 %97
+    g2\f
+    d4 r
+    R2*8 %107
+    ais'2
+    h4 r
+    R2*8 %117
+    g2
+    d4 r
+    R2*5 %124
+    d4\f c %125
+    b a
+    g' f
+    g2~
+    g
+    d\fz %130
+    f
+    c
+    f
+    d
+    a %135
+    b4 r
+    R2
+    r4 f'\p
+    d2
+    a4 r %140
+    R2*8 %148
+    cis!2\fE
+    d4 r %150
+    R2*17 %167
+    dis2
+    e4 r
+    R2*12 %181
+    ais2\fE
+    h4 r
+    R2*7 %190
+    eis,2
+    fis4 r
+    R2*11 %203
+    gis2
+    a4 r %205
+    R2*16 %221
+    ais2
+    h4 r
+    R2*10 %233
+    d,4 gis
+    a r %235
+    R2*8 %243
+    g4 cis,
+    d fis %245
+    g4. gis8
+    a4. ais8
+    h4. h,8
+    cis4 e
+    a r %250
+    R2\fermata
+    fis\ff
+    a
+    d,
+    h' %255
+    fis
+    a
+    e4 fis8 g
+    a2
+    d,4 r %260
+    R2*4
+    cis!4 a' %265
+    d, h'
+    g8 e a4
+    d, d~\ff
+    d d~
+    d d~ %270
+    d d
+    d d
+    d r
+    d r
+    d r\fermata \bar "|." %275 finis
+  }
+}
