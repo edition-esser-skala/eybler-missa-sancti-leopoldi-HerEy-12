@@ -1011,3 +1011,74 @@ CredoAltoLyrics = \lyricmode {
 
   men. %273 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr d4\p^\tutti e fis8([ e)] d4
+    d( cis) d r
+    d\< e8 e d([\> e)] fis4
+    e8([\! d16 cis] h8) cis16([ d)] cis4 r
+    R1 %5
+    e4(\p d) cis r
+    d( e) fis r
+    g\< g8 g a4. g8
+    a4\p a fis r \noBreak
+    R1 %10
+    \tempoPleni R1*6 %16
+    a2\f a4 a
+    a2 a4 r
+    a2 fis4 d
+    a2 a4 r %20
+    a'2 h
+    ais h4 h
+    h2 c
+    c a~
+    a c\cresc %25
+    d4\ff f, g gis
+    a a r a
+    cis,4.\p a'8 a4. cis8
+    cis4.( e8) e2
+    d8([ a)] h([ g)] fis4( e) %30
+    d r r2
+    R1*2
+    r2 a'\fz
+    a4 fis g a %35
+    h1
+    a\fermata \bar "|." %37 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus, san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth,
+  %5
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+
+  Ple -- ni sunt %17
+  coe -- li,
+  coe -- li et
+  ter -- ra %20
+  glo -- _
+  _ ri -- a
+  tu -- a,
+  glo -- _
+  _ %25
+  _ _ ri -- a
+  tu -- a. O --
+  san -- na in ex --
+  cel -- sis,
+  in __ ex -- cel -- %30
+  sis,
+
+  o -- %34
+  san -- na in ex -- %35
+  cel --
+  sis. %37 finis
+}

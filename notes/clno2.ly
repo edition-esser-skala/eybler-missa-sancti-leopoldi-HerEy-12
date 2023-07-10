@@ -281,3 +281,33 @@ CredoClarinoII = {
     c r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*10 %10
+    \tempoPleni c4\f r r r8 g
+    c4 r r r8 g
+    c4 r8 g c4 r8 g
+    c4 c8. c16 c4 c
+    c4 c8. c16 c4 c %15
+    e r r2
+    g,4. g8 g4 g
+    c r r2
+    c e4 c
+    g2. r4 %20
+    R1*5 %25
+    c4.\ff c16 c c4 c
+    g r r2
+    R1*2
+    r2 r4 r8 g'\f %30
+    c g g e e c c g
+    g4 r r2
+    R1
+    r2 g\fz
+    c4 r r2 %35
+    c4 r8 c16 c c8 c c c
+    c1\fermata \bar "|." %37 finis
+  }
+}

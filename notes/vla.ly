@@ -641,3 +641,47 @@ CredoViola = {
     <d a d,> r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoSanctus
+    R1
+    r2 fis,4(\p g
+    fis) r r2
+    r a4( gis
+    a) d,( cis) g'16( fis d e) %5
+    cis4 r cis a'16( g e fis)
+    d4 r fis' a
+    d, r r2
+    r a\p \noBreak
+    g4( h) e,2 %10
+    \tempoPleni d r4 r16 a'-!\f h-! cis-! \noBreak
+    d2 r4 r16 a-! h-! cis-!
+    d4 r16 a-! h-! cis-! d4 r16 a-! h-! cis-!
+    d a h cis d a h cis d a h cis d cis d e
+    fis cis d e fis cis d e fis cis d e fis e fis g %15
+    a16 fis g a h g a h cis a h cis d h cis d
+    cis8 a, cis e a cis e a,
+    d a fis a d, fis a, d
+    fis, a d fis h, d gis h
+    cis e a, cis e, a cis, e %20
+    a, cis e a g,! h d g!
+    fis, ais cis fis h, d fis h
+    g, h d g c, e g c
+    f,, f' a f f, f' a f
+    f, f' a f f,\cresc f' a f %25
+    b\ff b, d b b' b, d b
+    a cis! e a cis a e cis
+    a\p r a r a r a r
+    a r a r a r a r
+    d r g, r a r a r %30
+    d r a'\f d fis, a d, fis
+    a,16-!\p cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-!
+    a cis h cis a cis h cis a cis h cis a cis h cis
+    d fis g fis g, e' fis e fis, d' e d e, cis' d cis
+    d4 fis\fzE g a %35
+    g d g h
+    <d d,>1\fermata \bar "|." %37 finis
+  }
+}

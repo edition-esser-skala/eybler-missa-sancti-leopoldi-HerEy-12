@@ -505,3 +505,34 @@ CredoOboeII = {
     fis r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    R1*10 %10
+    \tempoPleni R1*4 %14
+    d1\f %15
+    fis4 g a h
+    cis2 cis4 cis
+    d2. r4
+    a'2 fis4 d
+    a r r2 %20
+    cis h
+    cis d~
+    d e
+    f cis!
+    d es\cresc %25
+    d4\ff f, g gis
+    a2 r
+    cis1\p
+    e
+    d8 r h r a r g r %30
+    fis4 r r2
+    R1*2
+    r2 a~\f
+    a4 d e fis %35
+    g1
+    fis\fermata \bar "|." %37 finis
+  }
+}

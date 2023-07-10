@@ -417,3 +417,27 @@ CredoTromboneII = {
     a r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusTromboneII = {
+  \relative c' {
+    \key d \major \time 4/4 \tempoSanctus
+    R1*10 %10
+    \tempoPleni R1*6 %16
+    cis1\f
+    d
+    d2. h4
+    a2. r4 %20
+    R1*3
+    a1~\f
+    \after 2 \cresc a %25
+    b4\ff d2 d4
+    cis! r r2
+    R1*3 %30
+    a1~\f
+    a4 r r2
+    R1*2
+    r4 fis\f g a %35
+    h1
+    a\fermata \bar "|." %37
+  }
+}

@@ -315,3 +315,34 @@ CredoCornoII = {
     c r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*4
+    r2 g'4\p d'8 c16 g %5
+    g4 r g e'8 d16 c
+    c4 r c g
+    c, r r2
+    R1*2 %10
+    \tempoPleni R1*6 %16
+    g'2\f g4 g
+    c1
+    c,
+    g' %20
+    R1*5 %25
+    c,2\ff c4 c
+    g'2 r
+    g1~\p
+    g
+    c8 r r4 r2 %30
+    c4\f g e c
+    g r r2
+    R1
+    r2 g'\fz
+    c4 c, c c %35
+    c1
+    c\fermata \bar "|." %37 finis
+  }
+}

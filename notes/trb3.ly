@@ -332,3 +332,28 @@ CredoTromboneIII = {
     d r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusTromboneIII = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSanctus
+    R1*10 %10
+    \tempoPleni R1*6 %16
+    a'1\f
+    d,
+    fis2 d4 gis
+    a2. r4 %20
+    R1*3
+    f1~\f
+    \after 2 \cresc f %25
+    b,2\ff b'
+    a4 r r2
+    R1*3 %30
+    d,2\f fis
+    a4 r r2
+    R1*2
+    r4 d,\f d d %35
+    g1
+    d\fermata \bar "|." %37 finis
+  }
+}

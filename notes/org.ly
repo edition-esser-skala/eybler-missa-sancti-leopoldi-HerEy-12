@@ -1310,3 +1310,87 @@ CredoBassFigures = \figuremode {
   r
   r %275 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSanctus
+    R1
+    r2 \mvTr d\p-\solo~
+    d4 r r2
+    r a~
+    a1 %5
+    e'4 r a,2
+    fis'4 r d fis
+    g r r2
+    r d\p \noBreak
+    g, a %10
+    \tempoPleni d r4 r16 a-!\f^\unisonoE h-! cis-! \noBreak
+    d2 r4 r16 a-! h-! cis-!
+    d4 r16 a-! h-! cis-! d4 r16 a-! h-! cis-!
+    d a h cis d a h cis d a h cis d cis d e
+    fis cis d e fis cis d e fis cis d e fis e fis g %15
+    a8 fis h g cis a d h
+    a-\tutti a, cis e a cis e a,
+    d a fis a d, fis a, d
+    fis, a d fis h, d gis h
+    cis e a, cis e, a cis, e %20
+    a, cis e a g,! h d g!
+    fis, ais cis fis h, d fis h
+    g, h d g c, e g c
+    f,, f' a f f, f' a f
+    f, f' a f f,\cresc f' a f %25
+    b,\ff b' d b b, b' d b
+    a a, cis! e a cis! e a
+    a,4 r r2
+    R1
+    r2 r4 r8 \tuplet 3/2 8 { \mvTr a16\f-\tutti-\unisono h cis } %30
+    d8-! fis-! a,-! d-! fis,-! a-! d,-! fis-!
+    \mvTr a\p-\solo r a r a r a r
+    a r a r a r a r
+    d, r g r a r a, r
+    d4 \mvTrh d'2\fz-\tutti d,4 %35
+    g, h d g
+    d1\fermata \bar "|." %37 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r2 \bo <[8 3]>4 <7 2>
+  <8 3>1
+  r2 <8 3>4 <7\\ 2>
+  <8 3> <7\\ 2> <8 3>4. <6 4>8 %5
+  <4 _!>2 <7 5>4. <6 4>8
+  <6>2. q4
+  r1
+  r
+  r2 <5 4>4 \bc <[\t 3]> %10
+  r1
+  r
+  r
+  r
+  r %15
+  r
+  r
+  r
+  <6>2 <6\\>
+  <6>1 %20
+  r2 <6\\>
+  <_+>1
+  r
+  <10 5!>2 \bassFigureExtendersOn <10 5+>
+  <10 6> \bassFigureExtendersOff <7- [5!]> %25
+  <[5!]> <6>4 <\tllur>8 <6\\>
+  <[5!] _+>1
+  r
+  r
+  r %30
+  r
+  r
+  r
+  r
+  r4 <8 3 1> <7 4 2> <7! 5 3> %35
+  <10 8 5>1
+  r %37 finis
+}

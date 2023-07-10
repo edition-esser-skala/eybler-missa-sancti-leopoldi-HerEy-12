@@ -552,3 +552,40 @@ CredoFagottoI = {
     d r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusFagottoI = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSanctus
+    R1*4
+    r2 \clef "treble_8" a'4\p cis16( d fis e) %5
+    cis4 r a dis16( e g fis)
+    d4 r d cis16( d fis d)
+    h4 r r2
+    r \clef bass fis'\p
+    g4 h, a2 %10
+    \tempoPleni fis4 r r2
+    R1*2
+    d1\f
+    fis %15
+    a4 h cis d
+    a2\f a4 a
+    d,2. r4
+    \pa a'2 fis4 d
+    a \pd r r2 %20
+    a' g!
+    fis h
+    g c
+    \pa f,1~
+    \after 2 \cresc f %25
+    b,2\ff \pd b'
+    a r
+    R1*4 %31
+    \pao a1\p
+    cis
+    d8 r e r a, r g r
+    fis r d'2\f d4 %35
+    g,1
+    d'\fermata \bar "|." %37 finis
+  }
+}

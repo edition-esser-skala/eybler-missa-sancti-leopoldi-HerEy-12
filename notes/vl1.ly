@@ -637,3 +637,47 @@ CredoViolinoI = {
     q r\fermata \bar "|." %275 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    R1
+    r2 a'4(\p h16 a e fis)
+    d4 r r2
+    r e'4( fis16 e h cis)
+    a4 fis16( e h cis) a4 cis16( d fis e) %5
+    g!4 r a, dis16( e g fis)
+    a4 r d cis16( d fis d)
+    h4 r r2
+    r fis'4\p e16( d cis d) \noBreak
+    h4 a16( g fis g) e4 gis16( a h a) %10
+    \tempoPleni d,2 r4 r16 a-!\f h-! cis-! \noBreak
+    d2 r4 r16 a-! h-! cis-!
+    d4 r16 a-! h-! cis-! d4 r16 a-! h-! cis-!
+    d a h cis d a h cis d a h cis d cis d e
+    fis cis d e fis cis d e fis cis d e fis e fis g %15
+    a fis g a h g a h cis a h cis d h cis d
+    e fis e d cis d cis h a h a g fis g fis e
+    fis d e fis g a h cis d cis d e fis e fis g
+    a g fis e d cis h a d cis h a gis fis e d
+    a' a, h cis d e fis gis a e fis gis a h cis d %20
+    e cis cis a a cis cis e eis^\critnote d d h h d d eis
+    fis cis cis ais ais cis cis fis d h h fis fis h h d
+    g d d h h d d g e c c g g c c e
+    a f f c c a a a' a f f cis cis a a a'
+    a f f d d a a a' a\cresc es es c c a a a' %25
+    b\ff b, d f b b, b' a g a f g e f d e
+    cis! e' cis a a cis a e e a e cis cis e cis a
+    a-!\p cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-!
+    a-! cis-! h-! cis-!  a-! cis-! h-! cis-!  a-! cis-! h-! cis-!  a-! cis-! h-! cis-!
+    d fis g fis g, e' fis e fis, d' e d e, cis' d cis %30
+    d\f fis d a a d a fis fis a fis d d fis d a
+    a4 r r2
+    R1
+    r2 r16 a'\f d fis a a, a' g
+    fis d a fis d fis a d e, g cis e fis, a d fis %35
+    g h a h d, g fis g h, d c d g,8 h'
+    a1\fermata \bar "|." %37 finis
+  }
+}
