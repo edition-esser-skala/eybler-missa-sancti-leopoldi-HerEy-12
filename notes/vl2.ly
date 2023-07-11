@@ -681,3 +681,84 @@ SanctusViolinoII = {
     fis1\fermata \bar "|." %37 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    f4~\f f16( b d, f)
+    f( es c es) a,8. c16
+    b( d g b) es,( g c es)
+    <es, c>8-! <b d>-! r4
+    r8 d-\pizz f b %5
+    r c, f a
+    r b, d f
+    r f f a
+    r c, r b
+    r a b r %10
+    \mvTrh f'2\fp-\arco
+    r8 es-\pizz es r
+    r b r c
+    r b(-\arco d c)
+    b d4 d8 %15
+    r c( a c)
+    d f4 f8
+    r f( a c)
+    r b r b
+    r f r f %20
+    r g r e
+    f4 r8 c\<
+    a'16( f g a)\! g( f e d)
+    c4 r16 g'8 f16
+    r f( e g) f a8 g16 %25
+    r g( f\< a b c d e)
+    f\> f,8 f'16\! e( d c b)
+    r a8 g16 f( a) a( c)
+    d,8 g r e
+    r16 f8 f16~ f b( a gis) %30
+    a8 r c r
+    f r r4
+    r16 c,(\fp es! c es c es c)
+    d( b' d b) d( b es d)
+    d( c) c( b) b( a) b( d) %35
+    c( a) f8 r4
+    R2
+    r8 d-\pizz f b
+    r c, f a
+    r b, d f %40
+    r f f c
+    r c r b
+    r a b r
+    b'2-\arco
+    r8 b-\pizz b r %45
+    r es, r g
+    r f(-\arco a, c)
+    b d4 d8
+    r c( a c)
+    d f4 f8 %50
+    r f( a c)
+    b( d es f)
+    g h,16( g c g d' g,)
+    es'( c, es g) c( es g c,)
+    f8 a,16( f b! f c' f,) %55
+    d'( b, d f) b( d c f,)
+    d'8( c16 b) a( g b e,)
+    \appoggiatura  g8 f4 r16 c'8( b16)
+    r b( a c) b d8 c16
+    r c( b d,) es( f g a) %60
+    b d,8 d16 es( f g d)
+    es(\fz g' es b) g8 es'
+    r d r c
+    r b r a
+    b16 \after 16 \cresc d,8 b'16 f( c' b d) %65
+    es8-!\! <es g, b,>-! r4
+    R2
+    r16 f,(\fp as f as f as f)
+    g( es') g8~\fz g16( a!32 g f16 es)
+    es( d) d(\decresc c) c( b) b( a) %70
+    b8(\p as g c,)
+    d( as g c)
+    b r b r
+    b4 r\fermata \bar "|." %74 finis
+  }
+}

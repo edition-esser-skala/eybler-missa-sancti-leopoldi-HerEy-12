@@ -14,6 +14,7 @@ silevano = \markup \whiteout \remark "si levano i sordini"
 vlne = \markup \remark "vlne"
 
 forceclef = \set Staff.forceClef = ##t
+mvDr = \once \override DynamicText.X-offset = #2
 tinyGroupDistance = \setGroupDistance #12 #12
 fivehat = \markup {
   \combine
@@ -36,6 +37,7 @@ tempoCredo = \tempoMarkup "Allegro"
   tempoEtResurrexit = \tempoMarkup "Allegro vivace"
 tempoSanctus = \tempoMarkup "Poco adagio"
   tempoPleni = \tempoMarkup "Allegro vivace"
+tempoBenedictus = \tempoMarkup "Andante cantabile"
 
 
 \include "notes/ob1.ly"

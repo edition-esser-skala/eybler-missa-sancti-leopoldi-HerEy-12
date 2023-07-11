@@ -442,3 +442,50 @@ SanctusTromboneI = {
     fis\fermata \bar "|." %37 finis
   }
 }
+
+BenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    b2\f
+    c
+    b4 r
+    r8 b b b
+    b4 r %5
+    R2*9 %14
+    d2\pp %15
+    \after 2 \! c\<
+    R2*7 %23
+    r8 c4\pp c8
+    c2~ %25
+    c4 r
+    f2~\fp
+    f4 r
+    R2*4 %32
+    es!2\sfp
+    d4 r
+    R2*2 %36
+    f2\<
+    b,4\! r
+    R2*8 %46
+    r8 c4\pp c8
+    d2
+    c4 r
+    R2*3 %52
+    g'2(\p
+    es4) r
+    f2( %55
+    d4) r
+    R2
+    r8 f4\pp f8
+    f2~
+    f4 r %60
+    R2
+    \mvTr b,4.\fz-\tenuto r8
+    R2*5 %67
+    as'2\sfp
+    g4 r
+    R2*4 %73
+    R2\fermata \bar "|." %74 finis
+  }
+}

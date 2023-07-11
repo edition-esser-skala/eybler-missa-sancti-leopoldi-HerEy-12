@@ -682,3 +682,84 @@ SanctusCello = {
     d1\fermata \bar "|." %37 finis
   }
 }
+
+BenedictusCello = {
+  \relative c {
+    \clef bass
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    b8\f b' d b
+    f, f' a f
+    r g r es
+    f-! b,-! r4
+    b'-\pizz r %5
+    f r
+    b, r8 a
+    b d f r
+    f, r b r
+    f' r b r %10
+    \mvTrh b,2\fp-\arco
+    r8 es-\pizz es r
+    r d r es
+    r f r f,
+    b r r4 %15
+    r8 f'-\arco f, f'
+    b, r r4
+    r8 f' f, f'
+    r b, r b'
+    r a, r a' %20
+    r e r c
+    f4 r8 f
+    d r g r
+    c, r e f
+    c c' a, c %25
+    f, f' r4
+    \mvDl f,8\fp f' f f
+    f16 f, a c f8 a,
+    r b r c
+    f, es! d16( d' c h) %30
+    c8 r c r
+    c r r4
+    f,8\fp f' f f
+    f, f' f f
+    f, f' f f %35
+    f4 r
+    R2
+    b4-\pizz r
+    f r
+    b, r8 a %40
+    b d f r
+    f, r b r
+    f' r b r
+    es,2-\arco
+    r8 b-\pizz b d %45
+    r es r c
+    r f r f,
+    b4 r
+    r8 f'-\arco f, f'
+    b, r r4 %50
+    r8 f' f, f'
+    b, b c d
+    es f es d
+    c c' r es,
+    d es d c %55
+    b b' r a
+    g r c r
+    f, r a b
+    f r d f
+    b, b' r4 %60
+    b,8 b' b b
+    es,\fz es'~ es16( b g es)
+    b8 b' r es,
+    r f r f,
+    b( b'\cresc a as) %65
+    g-! es,-! r4
+    R2
+    b'8\fp b' b b
+    es,, es' es es
+    b es\decresc f f, %70
+    b2~\p
+    b~
+    b8 r b r
+    b4 r\fermata \bar "|." %74 finis
+  }
+}

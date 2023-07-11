@@ -586,3 +586,56 @@ SanctusClarinettoI = {
     c\fermata \bar "|." %37 finis
   }
 }
+
+BenedictusClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBenedictus
+    g'2\f
+    h
+    c4 r
+    r8 g( c e)
+    g4 r %5
+    R2*11 %16
+    e2\pp
+    f
+    e8 r r4
+    R2*4 %23
+    r4 c8.-> h16
+    h8( a) d8.-> c16 %25
+    c8( h) r4
+    r8 d,\< e16( fis g a)\!
+    \after 8 \turn h8. c16 d8 r
+    R2*3 %31
+    r16 d,( g h) d( c h a)
+    h4 r
+    R2*2 %35
+    r8 h16( c) c( d) d( e)
+    e( f) f( a) g( e f d)
+    \pao c4 r
+    R2*10 %48
+    r8 d4\pp d8
+    e2 %50
+    d4 r
+    R2
+    r8 cis( d e
+    f4) r
+    r8 h,( c! d %55
+    e4) r
+    R2*3
+    r8 g, a16(\< h c d)\! %60
+    e8 c~ c8.\< b16\!
+    \mvTrh a4.\fz-\tenuto r8
+    R2*2
+    r8 c(\< d e) %65
+    f-!\! a-! r4
+    r16 e,8 g16~ g( e f d)
+    e4 r
+    r8 c'~\fz c16( d32 c) h16( a)
+    a( g) r8 r4 %70
+    r8 e'([-> \scriptOut f])-! h,(
+    \scriptOut c-!) r r4
+    R2
+    R\fermata \bar "|." %74 finis
+  }
+}

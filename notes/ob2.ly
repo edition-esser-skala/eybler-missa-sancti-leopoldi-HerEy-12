@@ -536,3 +536,36 @@ SanctusOboeII = {
     fis\fermata \bar "|." %37 finis
   }
 }
+
+BenedictusOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    b'2\f
+    c
+    b4 r
+    r8 d,( f b)
+    d4 r %5
+    R2*20 %25
+    r8 a( b16\< c d e)
+    f4\> e16(\! d c b)
+    a8. g16 f8 r
+    R2*3 %31
+    r16 a( c f) a( g f e)
+    f4 r
+    R2*24 %57
+    r4 c8.-> b16
+    b8( a) d8.-> c16
+    c8( b) r4 %60
+    r8 \after 8 \< b4~ b16 d\!
+    \mvTr es4.\fz-\tenuto r8
+    R2*4 %66
+    r16 b8 d16~ d( b c a)
+    b4 r
+    r8 g'~\fz g16( a32 g f16 es)
+    es( d) d(\decresc c) c( b) b( a)\! %70
+    b8 r r4
+    R2*2
+    R2\fermata \bar "|." %74 finis
+  }
+}

@@ -589,3 +589,58 @@ SanctusFagottoI = {
     d'\fermata \bar "|." %37 finis
   }
 }
+
+BenedictusFagottoI = {
+  \relative c {
+    \clef bass
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    b'2\f
+    c
+    b4 r
+    r8 f( b d)
+    f4 r %5
+    R2*11 %16
+    d2\pp
+    c
+    d8 r r4
+    R2*4 %23
+    r4 b8.-> a16
+    a8( g) c8.-> b16 %25
+    b8( a) r4
+    f2~\fp
+    f8 f f r
+    R2*3 %31
+    r16 c'( a f) c4
+    f r
+    R2*2 %35
+    \clef "treble_8" r8 a16( b) b( c) c( d)
+    d( es) es( g) f( d es c)
+    d4 r
+    \clef bass R2*10 %48
+    r8 c4\pp c8
+    d2 %50
+    c4 r
+    R2
+    r8 d( es f)
+    es4 r
+    r8 c( d es) %55
+    d4 r
+    R2
+    r4 es8.-> d16
+    d8( c) f8.-> es16
+    es8( d) r4 %60
+    r8 b~ b16(\< as g f)\!
+    \mvTr es4.\fz-\tenuto r8
+    R2*2
+    r8 b'(\< a as) %65
+    g-!\! es-! r4
+    f' f,
+    b r
+    r8 es,4\fz es8
+    b' f'16(\decresc es) es( d) d( c)\! %70
+    \pao b8 r r4
+    r8 d([-> \scriptOut es)]-! a,(
+    \scriptOut b8)-! r d r
+    b4 r\fermata \bar "|." %74 finis
+  }
+}

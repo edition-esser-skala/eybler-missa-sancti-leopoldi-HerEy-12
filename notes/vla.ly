@@ -685,3 +685,90 @@ SanctusViola = {
     <d d,>1\fermata \bar "|." %37 finis
   }
 }
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    r8 <b d>\f r q
+    r <a c>r q
+    r b r g'
+    f-! f-! r4
+    r8 b,-\pizz d f %5
+    r a, c f
+    r f b, f
+    r b f' f,
+    r es' r d
+    r f f r %10
+    \mvTr d2\fp-\arco
+    r8 es-\pizz es, r
+    r f r g
+    r f4-\arco es'8
+    d b4 f8 %15
+    r es'4 a,8
+    b b4 d8
+    r c f a,
+    b f' r f
+    r c r c %20
+    r c r c
+    c4 r8 a'
+    f r r16 g,( g' f)
+    e c c c c c c c
+    c c c c c c c c %25
+    c4 r
+    r16 << {
+      c8 c16 d( e f g)
+      \after 8 \turn a8. b16 c8 f,~
+      \oneVoice f[ d]
+    } \\ {
+      a8 a16 b( c d e)
+      \after 8 \turn f8. g16 a8 f
+      s4
+    } >> r8 c
+    r16 c8 c16 f, f'8 f16 %30
+    f8 r a r
+    c r r4
+    f,,8\fp f' f f
+    f, f' f f
+    f, f' f f %35
+    f4 r
+    R2
+    r8 b,-\pizz d f
+    r a, c f
+    r f b, f %40
+    r b c a
+    r es' r d
+    r f f r
+    g2-\arco
+    r8 f-\pizz f r %45
+    r b, r es
+    r c4-\arco es8
+    d b4 f8
+    r es'4 a,8
+    b b4 d8 %50
+    r c( f a,)
+    b4 r8 b'~
+    b d, es h
+    c4 r8 c
+    d c d a %55
+    b!4 r
+    r16 b( c d) c8 c
+    c16 f f f f f f f
+    f f f f f f f f
+    f4 r %60
+    r8 r16 b,8 b' as16
+    g8\fz g,~ g16( b es g)
+    r8 b r g
+    r f r f
+    f16 \after 16 \cresc f8 f f b16 %65
+    b8-!\! <b es, g,>-! r4
+    R2
+    r8 b,\pE b b
+    es, es' es es
+    b es\decresc f f %70
+    d\p( f b, es)
+    d( f, g es)
+    d r f r
+    d4 r\fermata \bar "|." %74 finis
+  }
+}
