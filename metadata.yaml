@@ -4,7 +4,7 @@ composer:
 title: Missa Sancti Leopoldi
 id: HerEy 12
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cl (A, \flat B), 2 fag, 2 cor (\flat B, D), 2 clno (D), timp (D–A), 3 trb, 2 vl, 2 vla, vlc, b, org
+scoring: S, A, 2 T, 2 B (solo), S, A, T, B (coro),\\2 ob, 2 cl (A/\flat B), 2 fag, 2 cor (\flat B/D), 2 clno (D), 3 trb, timp (D–A),\\2 vl, 2 vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
   C1:
@@ -24,7 +24,7 @@ sources:
     notes: parts for S (2×), A (2×), T, B, cl 1, cl 2, vl 1 (2×), vl 2 (2×), vla 1, vla 2, vlc, vlne, and org
 imslp:
 parts:
-  cl1: Clarinetto I in \flat B
-  cl2: Clarinetto II in \flat B
-  cor12: Corno I, II in \flat B
+  cl1: Clarinetto I in A/\flat B
+  cl2: Clarinetto II in A/\flat B
+  cor12: Corno I, II in \flat B/D
   ottoni: Clarino I, II in D\\Timpani in D–A
