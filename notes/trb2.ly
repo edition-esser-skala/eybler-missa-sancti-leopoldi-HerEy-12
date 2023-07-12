@@ -487,3 +487,61 @@ BenedictusTromboneII = {
     R2\fermata \bar "|." %74 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*31 %31
+    R2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*7 %39
+    r4 d~\f %40
+    d8 cis h ais
+    h r cis4~
+    cis8 h a! gis
+    a cis4 h8
+    a cis d e %45
+    fis e d cis
+    h4 cis
+    h r
+    ais h
+    gis a %50
+    fis'8 d cis h
+    a4 r
+    cis4. d8
+    \once \slurDashed d( cis) a8. h16
+    cis4. d8 %55
+    d( cis) r4
+    R2*11 %67
+    h2~\f
+    h4 r
+    a2~ %70
+    a8 fis'4 e8
+    d fis, g a
+    h4 cis8 d
+    e4 fis
+    e r %75
+    cis4. d8
+    e4 r
+    e4. d8
+    cis4 fis~
+    fis e~ %80
+    e d
+    e d8 cis
+    d4 h
+    a h
+    a h %85
+    a h
+    a8 h cis4
+    d\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    h,8 cis d e
+    d4 cis
+    d r %95
+    R2*5 %100
+    R2\fermata \bar "|." %101 finis
+  }
+}

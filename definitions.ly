@@ -6,6 +6,7 @@
 \include "ees_articulate.ly"
 
 
+edolce = \markup \whiteout \remark "e dolce"
 eperd = \markup \whiteout \remark "e perdendosi"
 org = \markup \remark "org"
 perd = \markup \remark "perd."
@@ -15,6 +16,7 @@ vlne = \markup \remark "vlne"
 
 forceclef = \set Staff.forceClef = ##t
 mvDr = \once \override DynamicText.X-offset = #2
+mvTll = \once \override TextScript.X-offset = #-3
 tinyGroupDistance = \setGroupDistance #12 #12
 fivehat = \markup {
   \combine
@@ -38,6 +40,8 @@ tempoCredo = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Poco adagio"
   tempoPleni = \tempoMarkup "Allegro vivace"
 tempoBenedictus = \tempoMarkup "Andante cantabile"
+tempoAgnus = \tempoMarkup "Adagio"
+  tempoDona = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

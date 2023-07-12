@@ -389,3 +389,69 @@ BenedictusCornoII = {
     c4\! r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*30 %30
+    g'2.\fE
+    g\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %36
+    g2\p
+    c~
+    c4 g
+    e4 r %40
+    r e'\f
+    c r
+    r d
+    g, r
+    g r %45
+    R2*6 %51
+    g,2~
+    g~
+    g~
+    g %55
+    g4 r
+    R2*2
+    g'2\pp
+    \pao c8 r r4 %60
+    R2*3
+    g2\pp
+    c4 r %65
+    R2*3
+    r4 g~\f
+    g8 g c d %70
+    c4 r
+    c, r
+    R2*2
+    g'2~ %75
+    g~
+    g~
+    g~
+    g4 e'~
+    e d~ %80
+    d c
+    d c8 g
+    e4 c~\fz
+    c c~\fz
+    c c~\fz %85
+    c r
+    R2
+    c'4\ff d
+    g, c
+    R2 %90
+    e,\<
+    g4\! c
+    R2
+    c4 g
+    e r %95
+    g2\fp
+    c8 r r4
+    R2
+    c,2~\p
+    c~ %100
+    c4 r\fermata \bar "|." %101 finis
+  }
+}

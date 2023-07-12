@@ -639,3 +639,98 @@ BenedictusClarinettoI = {
     R\fermata \bar "|." %74 finis
   }
 }
+
+AgnusClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoAgnus
+    R2.*3
+    f'2(\p\< fis4
+    a4.\! g8 es c) %5
+    a4 r r
+    d2.\p
+    b4 r r
+    c2.
+    as4 r r %10
+    R2.*2
+    es'2(\p\< e4
+    g4.\! f8 des b
+    g4) r r %15
+    R2.*2
+    d'!2.\p
+    es!4 r r
+    R2.*2 %21
+    b2(\p\< h4
+    d4.\! c8 as f
+    d4) r r
+    g'2.\p %25
+    es4 r r
+    R2.*4 %30
+    c2.\f \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %36
+    c4\p e,
+    f4. d'8
+    c4. b8
+    a4 r %40
+    r a\f
+    a g8 h
+    c d e f
+    e g,4 g8
+    a e' f a,~ %45
+    a cis d4~
+    d c!
+    h r
+    cis d
+    h c %50
+    a g8 f
+    e4 e8. f16
+    g8. a16 b!8 a
+    a( g) r4
+    c2~ %55
+    c4 r
+    R2*2
+    b2\p
+    a8 r r4 %60
+    R2*2
+    a2\p\<
+    b4\> g
+    a\! r %65
+    R2*2
+    r4 d~\f
+    d8 d c e
+    f g a b %70
+    a4. g8
+    f a, b c
+    \pa d4 e8 f
+    c g' f4 \pd
+    e g8. f16 %75
+    e8. f16 g8 a
+    b4 g,8. a16
+    \pa b8. a16 g8 a \pd
+    c4 \pa c8 es \pd
+    d2 %80
+    c
+    \pa d4 c8 b \pd
+    a r d4
+    c d
+    c d %85
+    \pa c d8 d
+    g,2 \pd
+    f4\ff g
+    e f
+    d8 e f g %90
+    a2\<
+    b4\! a
+    \pa d,8 e f g
+    a4 g
+    f \pd r %95
+    g2\fp
+    a8 r r4
+    R2
+    r8 c(\p a c)
+    a4 r %100
+    R2\fermata \bar "|." %101 finis
+  }
+}

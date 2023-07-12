@@ -569,3 +569,64 @@ BenedictusOboeII = {
     R2\fermata \bar "|." %74 finis
   }
 }
+
+AgnusOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*30 %30
+    e'2\f cis4 \noBreak
+    g2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*7 %39
+    r4 d'~\f %40
+    d8 cis h ais
+    h d cis4~
+    cis8 h a! gis
+    a cis4 h8
+    a4. ais8 %45
+    h fis4 fis8
+    e2
+    r4 cis'~
+    cis h~
+    h a %50
+    h8 d a gis
+    a4 r
+    a2~
+    a4 e'8. d16
+    g,!8. fis16 e8 fis %55
+    d'( cis) r4
+    R2*10 %66
+    r4 h~\f
+    h8 dis e fis
+    e4 a,~
+    a8 cis d! e %70
+    d4. e8
+    fis4 h,8 d
+    g fis e d
+    cis4 d
+    e r %75
+    a,2~
+    a4 e'8. d16
+    cis8. d16 e8 d
+    cis4 fis~
+    fis e~ %80
+    e d
+    e8 g d cis
+    d r g4
+    fis g
+    fis g~ %85
+    g8 fis e d
+    cis d e4
+    d\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    h,8 cis d4~
+    d cis
+    d r %95
+    R2*5 %100
+    R2\fermata \bar "|." %101 finis
+  }
+}

@@ -618,3 +618,76 @@ BenedictusFagottoII = {
     d4 r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusFagottoII = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*30 %30
+    a2.\f \noBreak
+    a\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %36
+    e'4\p g
+    fis d
+    e a,
+    d r %40
+    h8\f e, fis4
+    h r
+    a8 d, e4
+    a8 a'4 gis8
+    fis e d cis %45
+    h cis d dis
+    e d cis a
+    e'4 r
+    fis, h
+    e, a %50
+    d, e
+    a r
+    R2
+    r4 a'8. h16
+    cis8. d16 e8 d %55
+    d( cis) r4
+    R2*2
+    a2\p
+    h8 r r4 %60
+    R2*2
+    fis2\p\<
+    e\>
+    fis4\! r %65
+    R2
+    r4 g~\f
+    g8 fis e dis
+    e g fis4~
+    fis8 e d! cis %70
+    d a' d cis
+    h a g fis
+    e d cis h
+    a g' fis d
+    a4 r %75
+    R2*2
+    a2~
+    a4 fis8 a
+    h4 e, %80
+    a d,
+    g8 e a4
+    d,8 d' h g
+    d d' h g
+    d d' h g %85
+    d fis g gis
+    a2
+    d4\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    h,8 cis dis gis,
+    a2
+    d,4 r %95
+    R2*2
+    a'2\fp
+    d8 r r4
+    r8 fis(\p d fis) %100
+    d4 r\fermata \bar "|." %101 finis
+  }
+}

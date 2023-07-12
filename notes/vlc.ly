@@ -763,3 +763,103 @@ BenedictusCello = {
     b4 r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusCello = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr g'8\pE-\pizz r d r r4
+    e8 r h^\critnote r r4
+    c8 r a r g r
+    d'4 r r
+    c8 r c' r r4 %5
+    r fis,8 r d r
+    r4 dis8 r h' r
+    r4 e,8 r d r
+    r4 cis8 r a' r
+    r4 d,8 r a r %10
+    r4 b8 r b' r
+    r4 c8 r c, r
+    f4 r r
+    b,8 r b' r r4
+    r e,8 r c r %15
+    r4 cis8 r a' r
+    r4 d,8 r f r
+    r4 e8 r h'! r
+    r4 a8 r g! r
+    r4 f8 r f, r %20
+    r4 g'8 r g, r
+    c4 r r
+    f,8 r f' r r4
+    r h,8 r g r
+    r4 gis8 r gis' r %25
+    r4 a8 r g r
+    r4 fis!8\cresc r ais r
+    h4\! r r
+    r \mvTr fis(\p-\arco e)
+    d( cis\cresc h) %30
+    a!\f cis e \noBreak
+    a2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*7 %39
+    r4 d,8\f cis %40
+    h e fis fis,
+    h h' cis, h
+    a d e e,
+    a a'4 gis8
+    fis e d cis %45
+    h cis d dis
+    e d cis a
+    e e' cis e
+    fis, fis' h, h'
+    e,, e' a, a' %50
+    d, h e e,
+    a a' a a
+    a, a' a a
+    a, a' a a
+    a, a' a a %55
+    a, a' a\p cis,
+    d r fis r
+    a r r4
+    R2
+    h8-\pizz r g r %60
+    a r fis r
+    g r g, r
+    fis r fis' r
+    e r g r
+    fis r g r %65
+    a r a, r
+    d r \mvTr g\f-\arco g,
+    g' fis e dis
+    e g fis fis,
+    fis' e d! cis %70
+    d a' d cis
+    h a g fis
+    e d cis h
+    a g'! fis d
+    a a' a a %75
+    a, a' a a
+    a, a' a a
+    a, a' a a
+    a, a' fis a
+    h, h' e, e' %80
+    a,, a' d, d'
+    g, e a a,
+    d d' h g
+    d d' h g
+    d d' h g %85
+    d fis g gis
+    a a, a' g
+    fis16\ff d e fis g e fis g
+    a h a g fis g fis e
+    d e d cis h d' cis h %90
+    ais gis fis gis ais h cis d
+    e a, h cis d d, e fis
+    g! fis e a fis d' h gis
+    a fis d fis a gis a a,
+    d4 r %95
+    R2*4
+    \mvTr d8\p-\pizz r d r %100
+    d4 r\fermata \bar "|." %101 finis
+  }
+}

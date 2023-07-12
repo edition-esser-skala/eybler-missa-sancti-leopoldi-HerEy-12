@@ -1549,3 +1549,168 @@ BenedictusBassFigures = \figuremode {
   r
   r %74 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr g'8\pE-\pizz-\senzaOrg-\soloE r d r r4
+    e8 r h^\critnote r r4
+    c8 r a r g r
+    d'4 r r
+    c8 r c' r r4 %5
+    r fis,8 r d r
+    r4 dis8 r h' r
+    r4 e,8 r d r
+    r4 cis8 r a' r
+    r4 d,8 r a r %10
+    r4 b8 r b' r
+    r4 c8 r c, r
+    f4 r r
+    b,8 r b' r r4
+    r e,8 r c r %15
+    r4 cis8 r a' r
+    r4 d,8 r f r
+    r4 e8 r h'! r
+    r4 a8 r g! r
+    r4 f8 r f, r %20
+    r4 g'8 r g, r
+    c4 r r
+    f,8 r f' r r4
+    r h,8 r g r
+    r4 gis8 r gis' r %25
+    r4 a8 r g r
+    r4 fis!8\cresc r ais r
+    h4\! r r
+    r \mvTr fis(\p-\arco e)
+    d( cis\cresc h) %30
+    \mvTr a!\f-\tutti cis e \noBreak
+    a2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*7 %39
+    r4 \mvTr d,8\f-\tutti cis %40
+    h e fis fis,
+    h h' cis, h
+    a d e e,
+    a a'4 gis8
+    fis e d cis %45
+    h cis d dis
+    e d cis a
+    e e' cis e
+    fis, fis' h, h'
+    e,, e' a, a' %50
+    d, h e e,
+    a a'-\tasto a a
+    a, a' a a
+    a, a' a a
+    a, a' a a %55
+    a, a' \mvTr a\p-\solo cis,
+    d r fis r
+    a r r4
+    R2
+    h8-\pizz r g r %60
+    a r fis r
+    g r g, r
+    fis r fis' r
+    e r g r
+    fis r g r %65
+    a r a, r
+    d r \mvTr g\f-\arco-\tutti g,
+    g' fis e dis
+    e g fis fis,
+    fis' e d! cis %70
+    d a' d cis
+    h a g fis
+    e d cis h
+    a g'! fis d
+    a a' a-\tasto a %75
+    a, a' a a
+    a, a' a a
+    a, a' a a
+    a, a' fis a
+    h, h' e, e' %80
+    a,, a' d, d'
+    g, e a a,
+    d d' h g
+    d d' h g
+    d d' h g %85
+    d fis g gis
+    a a, a' g
+    fis16\ff d e fis g e fis g
+    a h a g fis g fis e
+    d e d cis h d' cis h %90
+    ais gis fis gis ais h cis d
+    e a, h cis d d, e fis
+    g! fis e a fis d' h gis
+    a fis d fis a gis a a,
+    d4 r %95
+    R2*4
+    \mvTr d8\p-\pizz r d r %100
+    d4 r\fermata \bar "|." %101 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2.*30 %30
+  <7 _+>2. \once \bassFigureExtendersOn
+  q
+  r2*7 %39
+  r4 <8 3> \once \bassFigureExtendersOn %40
+  q8 <6> <6 4> <[5] _+>
+  r4 <6[!]>8 <6\\>
+  r <6> <6 4> <[5] _+>
+  r4. <6>8
+  <5 3> <\t _+> <8> <6\\> %45
+  <8> <6\\> <6> <7 [5!]>
+  <_+>4 <6>
+  <_+> <5+>
+  <7 _+>2
+  q %50
+  <6>4 <6 4>8 <[7] _+>
+  r2
+  r
+  r
+  r %55
+  r
+  r
+  r
+  r
+  r4 \bo <[6 _]> %60
+  r <6>
+  r <5>8 <6>
+  <_+>2
+  <6 4!>4 <2>
+  <6> q %65
+  <6 4> \bc <[5 3]>
+  r2
+  r8 <6\\> <8> <6 _+>
+  r4 <6[!]>8 <5>
+  <6> q <8> <6> %70
+  <_+>4 \once \bassFigureExtendersOn q8 <6>
+  <5 3> <\t 3> <5 3> <\t 3>
+  <5 3> <\t 3> <8 3> <6\\>
+  <_+> <\t> <6>4
+  r2 %75
+  r
+  r
+  r
+  r4 <5!>
+  <7 _+> <8> %80
+  <7> <8>
+  <6> <6 4>8 <[7] 3>
+  r4 <6>
+  r q
+  r q %85
+  <4>8 <6> q <7>
+  <_+>4. \once \bassFigureExtendersOn q8
+  <6>4 q
+  r q
+  q4.. \bassFigureExtendersOn q16 %90
+  <6\!>4.. <6>16 \bassFigureExtendersOff
+  <6 _!>2
+  <3>8 <6> q <6\\ 4 3>
+  <6 4>4 <[5] 3>
+  r2*5 %99
+  r2 %100
+  r %101 finis
+}

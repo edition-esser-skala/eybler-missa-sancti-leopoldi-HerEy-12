@@ -357,3 +357,62 @@ SanctusTromboneIII = {
     d\fermata \bar "|." %37 finis
   }
 }
+
+AgnusTromboneIII = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*31 %31
+    R2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*8 %40
+    d8\f e fis4
+    h8 r r4
+    cis,8 d e4
+    a4. gis8
+    fis e d cis %45
+    h cis d dis
+    e4 e
+    e r
+    fis h,
+    e a, %50
+    d8 h e4
+    a, r
+    a'4. d,8
+    a'4 r
+    a4. d,8 %55
+    a'4 r
+    R2*10 %66
+    r4 g~\f
+    g8 fis e dis
+    e g fis4~
+    fis8 e d cis %70
+    d4 d'8 cis
+    h a g fis
+    e d cis h
+    a4 d
+    a r %75
+    a'2
+    a,4 r
+    a'2
+    a,4 r
+    h' e, %80
+    a d,
+    g8 e a4
+    d, g
+    d g
+    d g %85
+    d8 fis g gis
+    a2
+    d,4\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    h,8 cis d gis
+    a2
+    d,4 r %95
+    R2*5 %100
+    R2\fermata \bar "|." %101 finis
+  }
+}

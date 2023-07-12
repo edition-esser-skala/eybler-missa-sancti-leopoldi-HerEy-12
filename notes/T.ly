@@ -1408,3 +1408,207 @@ BenedictusTenoreLyrics = \lyricmode {
 
   sis. %73 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*4
+    \mvTll r4^\tuttiE \mvTr c\p^\edolce c %5
+    a2.
+    h4 r r8 dis
+    e8.([\cresc h16)] h8 h b b
+    a8.([ cis16)] e4 r
+    f2 e4 %10
+    d2\decresc d8([ b)]
+    g4(\pp c b)
+    a r r
+    r \mvTr b\p^\edolce b
+    g2. %15
+    a4 r r8 cis^\cresc
+    d8.([ a16)] a8 a a a
+    h!4\! gis r
+    a2 b4
+    a8.([ g!16)] f8 r r4 %20
+    d2(\pp g4)
+    g r r
+    r \mvTr f\p^\edolce f'
+    h,2.
+    h4 r r8 h %25
+    c8.([ a16)] a4 r8 h\cresc
+    cis8.([ ais16)] ais4 r8 cis\f
+    h4 d8 fis d h
+    ais4 fis r
+    r8\p fis([ ais)]\cresc h cis d %30
+    \mvDl e2\f( cis4) \noBreak
+    e2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      d4\p h \noBreak
+    a a
+    h8 ais h h %35
+    cis4 ais
+    a8([ cis)] cis([ e)]
+    a,([ d)] d([ fis)]
+    h,4( cis)
+    d d~\f %40
+    d8 cis h ais
+    h d cis4~
+    cis8 h a gis
+    a cis e e
+    fis[ cis d e] %45
+    fis[ e d cis]
+    h4 a
+    gis cis8 h
+    ais4 h
+    gis a %50
+    fis'8 d cis([ h)]
+    a4 a8. h16
+    cis8. d16 e8 d
+    d cis cis8. d16
+    e8. fis16 g!8 fis16([ d)] %55
+    d8 cis a\p a
+    a2
+    a4 r
+    R2
+    d4\p h %60
+    a a
+    h8 ais h h
+    cis4 ais
+    a8([ cis)] cis([ e)]
+    d([ a)] h([ g')] %65
+    fis4( e)
+    d r
+    h8\f dis e fis
+    e h r4
+    a8 cis d! e %70
+    d( fis4 e8)
+    d fis,([ g a)]
+    h h[ cis d]
+    e4 d
+    cis cis8. d16 %75
+    e8. fis16 g8 fis
+    e cis e8. d16
+    cis8. d16 e8 fis
+    g e r4
+    h h %80
+    a a
+    h8 g' fis([ e)]
+    d4 d~
+    d8 d d4~
+    d8 d d4~ %85
+    d8 a h d
+    a([ h)] cis4
+    d\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    h,8 cis d d
+    d4( cis)
+    d r %95
+    R2*2
+    cis2\p
+    d4 r
+    d,2\pp %100
+    d4 r\fermata \bar "|." %101 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus %5
+  De --
+  i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- %10
+  re -- re __
+  no --
+  bis.
+  A -- gnus
+  De -- %15
+  i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- re %20
+  no --
+  bis.
+  A -- gnus
+  De --
+  i, qui %25
+  tol -- lis, qui
+  tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di:
+  Do -- na no -- bis %30
+  pa --
+  cem.
+  Do -- na
+  no -- bis,
+  do -- na no -- bis %35
+  pa -- cem,
+  do -- na __
+  no -- bis __
+  pa --
+  cem, do -- %40
+  na no -- bis
+  pa -- cem, no --
+  bis do -- na
+  pa -- cem, do -- na
+  pa -- %45
+  _
+  _ _
+  cem, do -- na,
+  do -- na
+  pa -- cem, %50
+  no -- bis pa --
+  cem, do -- na,
+  do -- na no -- bis
+  pa -- cem, do -- na,
+  do -- na no -- bis %55
+  pa -- cem, no -- bis
+  pa --
+  cem.
+
+  Do -- na %60
+  no -- bis,
+  do -- na no -- bis
+  pa -- cem,
+  do -- na __
+  no -- bis __ %65
+  pa --
+  cem,
+  do -- na no -- bis
+  pa -- cem,
+  no -- bis do -- na %70
+  pa --
+  cem, pa --
+  cem, pa --
+  _ _
+  cem, do -- na, %75
+  do -- na no -- bis
+  pa -- cem, do -- na,
+  do -- na no -- bis
+  pa -- cem,
+  pa -- cem, %80
+  do -- na
+  no -- bis pa --
+  cem, do --
+  na pa --
+  cem, no -- %85
+  bis do -- na
+  pa -- cem,
+  do -- na
+  no -- bis,
+  do -- na no -- bis %90
+  pa --
+  _ cem,
+  do -- na no -- bis
+  pa --
+  cem, %95
+
+  pa -- %98
+  cem,
+  pa -- %100
+  cem. %101 finis
+}

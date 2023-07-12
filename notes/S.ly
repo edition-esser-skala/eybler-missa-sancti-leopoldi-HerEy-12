@@ -1247,12 +1247,232 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %73 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*4
+    \mvTll r4^\tuttiE \mvTr c'\p^\edolce e %5
+    d2( c4)
+    h r r8 h
+    h8.([\cresc e16)] e8 e fis g
+    g8.([ a,16)] a4 r
+    a( f') cis %10
+    d4.(\decresc a8) b([ g)]
+    e2.\pp
+    f4 r r
+    r \mvTr b\p^\edolce d
+    c2( b4) %15
+    a r r8 a\cresc
+    a8.([ d16)] d8 c h! a
+    gis4 h r
+    c2 cis4
+    d4.(\decresc f16[ e] d[ c)] h([ a)] %20
+    g2(\pp f4)
+    e r r
+    r \mvTr f\p^\edolce a
+    g2( f4)
+    e r r8 e %25
+    e8.([ c'16)] c4 r8 h\cresc
+    ais8.([ cis16)] e4 r8 fis,\f
+    d'4 h8 fis d h
+    ais4 fis' r
+    r8\p h([ cis)]\cresc d e fis %30
+    g2(\f e4) \noBreak
+    cis2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      d4\p e \noBreak
+    cis d
+    h8 cis d e %35
+    fis2~\<
+    fis8([\! g)] e([ cis)]
+    cis([ d)] fis,([ h)]
+    a4.( g8)
+    fis4 fis'~\f %40
+    fis8 e d cis
+    d h e4~
+    e8 d cis h
+    cis a cis[ e]
+    a[ gis fis e] %45
+    d[ cis h a!]
+    gis4 a
+    h e8 e
+    e([ cis)] d4
+    d8([ h)] cis4 %50
+    h8 d a([ gis)]
+    a4 r
+    a2
+    a4 g'!8. fis16
+    e8. d16 cis8 d %55
+    fis e e\p g,
+    g4( fis)
+    e r
+    R2
+    d'4\p e %60
+    cis d
+    h8 cis d e
+    fis2~\<
+    fis8([\! g)] e([ cis)]
+    d([ fis)] h,([ e)] %65
+    d4( cis)
+    d r
+    r h~\f
+    h8 h a cis
+    d([ e)] fis([ g)] %70
+    a4 fis
+    r h,8[ d]
+    g[ fis e d]
+    cis4 d
+    e e8. d16 %75
+    cis8. d16 e8 fis
+    g e g8. fis16
+    e8. d16 cis8 d
+    e a, fis' e
+    dis4 e %80
+    cis d
+    e8 g d([ cis)]
+    d4 g
+    fis g
+    fis g~ %85
+    g8 fis e d
+    cis([ d)] e4
+    d\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    h,8 cis d e
+    fis4( e)
+    d r %95
+    cis2\p
+    d4 r
+    R2*2
+    d,2\pp %100
+    d4 r\fermata \bar "|." %101 finis
+  }
+}
 
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %5
+  De --
+  i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- %10
+  re -- re __
+  no --
+  bis.
+  A -- gnus
+  De -- %15
+  i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- re __ %20
+  no --
+  bis.
+  A -- gnus
+  De --
+  i, qui %25
+  tol -- lis, qui
+  tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di:
+  Do -- na no -- bis %30
+  pa --
+  cem.
+  Do -- na
+  no -- bis,
+  do -- na no -- bis %35
+  pa --
+  cem,
+  no -- bis __
+  pa --
+  cem, do -- %40
+  na no -- bis
+  pa -- cem, no --
+  bis do -- na
+  pa -- cem, pa --
+  _ %45
+  _
+  _ _
+  cem, do -- na,
+  do -- na
+  pa -- cem, %50
+  no -- bis pa --
+  cem,
+  pa --
+  cem, do -- na,
+  do -- na no -- bis %55
+  pa -- cem, no -- bis
+  pa --
+  cem.
 
+  Do -- na %60
+  no -- bis,
+  do -- na no -- bis
+  pa --
+  cem,
+  no -- bis __ %65
+  pa --
+  cem,
+  do --
+  na no -- bis,
+  do -- na __ %70
+  pa -- cem,
+  pa --
+  _
+  _ _
+  cem, do -- na, %75
+  do -- na no -- bis
+  pa -- cem, do -- na,
+  do -- na no -- bis
+  pa -- cem, do -- na
+  pa -- cem, %80
+  do -- na
+  no -- bis pa --
+  cem, pa --
+  cem, pa --
+  cem, no -- %85
+  bis do -- na
+  pa -- cem,
+  do -- na
+  no -- bis,
+  do -- na no -- bis %90
+  pa --
+  _ cem,
+  do -- na no -- bis
+  pa --
+  cem, %95
+  pa --
+  cem,
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  pa -- %100
+  cem. %101 finis
+  % Do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+  % do -- na no -- bis pa -- cem,
+}

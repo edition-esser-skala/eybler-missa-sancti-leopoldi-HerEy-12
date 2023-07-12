@@ -583,3 +583,79 @@ BenedictusOboeI = {
     R2\fermata \bar "|." %74 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*6 %6
+    h''2.\p
+    g4 r r
+    a2.
+    f4 r r %10
+    R2.*5 %15
+    e2.\p
+    f4 r r
+    R2.*4 %21
+    g2(\p\< gis4
+    h4.\! a8 f d
+    h4) r r
+    R2.*2 %26
+    fis'!2.\cresc
+    d4\! r r
+    R2.*2 %30
+    g2\f e4 \noBreak
+    cis2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*7 %39
+    r4 fis~\f %40
+    fis8 e d cis
+    \pa d h \pd e4~
+    e8 d cis h
+    \pa cis a cis e
+    a gis fis e %45
+    d cis h a
+    gis4 a
+    h \pd e~
+    e d~
+    d cis %50
+    \pa h8 d a gis
+    a4 \pd r
+    \once \tieDashed a2~
+    a4^\critnote g'!8. fis16
+    e8. d16 cis8 d %55
+    fis( e) r4
+    R2*10 %66
+    r4 h'~\f
+    h8 a \pa g fis
+    g e \pd a4~
+    a8 g \pa fis e %70
+    fis d fis a
+    d cis h a
+    g fis e d
+    cis4 d
+    e \pd r %75
+    a2~
+    a4 g8. fis16
+    \pa e8. d16 cis8 d \pd
+    e4 a~
+    a g~ %80
+    g fis
+    \pa e8 g d cis
+    d \pd r h'4
+    a h
+    a h %85
+    \pa a g8 fis
+    e d cis4 \pd
+    d\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    \pa h,8 cis d e
+    fis4 e
+    d \pd r %95
+    R2*5 %100
+    R2\fermata \bar "|." %101 finis
+  }
+}

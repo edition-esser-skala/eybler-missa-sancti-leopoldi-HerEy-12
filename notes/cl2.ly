@@ -606,3 +606,77 @@ BenedictusClarinettoII = {
     R\fermata \bar "|." %74 finis
   }
 }
+
+AgnusClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoAgnus
+    R2.*30 %30
+    e2.\f \noBreak
+    g\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %36
+    e4\p g
+    f2~
+    f4 e
+    f r %40
+    r a\f
+    a g8 h
+    c d e f
+    e g,4 g8
+    a e' f a,~ %45
+    a cis d4~
+    d c
+    h r
+    a2
+    g %50
+    f4 e8 d
+    c4 c8. d16
+    e8. f16 g8 f
+    f( e) r4
+    c2~ %55
+    c4 r
+    R2*2
+    g'2\p
+    f8 r r4 %60
+    R2*2
+    e2\p\<
+    e\>
+    f4\! r %65
+    R2*2
+    r4 d'~\f
+    d8 d c e
+    f g a b %70
+    a4. g8
+    f a, b c
+    d b4 h8
+    c2
+    c4 b!8. a16 %75
+    g8. f16 e8 f
+    g4 e8. f16
+    g8. a16 b8 a16 f
+    c4 r
+    fis g %80
+    e f
+    d'8 b a g
+    f r b4
+    a b
+    a b~ %85
+    b8 a d d
+    g,2
+    f4\ff g
+    e f
+    d8 e f g %90
+    a2\<
+    b4\! a
+    d,8 e f d'
+    c2
+    a4 r %95
+    c,2\fp
+    f8 r r4
+    R2
+    r8 a(\p f a)
+    f4 r %100
+    R2\fermata \bar "|." %101 finis
+  }
+}

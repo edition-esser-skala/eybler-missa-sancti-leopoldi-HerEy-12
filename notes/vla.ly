@@ -772,3 +772,94 @@ BenedictusViola = {
     d4 r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr d8\pE-\pizz r d r r4
+    h8 r h r r4
+    g8 r c r d r
+    d4 r r
+    r e8 r a, r %5
+    r4 d8 r fis r
+    r4 h,8 r h r
+    r4 h8 r g r
+    r4 a8 r a r
+    r4 a8 r g r %10
+    r4 fis!8 r g r
+    r4 g8 r b r
+    a4 r r
+    r d8 r g, r
+    r4 c8 r e r %15
+    r4 a,8 r a r
+    r4 a8 r d, r
+    r4 h'!8 r e r
+    r4 e8 r e r
+    r4 f8 r a r %20
+    r4 g,8 r h r
+    c4 r r
+    r a8 r d, r
+    r4 g8 r h r
+    r4 h8 r h r %25
+    r4 a8 r h r
+    r4 cis8\cresc r cis r
+    h4\! r r
+    r r8 \mvTr fis(\p-\arco gis ais)
+    h( h cis\cresc d e d) %30
+    cis(\f a'! e cis a cis) \noBreak
+    e,2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*7 %39
+    r4 fis8\f e %40
+    d g fis fis'~
+    fis fis, e d
+    cis fis e e'~
+    e cis cis' h
+    a cis, d e %45
+    fis e d cis
+    h e4 e8
+    e e, cis' h
+    ais fis'4 fis,8
+    gis e'4 e,8 %50
+    d h' cis d
+    cis a a a
+    a a a a
+    a a a a
+    a a a a %55
+    a4 r
+    R2*10 %66
+    r4 r8 h~\f
+    h dis e a
+    g e, r a~
+    a cis d! g %70
+    fis d, fis' e
+    d fis g a
+    h h, cis d
+    e a,4 d8
+    cis4 a8 a %75
+    a a a a
+    a a a a
+    a a a a
+    a a a c
+    h fis' g h, %80
+    a e' fis a,
+    h h' a a
+    d, d' h g
+    d d' h g
+    d d' h g %85
+    fis a h, h'
+    e, a4 g8
+    fis16\ff d e fis g e fis g
+    a h a g fis g fis e
+    d e d cis h d' cis h %90
+    ais gis fis gis ais h cis d
+    e a, h cis d d, e fis
+    g! fis e a fis d' h gis
+    a fis d fis a gis a a,
+    d8 r r4 %95
+    R2*4
+    \mvTr a8\pE-\pizz r a r %100
+    a4 r\fermata \bar "|." %101 finis
+  }
+}

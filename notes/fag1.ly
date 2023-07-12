@@ -644,3 +644,96 @@ BenedictusFagottoI = {
     b4 r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusFagottoI = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*3
+    \clef "treble_8" d'2(\p\< dis4
+    fis4.\! e8 c a %5
+    fis4) r r
+    R2.*6 %12
+    c'2(\p\< cis4
+    e4.\! d8 b g
+    e4) r r %15
+    e'2.\p
+    f4 r r
+    h,!2.\p
+    c4 r r
+    r8 a~ a16( d f e d c! h a) %20
+    g8 r r4 r
+    R2.*3
+    e'2.\p %25
+    c4 r r
+    fis!2.\cresc
+    d4\! r r
+    R2.*2 %30
+    \clef bass a2.\f \noBreak
+    a\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %36
+    \mvDl \pa a2~\p
+    a4 fis'
+    h, e \pd
+    a, r %40
+    \pa h,8\f e \pd fis4
+    h r
+    \pa a,8 d \pd e4
+    a,8 a'4 gis8
+    fis e d cis %45
+    h cis d dis
+    e d cis a
+    e'4 r
+    fis h
+    e, a %50
+    d, e
+    \pao a, r
+    R2
+    r4 cis'8. d16
+    e8. fis16 g!8 fis %55
+    fis( e) r4
+    R2*2
+    cis2\p
+    d8 r r4 %60
+    R2*2
+    \mvDl ais2\p\<
+    a~\>
+    a4\! r %65
+    R2
+    r4 g~\f
+    g8 fis e dis
+    e g fis4~
+    fis8 e d! cis %70
+    d a' d cis
+    h a g fis
+    e d cis h
+    a g' fis d
+    a'4 \clef "treble_8" cis8. d16 %75
+    e8. fis16 g8 fis16 d
+    cis4 r
+    \clef bass a2~
+    a4 fis8 a
+    h4 e, %80
+    a d,
+    g8 e a4
+    d,8 d' h g
+    d d' h g
+    d d' h g %85
+    d fis g gis
+    a2
+    d,4\ff e
+    cis d
+    h8 cis d e %90
+    fis2\<
+    g4\! fis
+    h,8 cis dis gis
+    a2
+    d,4 r %95
+    R2*2
+    e2\fp
+    fis8 r r4
+    r8 a(\p fis a) %100
+    fis4 r\fermata \bar "|." %101 finis
+  }
+}

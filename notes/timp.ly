@@ -283,3 +283,53 @@ SanctusTimpani = {
     c\stopTrillSpan\fermata \bar "|." %37 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*31 %31
+    R2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoDona
+      R2*12 %44
+    g4\f r %45
+    R2*6 %51
+    g4 r
+    R2
+    g4 r
+    R2 %55
+    g4 r
+    R2*7 %63
+    g2\pp\startTrillSpan
+    c4\stopTrillSpan r %65
+    R2*4
+    g2\f\trill %70
+    c4 r
+    c r
+    R2*2
+    g4 r %75
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %80
+    g4 c
+    r g
+    c8 c16 c c c c c
+    c8 c16 c c c c c
+    c8 c16 c c c c c %85
+    c4 r
+    g r
+    c\ff r
+    g c
+    R2*2 %91
+    g4 c
+    R2
+    g\trill
+    c4 r %95
+    R2*3
+    c2~\pp\startTrillSpan
+    c4\stopTrillSpan r %100
+    R2\fermata \bar "|." %101 finis
+  }
+}

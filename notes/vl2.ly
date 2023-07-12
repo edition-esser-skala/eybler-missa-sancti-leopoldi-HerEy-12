@@ -762,3 +762,105 @@ BenedictusViolinoII = {
     b4 r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr g'8\pE-\pizz r fis r r4
+    e8 r dis r r4
+    e8 r fis r g r
+    fis4 r r
+    r a8 r c r %5
+    r4 a8 r a r
+    r4 fis8 r dis r
+    r4 e8 r e r
+    r4 e8 r cis r
+    r4 d!8 r cis r %10
+    r4 d8 r d r
+    r4 c!8 r e r
+    f4 r r
+    r g8 r b r
+    r4 g8 r g r %15
+    r4 e8 r cis r
+    r4 d8 r d r
+    r4 e8 r gis r
+    r4 a8 r b r
+    r4 a8 r d, r %20
+    r4 h!8 r d r
+    c4 r r
+    r d8 r f r
+    r4 d8 r d r
+    r4 e8 r e r %25
+    r4 e8 r e r
+    r4 fis!8\cresc r fis r
+    fis4\! r r
+    r8 \mvTr fis(\p-\arco gis ais h cis)
+    d( fis, ais\cresc h cis d) %30
+    e(\f cis a e cis e) \noBreak
+    g,2.\fermata \bar "|| "
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*7
+    r16 d'\f fis a d d, d' d %40
+    d e cis d h cis ais cis
+    h d, cis h e cis' cis cis
+    cis d h cis a! h gis h
+    a cis h cis d e fis gis
+    a h gis a fis gis e fis %45
+    d e cis d h cis a h
+    gis e fis gis a h cis a
+    gis e' h gis e e' e e
+    e cis ais e d d' d d
+    d h gis d cis cis' cis cis %50
+    fis, h d h a cis h gis
+    a cis a e cis h cis d
+    e d e fis g! e fis d a a' e cis e fis e d
+    cis d e fis e g fis d
+    a a' e cis a8 r %55
+    r gis'16(\p a) r8 gis16( a)
+    r8 gis16( a h a g fis)
+    e8-! fis16([ g] a g fis e)
+    r8 cis32( d) r16 r8 dis32( e) r16 %60
+    r8 his32( cis) r16 r8 cis32( d) r16
+    r8 \slurDashed h32( cis) r16 cis32( d) r16 d32( e) r16 \slurSolid
+    r8 fis32( ais) r16 ais32( cis) r16 cis32( fis) r16
+    r8 fis,32( g) r16 r8 e32( cis) r16
+    r8 d32( fis) r16 r8 h,32( g') r16 %65
+    r8 a,32( fis') r16 r8 a,32( e') r16
+    r fis\f a fis g h h' h
+    h h, a' h, g' h, fis' h,
+    g' e h h' a a, a' a
+    a a, g' a, fis' a, e' a, %70
+    fis' d e fis g a h cis
+    d d, cis' d, h' d, a' d,
+    g a fis g e fis d e
+    cis a h cis d e fis d
+    e cis a cis e fis e d %75
+    cis h cis d e g d fis
+    e e, a cis e fis e d
+    cis d cis h a g fis d'
+    cis a cis e a a, a' a
+    a fis dis h h g' g g %80
+    g e cis a a fis' fis fis
+    e g, h g fis a g e
+    fis d e fis g a h cis
+    d d, e fis g a h cis
+    d d, e fis g a h cis %85
+    d cis h a h a g fis
+    e a d, a' cis, a h cis
+    d\ff d e fis g e fis g
+    a h a g fis g fis e
+    d e d cis h d' cis h %90
+    ais gis fis gis ais h cis d
+    e a, h cis d d, e fis
+    g! fis e a fis d' h gis
+    a a' fis d' e,8 cis'
+    d, r r4
+    R2
+    r8 \mvTr d(\p-\edolce cis h) %95
+    a8.( gis16 \acciaccatura a8 g16[ fis g e])
+    d8 r r4
+    d8-\pizz r d r %100
+    d4 r\fermata \bar "|." %101 finis
+  }
+}
