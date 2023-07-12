@@ -1,19 +1,19 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vlc")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violoncello"
+          \KyrieCello
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaCello }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoCello }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusCello }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusCello }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusCello }
       >>
     }
   }

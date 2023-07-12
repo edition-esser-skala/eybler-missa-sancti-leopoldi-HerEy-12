@@ -22,9 +22,10 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/624.html
     license: public domain
     notes: parts for S (2×), A (2×), T, B, cl 1, cl 2, vl 1 (2×), vl 2 (2×), vla 1, vla 2, vlc, vlne, and org
-imslp:
+imslp: Missa_Sancti_Leopoldi,_HerEy_12_(Eybler,_Joseph)
 parts:
   cl1: Clarinetto I in A/\flat B
   cl2: Clarinetto II in A/\flat B
   cor12: Corno I, II in \flat B/D
   ottoni: Clarino I, II in D\\Timpani in D–A
+  vla: Viola I, II
