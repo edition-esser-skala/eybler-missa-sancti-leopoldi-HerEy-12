@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieTromboneII = {
   \relative c' {
@@ -7,18 +7,18 @@ KyrieTromboneII = {
     R1*3
     a'2.\f\fermata r4 %5
     R1*4
-    cis2\fz r %10
+    cis2\f r %10
     R1
-    a2\fz r
+    a2\f r
     R1*2
     f2\fz r %15
     a\fz r
     R1*13 %29
     d2\ff r %30
     R1*14 %44
-    cis2\fz r %45
+    cis2\f r %45
     R1
-    a2\fz r
+    a2\f r
     R1*2
     b2\fz r %50
     a\fz r

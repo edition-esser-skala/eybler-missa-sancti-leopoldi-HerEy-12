@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieCello = {
   \relative c {
@@ -9,10 +9,10 @@ KyrieCello = {
     a2 r
     R1
     a,2.\f\fermata r4 %5
-    r2 r4 g'8.(\p\crescE e16)
+    r2 r4 g'8.(\p e16)
     cis2-> r
     R1
-    r4 f\pE e d
+    r4 f e d
     a'\fz a, r2 %10
     r4 g'\p e cis
     d\fz d, r2
@@ -44,7 +44,7 @@ KyrieCello = {
     r2 r4 d,8.(\p f16)
     a2 r
     R1 %40
-    r2 r4 g8.(\cresc e16)
+    r2 r4 g8.( e16)
     cis2-> r
     R1
     r4 f e d

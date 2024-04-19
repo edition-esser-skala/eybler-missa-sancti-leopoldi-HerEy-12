@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieOboeI = {
   \relative c' {
@@ -22,13 +22,13 @@ KyrieOboeI = {
     R1*2
     r4 g'8.(\fz f16) f8( e d c)
     R1*2 %21
-    r4 f~\fz f8.( g32 f) e8( d)
+    r4 f~\fz f8.( g32 f e8 d)
     d( c) r4 r2
     R1*5 %28
-    r2 r4 f8(\ff as)
+    r2 r4 f8\ff as
     as4( as,) r2 %30
     R1*4
-    r4 e8\pE\crescE r g r cis\! r %35
+    r4 e8\pE r g r cis r %35
     e2\fz g,8 r r4
     R1
     r2 r4 f'8.(\p d16)
@@ -47,7 +47,7 @@ KyrieOboeI = {
     R1*2
     \pa r4 e'8.\fz d16 d8( cis h a) \pd
     R1*2 %56
-    r4  d'2\fz c8( b)
+    r4 d'2(\fz c8 b)
     b( a) r g-!\decresc g( f) r e-!\p
     \pa e( d) d4 \pd r2
     R1*5 %64

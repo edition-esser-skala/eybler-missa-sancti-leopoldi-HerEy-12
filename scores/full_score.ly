@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
@@ -35,7 +35,7 @@
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \setGroupDistance #12 #12 } <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
             \partCombine #'(0 . 10) \KyrieOboeI \KyrieOboeII
@@ -52,13 +52,13 @@
             \partCombine #'(0 . 10) \KyrieFagottoI \KyrieFagottoII
           }
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \setGroupDistance #12 #12 } <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
-            % \transpose c d
+            % \transpose c d,
             \partCombine #'(0 . 10) \KyrieCornoI \KyrieCornoII
           >>
-          \new GrandStaff <<
+          \new GrandStaff \with { \setGroupDistance #12 #12 } <<
             \set GrandStaff.instrumentName = "Trombone"
             \new Staff <<
               \set Staff.instrumentName = "I, II"
@@ -70,8 +70,8 @@
             }
           >>
         >>
-        \new StaffGroup <<
-          \new GrandStaff <<
+        \new StaffGroup \with { \setGroupDistance #12 #12 } <<
+          \new GrandStaff \with { \setGroupDistance #12 #12 } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
@@ -83,7 +83,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Viola I, II"
+            \set Staff.instrumentName = "Viole"
             \KyrieViola
           }
           \new Staff {
@@ -189,7 +189,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+            \set Staff.instrumentName = "vla"
             \GloriaViola
           }
           \new Staff {
@@ -294,7 +294,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+            \set Staff.instrumentName = "vla"
             \CredoViola
           }
           \new Staff {
@@ -401,7 +401,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+            \set Staff.instrumentName = "vla"
             \SanctusViola
           }
           \new Staff {
@@ -489,7 +489,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+            \set Staff.instrumentName = "vla"
             \BenedictusViola
           }
           \new Staff {
@@ -622,7 +622,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+            \set Staff.instrumentName = "vla"
             \AgnusViola
           }
           \new Staff {

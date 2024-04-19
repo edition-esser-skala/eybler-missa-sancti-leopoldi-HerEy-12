@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieTenore = {
   \relative c' {
@@ -10,7 +10,7 @@ KyrieTenore = {
     b2^> a4 r
     r2 r4\fermata r %5
     R1
-    b4.^> b8 g4 e\p
+    b4.^> b8 g4\p e
     cis2 d4 r
     r a' g'8([ e)] f([ d)]
     cis4.\fz e8 e4 r %10
@@ -19,7 +19,7 @@ KyrieTenore = {
     r a\pp a8([ f)] f4
     r d'\cresc d8([ f)] f4
     d4.\f b8 b4 r %15
-    a4.\fz c8 c4 r
+    \mvDl a4.\fz c8 c4 r
     r c\p c( d)
     g, e'8.^> d16 c4 g'8.^> f16
     e4 b8.\fz a16 g4 g\p
@@ -30,7 +30,7 @@ KyrieTenore = {
     b([ a)] a4 r2
     r4 b8([\p a)] g([ f)] e([ f)] %25
     g4(^> c) c r
-    r c8([\cresc b)] a([ g)] fis([ g)]
+    r c8([ b)] a([\cresc g)] fis([ g)]
     a4( d) d r
     a(\f f'!) f r
     f2\ff d4\p d %30
@@ -57,14 +57,14 @@ KyrieTenore = {
     a2 a4 r
     r cis8.^> h16 a4 e'8.^> d16
     cis4 cis8.\fz d16 e4 cis\p
-    d2^> cis4 r %55
+    d2 cis4 r %55
     r cis8.([ d16)] d4 a
     r2 r4 d
     d b8 b\decresc a4 a8 g\p
     g([ f)] f4 r2
     R1*2 %61
     b2^> a4 g\p
-    f( a8.[^> g16] f4) a8.([^> g16)]
+    f( a8.[^> g16] f4 a8.[^> g16)]
     f4 r r2
     R1\fermata \bar "|." %65 finis
   }
@@ -128,7 +128,7 @@ KyrieTenoreLyrics = \lyricmode {
   lei -- son,
 
   Chri -- ste e -- %62
-  le -- i --
+  lei --
   son. %64 finis
 }
 

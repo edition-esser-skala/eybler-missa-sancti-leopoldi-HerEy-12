@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieAlto = {
   \relative c' {
@@ -10,7 +10,7 @@ KyrieAlto = {
     b2^> a4 r
     r2 r4\fermata r %5
     R1
-    b4.^> b8 g4 e\p
+    b4.^> b8 g4\p e
     cis2 d4 r
     r a' a a
     a4.\fz e8 cis4 r %10
@@ -30,7 +30,7 @@ KyrieAlto = {
     e([ f)] f4 r2
     r4 g8([\p f)] e([ f)] g([ a)] %25
     g2^> f4 r
-    r a8([\cresc g)] fis([ g)] a([ b)]
+    r a8([ g)] fis([\cresc g)] a([ b)]
     a2 g4 r
     c2\f b4 r
     d2\ff f,4\p f %30
@@ -57,14 +57,14 @@ KyrieAlto = {
     r e\p e( d)
     cis e8.^> d16 cis4 g'8.^> f16
     e4 e'8.\fz d16 d8([\decresc cis)] h([ a)]
-    a4(^\parenthesize^> gis) g e8.([ f16)] %55
+    a4(^\p gis) g e8.([ f16)] %55
     f2 f4 fis8.([ g16)]
     g8([ b)] b2\fz a8([ g)]
     g([ f!)] g e\decresc e([ d)] e cis\p
     cis([ d)] d4 r2
     b'4.^> b8 a4 cis,\p %60
     d f r2
-    r r4 e
+    r r4 e\p
     d4.( cis8 d4.) cis8
     d4 r r2
     R1\fermata \bar "|." %65 finis

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieOrgano = {
   \relative c {
@@ -9,12 +9,12 @@ KyrieOrgano = {
     a2 r
     R1
     a,2.\f\fermata r4 %5
-    r2 r4 g'8.(\p\crescE e16)
+    r2 r4 g'8.(\p e16)
     cis2-> r
     R1
-    r4 f\pE e d
-    a'\fz a, r2 %10
-    r4 g'\p e cis
+    r4 f e d
+    \mvTrh a'\fz-\tutti a, r2 %10
+    r4 \mvTr g'\p-\solo e cis
     \mvTrh d\fz-\tutti d, r2
     \mvTrr d'4\pp-\solo d d d
     d\cresc d d d
@@ -32,19 +32,19 @@ KyrieOrgano = {
     c2 f4 r
     r d\cresc d d
     d2 g4 r
-    f!2\f b4 r
+    \mvTr f!2\f-\tutti b4 r
     b,\ff b \mvTr b\p-\solo b %30
     a! a a a
     g1
     r4 a b8.(-> a16) a4
     r a gis8.(-> a16) a4
     r a'~\cresc a8( b g! e) %35
-    cis4-> cis' r2
+    cis4->-\tutti cis' r2
     R1
     r2 r4 \mvTr d,8.(\p-\solo f16)
     a2 r
     R1 %40
-    r2 r4 g8.(\cresc e16)
+    r2 r4 g8.( e16)
     cis2-> r
     R1
     r4 f e d
@@ -81,9 +81,9 @@ KyrieBassFigures = \figuremode {
   r2. <4\+ 3>4
   <7>1
   r
-  r4 <6> <6\\>2
+  r4 <6> \bc <[6\\ _]>2
   <_+>1 %10
-  r4 <4\+ 3>2 \once \bassFigureExtendersOn q4
+  r4 \bo <[4\+ 3]>2 \once \bassFigureExtendersOn <4\+ 3>4
   r1
   r
   r
@@ -107,16 +107,16 @@ KyrieBassFigures = \figuremode {
   <6->1
   <6 4>4 <5! _+>2.
   <6 4>4 <5 _+>2.
-  <7 4>8 <6 \t> <5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %35
+  <7 4>8 <6 \t> <5 _+>2 \bassFigureExtendersOn q8 \bc <[5 _+]> \bassFigureExtendersOff %35
   <7>1
   r
   r
-  <4>4 <_+>2.
+  \bo <[4]>4 <_+>2.
   r1 %40
   r
   <7>
   r
-  r4 <6> \bc <[6\\ _]>2
+  r4 <6> \bc <[6\\]>2
   <_+>1 %45
   r4 \bo <[4\+ 3]>2 \once \bassFigureExtendersOn \bc <4\+ 3>4
   r1

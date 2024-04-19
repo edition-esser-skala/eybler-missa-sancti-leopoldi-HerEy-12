@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieViola = {
   \relative c' {
@@ -14,19 +14,19 @@ KyrieViola = {
     R1
     r4 a\p cis d
     <cis e>2\fz r %10
-    r4 cis\pE e g
+    r4 cis\p e g
     <f a,>2\fz r
-    f,8\ppE a4 a d d8~\cresc
+    f,8\pp a4 a d d8~\cresc
     d f4 f a a8
-    b4\f b,-! d-! f-! %15
-    r a, c f\p
-    r c2 d4
+    b4\f b, d f %15
+    r a, c f
+    r c2\p d4
     g, r r2
     r4 e'8.\fz f16 g4 g,\p
     f2 g4 r %20
-    r2 r4 c8.(\crescE b16)
-    b8 r <d f>4~\fz q8.( <e! g>32 <d f>) <c e>8( <b d>)
-    <b d>( <a c>16) r d,8( d'16)\decresc r c,8( c'16) r c,8( b'16) r
+    r2 r4 c8.( b16)
+    b8 r \once \tieDashed <d f>4~\fz q8.( <e! g>32 <d f> <c e>8 <b d>)
+    <b d>( <a c>16) r d,8(\decresc d'16) r c,8( c'16) r c,8( b'16) r
     b8( a16) r a4 r2
     r4 g\p g g %25
     g2 a4 r
@@ -41,35 +41,35 @@ KyrieViola = {
     a a r b~\fz %35
     b g r2
     R1
-    r2 r4 d'8.(\pE f16)
+    r2 r4 d'8.(\p f16)
     a2 r
     R1 %40
-    r2 r4 g8.(\cresc e16)
+    r2 r4 g8.( e16)
     cis2-> r
     R1
     r4 a\p cis d
-    <cis e>2\fz r %45
+    <cis e>2 r %45
     r4 cis\p e g
     <f a,>2\fz r4 f,\p
     g b a d~
     d d,2\cresc d'4
     g,\f b d g %50
-    r a, d f!\pE
-    r a,2 h4
+    r a, d f!
+    r a,2\p h4
     e, r r2
     r4 cis'8.\fz d16 e4 e,\p
     d2 e4 r %55
-    r2 r4 a8.(\cresc g16)
+    r2 r4 a8.( g16)
     g8 r <b d>4~\fz q8.( <c es>32 <b d> <a c>8 <g b>)
     q( <f a>) << {
       b4 a a
       a2
     } \\ {
-      b4\decresc a a8 g\p
+      b4\decresc a a8\p g
       g f f4
     } >> r2
     r4 e' r cis %60
-    d8-! d,( cis d e f g a)
+    d8-\parenthesize-! d,( cis d e f g a)
     r4 b r g
     f8( a d, g) f( a d, g)
     f(-\perd g f e) f( g f e)

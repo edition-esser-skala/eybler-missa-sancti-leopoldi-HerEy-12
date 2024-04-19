@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieSoprano = {
   \relative c' {
@@ -10,7 +10,7 @@ KyrieSoprano = {
     b2^> a4 r
     r2 r4\fermata r %5
     R1
-    b4.^> b8 g4 e\p
+    b4.^> b8 g4\p e
     cis2 d4 r
     r d' cis d
     e4.\fz cis8 a4 r %10
@@ -22,7 +22,7 @@ KyrieSoprano = {
     c4.\fz a8 a4 r
     r b\p b( a)
     g r r2
-    r4 g'8.\fzE f16 f8([\decresc e)] d([ c)]
+    r4 g'8.\fz f16 f8([\decresc e)] d([ c)]
     c4(\p h) b r %20
     r2 r4 es8.([ d16)]
     d8.([ f16)] f2\fz e8([ d)]
@@ -30,7 +30,7 @@ KyrieSoprano = {
     g([ f)] f4 r2
     r4 e8([\p f)] g([ a)] b([ d)] %25
     c4.(^> b8) a4 r
-    r fis8([\cresc g)] a([ b)] c([ es)]
+    r fis8([ g)] a([\cresc b)] c([ es)]
     d4.( c8) b4 r
     f'!4.\f( es8) d4 r
     as'2\ff as,4\p as %30
@@ -57,7 +57,7 @@ KyrieSoprano = {
     r g\p g( f)
     e r e8.\fz d16 cis4
     g'4.\fz f8 e4 e\p
-    d2^\parenthesize^> e4 r %55
+    d2 e4 r %55
     r2 r4 c'!8.([ b16)]
     b8.([ d16)] d2\fz c8([ b)]
     b([ a)] b g\decresc g([ f)] g e\p
@@ -65,7 +65,7 @@ KyrieSoprano = {
     b'4.^> b8 a4 e\p %60
     f a r2
     R1
-    r4 f8.([^> e16)] d4 f8.([^> e16)]
+    r4 f8.([\p^> e16)] d4( f8.[^> e16)]
     d4 r r2
     R1\fermata \bar "|." %65 finis
   }
@@ -130,7 +130,7 @@ KyrieSopranoLyrics = \lyricmode {
   Ky -- ri -- e e -- %60
   lei -- son,
 
-  e -- le -- i --
+  e -- lei --
   son. %64 finis
 }
 

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 KyrieBasso = {
   \relative c {
@@ -10,7 +10,7 @@ KyrieBasso = {
     b2^> a4 r
     r2 r4\fermata r %5
     R1
-    b4.^> b8 g4 e\p
+    b4.^> b8 g4\p e
     cis2 d4 r
     r f e d
     a'4.\fz a,8 a4 r %10
@@ -23,14 +23,14 @@ KyrieBasso = {
     r e\p f( h,)
     c r r2
     c4. c8 h4 c\p
-    des2 c4 r %20
+    des2^> c4 r %20
     R1
     r4 a'8.([\fz b16)] b4 d,
-    f b,\decresc c c8 c
+    f b, c\decresc c8 c
     c([ f)] f4 r2
     r4 c\p b'8([ a)] g([ f)] %25
     e2^> f4 r
-    r d\cresc c'8([ b)] a([ g)]
+    r d c'8([\cresc b)] a([ g)]
     fis2 g4 r
     a2\f b4 r
     b,2\ff b4\p b %30
