@@ -78,8 +78,8 @@ GloriaViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    \appoggiatura { a'16[ h cis] }
-      d4\f <e cis a> <fis d d,> <g d d,>
+    d'4\f <e cis a> <fis d d,> <g d d,> % for MIDI
+    % \appoggiatura { a'16[ h cis] } d4\f <e cis a> <fis d d,> <g d d,>
     <a a, d,> d16 cis h a g fis e d cis h a g
     fis d e fis g a h cis d e fis g a h cis d
     h g, a h c d e fis g fis g a h a g fis
@@ -91,8 +91,8 @@ GloriaViolinoI = {
     a8( g fis e) d r d'4~-> %10
     d8( cis e d) h r d4~->
     d8( e fis d) a r a4~->
-    a8( g' e cis) a( g e g)
-    fis\f a,16 a d d fis fis a a d, d fis fis a a
+    a8 g'( e cis) a( g e g)
+    fis a,16\f a d d fis fis a a d, d fis fis a a
     d4 r r2 %15
     r8 d,16 d fis' fis e e d d cis cis h h ais ais
     h4 r r2
@@ -111,7 +111,7 @@ GloriaViolinoI = {
     cis,\cresc cis a' a e e a a cis cis a a e e a a %30
     cis\f cis e, e a a e e cis' cis a a e' e cis cis
     a'8 a4 a a a8~
-    a( gis fis e) d( cis fis e)
+    a gis( fis e) d( cis fis e)
     e( d cis) e16 e d d cis cis h h a a
     gis gis h h e e gis gis h h h, h cis cis d d %35
     cis cis a, a cis cis e e a a e e cis cis cis' cis
@@ -167,7 +167,7 @@ GloriaViolinoI = {
     e e f f
     e e e e
     e e f f
-    e e\cresc e e
+    e e e \cresc e
     e e e e %90
     e e e e
     g\p g fis! fis
@@ -180,8 +180,8 @@ GloriaViolinoI = {
     g fis
     e dis) %100
     e( g
-    fis a
-    g dis
+    fis a)
+    g( dis
     e ais,)
     h4 fis' fis fis %105
     fis-> fis fis fis
@@ -196,8 +196,8 @@ GloriaViolinoI = {
     f2( c %115
     d e
     f g
-    a b
-    a) e(\cresc
+    a b)
+    a( e\cresc
     f g %120
     a b
     c d)
@@ -218,7 +218,7 @@ GloriaViolinoI = {
     b b a a
     gis gis g g
     g g f f
-    e8 a,4 h cis! d8~ %140
+    e8 a,4 h! cis! d8~ %140
     d e4 fis! g e8~
     e\cresc cis4 d e fis8~
     fis g4 a h! cis8
@@ -228,20 +228,20 @@ GloriaViolinoI = {
     h g, a h c d e fis g fis g a h a g fis
     e fis e d cis d cis h a h cis d e fis g a
     fis d' cis h a g fis e d8 r h4~\p->
-    h( e,8) r r4 h'~-> %150
-    h( e,8) r r4 g~->
+    h( \scriptOut e,8)-! r r4 h'~-> %150
+    h( \scriptOut e,8)-! r r4 g~->
     g8( fis e d) cis r a'4~->
     a8( g fis e) d r r \tuplet 3/2 8 { a'16\f h cis }
     d4 <e cis a> <fis d d,> <g d d,>
-    <a a, d> d16 cis h a g fis e d cis h a g %155
+    <a a, d,> d16 cis h a g fis e d cis h a g %155
     fis d e fis g a h cis d e fis g a h cis d
     h g, a h c d e fis g fis g a h a g fis
     e fis e d cis d cis h a h cis d e fis g a
     fis d' cis h a g fis e d8 r h4~->\p
-    h( e,8) r r4 h'~-> %160
+    h( \scriptOut e,8)-! r r4 h'~-> %160
     h( e,8) r r4 g~->
     g8( fis e d) cis r a'4~->
-    a8( g fis e) d r d'4~->
+    \once \slurDashed a8( g fis e) d r d'4~->
     d8( cis e d) h r d4~->
     d8( e fis d) a r a4~-> %165
     a8( cis e g) a,( cis d fis)
@@ -356,7 +356,7 @@ GloriaViolinoI = {
     a a g g fis fis d' d e, e h' h cis, cis e e
     d d fis, fis a a d d cis cis a a e' e g g
     fis fis a a d d fis, fis e4 <a, cis'>
-    d r r2\fermata \bar "|." %279 finis
+    <d d,>-\critnote r r2\fermata \bar "|." %279 finis
   }
 }
 

@@ -76,29 +76,29 @@ GloriaViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    \appoggiatura { a'16[ h cis] }
-      d4\f <e cis a> <fis a, d,> <d d,>
+    d'4\f <e cis a> <fis a, d,> <d d,> % for MIDI
+    % \appoggiatura { a'16[ h cis] } d4\f <e cis a> <fis a, d,> <d d,>
     q d'16 cis h a g fis e d cis h a g
     fis d e fis g a h cis d e fis g a h cis d
     h g, a h c d e fis g fis g a h a g fis
     e fis e d cis d cis h a h cis d e fis g a %5
     fis d cis h a g fis e d8 r r4
-    r \mvTr <e g,>\pE-\pizz q r
+    r \mvDll <e g,>\pE-\pizz q r
     r q q r
     cis r e r
     fis r a r %10
     h r h r
     a r a r
     a r e r
-    \mvTr d8\f-\arco a16 a d d fis fis a a d, d fis fis a a
+    d8 \mvTr a16\f-\arco a d d fis fis a a d, d fis fis a a
     d4 r r2 %15
     r8 d,16 d fis' fis e e d d cis cis h h ais ais
     h4 r r2
     r8 h,16\mf h d' d c c h h a a g g fis fis
     g4 r r2
     R1 %20
-    r4 c,2(\p h4)
-    a8 a16\f a d d fis fis a a d, d fis fis a a
+    r4 c,2(\p h4
+    a8) a16\f a d d fis fis a a d, d fis fis a a
     d d a, a a' a g g fis fis e e d d cis cis
     h h h' h cis cis cis, cis d d d' d e e e, e
     fis fis fis' fis a, a a' a g g e e d d fis fis %25
@@ -165,7 +165,7 @@ GloriaViolinoII = {
     cis cis cis cis
     cis cis cis cis
     cis cis cis cis
-    cis cis\cresc cis cis
+    cis cis cis\cresc cis
     cis cis cis cis %90
     cis cis cis cis
     e\p e dis dis
@@ -178,8 +178,8 @@ GloriaViolinoII = {
     g fis
     e dis) %100
     e( g
-    fis a
-    g dis
+    fis a)
+    g( dis
     e ais,)
     h4 dis dis dis %105
     e-> e e e
@@ -194,8 +194,8 @@ GloriaViolinoII = {
     a2( c %115
     d e
     f g
-    a b
-    a) e(\cresc
+    a b)
+    a( e\cresc
     f g %120
     a b
     c d)
@@ -216,7 +216,7 @@ GloriaViolinoII = {
     g g f f
     f f e e
     h! h d d
-    cis8 a4 h cis! d8~ %140
+    cis8 a4 h! cis! d8~ %140
     d e4 fis! g e8~
     e\cresc cis4 d e fis8~
     fis g4 a h! cis8
@@ -226,7 +226,7 @@ GloriaViolinoII = {
     h g, a h c d e fis g fis g a h a g fis
     e fis e d cis d cis h a h cis d e fis g a
     fis d cis h a g fis e d8 r r4
-    r \mvTr <e g,>\pE-\pizz q r %150
+    r \mvDll <e g,>\pE-\pizz q r %150
     r q q r
     cis r e r
     fis r r r8 \tuplet 3/2 8 { \mvTr a16\f-\arco h cis }
@@ -236,7 +236,7 @@ GloriaViolinoII = {
     h g, a h c d e fis g fis g a h a g fis
     e fis e d cis d cis h a h cis d e fis g a
     fis d cis h a g fis e d8 r r4
-    r \mvTr <e g,>\pE-\pizz q r %160
+    r \mvDll <e g,>\pE-\pizz q r %160
     r q q r
     cis r e r
     fis r a r

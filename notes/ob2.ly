@@ -58,7 +58,7 @@ GloriaOboeII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       d'4\f cis d d
     d fis g e
     d1
@@ -75,7 +75,7 @@ GloriaOboeII = {
     d4.\trill cis16 d e4 d %25
     cis r r2
     R1*5 %31
-    r4 e,\fE a cis
+    r4 e,\f a cis
     e a,2 cis4
     h a r2
     r4 gis2 a8 h %35
@@ -127,7 +127,7 @@ GloriaOboeII = {
     \after 2 \> cis1~
     cis2\! r %130
     R1
-    r2 g~\sfp
+    r2 g~\fzp
     g e
     R1*10 %143
     d'4\f cis d d
@@ -190,7 +190,7 @@ GloriaOboeII = {
     h4 c8 h a g a h %210
     g4 e r2
     r r4 d'
-    e h c2\trillE
+    e h c2\trill
     d4 a h r
     r d8 c h4 e8 d %215
     c d c h a4 d8 c
@@ -213,7 +213,7 @@ GloriaOboeII = {
     h d e! h
     cis e fis cis
     d2\trill e4 h %235
-    cis2\trillE d4 r
+    cis2 d4 r
     r2 r4 cis
     h e d2\trill
     cis4 fis e2\trill

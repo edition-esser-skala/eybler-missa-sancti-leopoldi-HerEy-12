@@ -135,7 +135,7 @@ GloriaBasso = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       R1*2
     \mvDl d'4\f^\tuttiE a8 fis d4 fis
     g2 h
@@ -149,7 +149,7 @@ GloriaBasso = {
     fis' a fis d
     cis1
     d4 r r2
-    \mvDl d'\fE a4 a %15
+    \mvDl d'\f a4 a %15
     d,2 r
     h'4\mf h fis fis8 fis
     h,2 r
@@ -219,17 +219,12 @@ GloriaBasso = {
     e2 r %85
     R1
     r2 a,4 a
-    << {
-      \dynamicUp s2\< s\>
-      s1\!
-    } \\ \context Voice = "Basso" {
-      a1
-      a2 r
-    } >>
+    \after 2 \> a1\<
+    a2\! r
     r a'4\mf a %90
-    ais2 ais
+    ais2 ais,
     h!1\p
-    e,2 r
+    e2 r
     r c'
     h( a) %95
     g fis
@@ -245,7 +240,7 @@ GloriaBasso = {
     R1*2
     a2.^> fis4
     dis2 r
-    dis\fp dis4 dis %110
+    dis\fz dis4 dis %110
     e2\pp d
     c c
     f b,
@@ -297,7 +292,7 @@ GloriaBasso = {
     fis2 fis4 fis %165
     cis cis d2
     a'4 r r2
-    a\fz r4 cis,
+    a\fz r4 cis,\p
     d2 a4 r
     ais'2\fz r4 ais %170
     h4. h,8 h4 r
@@ -330,7 +325,7 @@ GloriaBasso = {
     r2 r4 a'
     h fis g!2\trill
     a4 e fis2\trill
-    g4 fis e2\trillE
+    g4 fis e2
     d cis %205
     h4 r r cis'8[ h]
     ais[ h ais gis] fis4 h8[ ais]
@@ -635,7 +630,7 @@ GloriaBassoLyrics = \lyricmode {
   a -- %240
   _ _ _
   _ _ _
-  _ men, a --
+  men, a -- _
   _ _
   _ _ %245
   _ _

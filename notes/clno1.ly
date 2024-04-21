@@ -4,7 +4,7 @@ GloriaClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       e4\f g c c
     c r r2
     c4 c8 c c4 c
@@ -43,7 +43,7 @@ GloriaClarinoI = {
     R1*51 %124
     c4\f r8 c16 c c4 c %125
     c4 r8 c16 c c4 c
-    c1\fz
+    c1
     g4 r r2
     R1*15 %143
     e'4\f g c c

@@ -138,7 +138,7 @@ GloriaAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       R1*2
     \mvDl fis4\f^\tuttiE fis8 fis a4 a
     g2 g
@@ -152,7 +152,7 @@ GloriaAlto = {
     d d d d
     e1
     d4 r r2
-    a'2\fE a4 a %15
+    a'2\f a4 a %15
     a2 r
     fis4\mf d fis fis8 fis
     fis2 r
@@ -195,7 +195,7 @@ GloriaAlto = {
     r4 e'2 g,4 %55
     fis4. fis8 e2
     d4( c'!) h g
-    fis( a2) g4
+    fis( a2 g4)
     fis r r2
     cis\p cis4 cis %60
     d2 d4 d
@@ -222,13 +222,8 @@ GloriaAlto = {
     e2 r %85
     R1
     r2 cis!4 cis
-    << {
-      \dynamicUp s2\< s\>
-      s1\!
-    } \\ \context Voice = "Alto" {
-      cis1
-      cis2 r
-    } >>
+    \after 2 \> cis1\<
+    cis2\! r
     r a'4\mf a %90
     e2 g
     h!1\p
@@ -248,7 +243,7 @@ GloriaAlto = {
     R1*2
     a2.^> fis4
     dis2 r
-    fis\fp fis4 fis %110
+    fis\fz fis4 fis %110
     e2\pp f
     e e
     f g!
@@ -301,7 +296,7 @@ GloriaAlto = {
     d4. d8 d4 d( %165
     a') a a2
     a4 r r2
-    a\fz r4 e
+    a\fz r4 e\p
     e( d) cis r
     cis'2\fz r4 fis, %170
     fis4. h8 h4 r
@@ -326,7 +321,7 @@ GloriaAlto = {
     r2 r4 a'
     h fis g2\trill
     a4 e fis2\trill %195
-    g4 fis e2\trill
+    g4 fis e2\trillE
     d4 r r2
     r4 a'8[ gis] fis4 h8[ a]
     gis[ a gis fis] e4 a8[ gis]
@@ -342,7 +337,7 @@ GloriaAlto = {
     R1
     r2 r4 h' %210
     c g a2\trill
-    h4 fis g2\trillE
+    h4 fis g2
     r4 g8[ fis] e4 a8[ g]
     fis[ g fis e] d4 g
     h fis g2\trill %215
@@ -361,7 +356,7 @@ GloriaAlto = {
     e4 gis a e
     fis2\trill gis4 dis
     e2\trill fis4 e %230
-    d!2\trillE cis4 r
+    d!2 cis4 r
     r fis8([ e)] d4 r
     r gis8([ fis)] e4 r
     r a8([ g] fis[ g fis e])
@@ -387,7 +382,7 @@ GloriaAlto = {
     r2 r4 a'
     h fis g2\trill %255
     a4 e fis2\trill
-    g4 fis e2\trillE
+    g4 fis e2
     fis8[ g] a4 gis2
     a8[ h] cis4 h2
     cis4 a h fis %260
@@ -398,15 +393,15 @@ GloriaAlto = {
     e8[ fis e d] cis4 cis~ %265
     cis8[ d cis h] a4 e'8[ d]
     cis[ d e fis] g![ a h cis]
-    d4 a\cresc h2\trillE
-    cis4 g a2\trillE
+    d4 a\cresc h2
+    cis4 g a2
     h8[ c h a] g[ a] h4 %270
     a a a4.( g8)
     fis4 a\ff a a
     h4. h8 h4 h
     a2 a4 a
     g2 h %275
-    a4 a h( a8[ g)]
+    a4 a h_( a8[ g)]
     fis4 fis( a2)
     a4 a( cis2)
     d4 r r2\fermata \bar "|." %279 finis
@@ -467,10 +462,10 @@ GloriaAltoLyrics = \lyricmode {
   A -- gnus
   De -- i,
   Pa -- tris, %55
+  Fi -- li -- us,
   Fi -- li -- us
-  Pa -- _ tris,
-  Fi -- li --
-  us.
+  Pa --
+  tris.
   Gra -- ti -- as %60
   a -- gi -- mus
   ti --

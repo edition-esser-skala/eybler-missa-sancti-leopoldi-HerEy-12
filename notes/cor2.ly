@@ -34,7 +34,7 @@ GloriaCornoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       e4\f g c c
     e2 d
     c4 c, c c

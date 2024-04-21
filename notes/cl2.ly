@@ -63,7 +63,7 @@ GloriaClarinettoII = {
   \relative c' {
     \clef treble
     \key f \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       a'4\f g a b
     c2 b
     a c
@@ -175,7 +175,7 @@ GloriaClarinettoII = {
     r2 r4 a'
     h fis g2\trill
     a4 e fis2\trill %195
-    g4 fis e2\trill
+    g4 fis e2\trillE
     d4 r r2
     r4 a'8 gis fis4 h8 a
     gis a gis fis e4 a8 gis
@@ -191,7 +191,7 @@ GloriaClarinettoII = {
     R1
     r2 r4 h' %210
     c g a2\trill
-    h4 fis g2\trillE
+    h4 fis g2
     r4 g8 fis e4 a8 g
     fis g fis e d4 g
     h fis g2\trill %215
@@ -210,7 +210,7 @@ GloriaClarinettoII = {
     e4 gis a e
     fis2\trill gis4 dis
     e2\trill fis4 e %230
-    d!2\trillE cis4 r
+    d!2 cis4 r
     r fis8 e d4 r
     r gis8 fis e4 r
     r a8 g fis g fis e
@@ -236,7 +236,7 @@ GloriaClarinettoII = {
     r2 r4 a'
     h fis g2\trill %255
     a4 e fis2\trill
-    g4 fis e2\trillE
+    g4 fis e2
     fis8 g a4 gis2
     a8 h cis4 h2
     cis4 a h fis %260
@@ -247,8 +247,8 @@ GloriaClarinettoII = {
     e8 fis e d cis4 cis~ %265
     cis8 d cis h a4 e'8 d
     cis d e fis g! a h cis
-    d4 a\cresc h2\trillE
-    cis4 g a2\trillE
+    d4 a\cresc h2
+    cis4 g a2
     h8 c h a g a h4 %270
     a a a4. g8
     fis4 } } a2\ff a4
@@ -257,7 +257,7 @@ GloriaClarinettoII = {
     b %275
     c4 c d c8 b
     a4 c c2
-    c4 a g2
+    c4 \once \slurDashed a( g2)
     f4 r r2\fermata \bar "|." %279 finis
   }
 }

@@ -72,7 +72,7 @@ GloriaFagottoI = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       d'4\f a d, h'
     fis h e, a
     d, d' d, fis
@@ -85,7 +85,7 @@ GloriaFagottoI = {
     a8( g fis e) d r d'4~-> %10
     d8( cis e d) h r d4~->
     d8( e fis d) a r a4~->
-    a8( g' e cis) a( g e g)
+    a8 g'( e cis) a( g e g)
     fis4 d8.\f d16 d4 d
     d r r2 %15
     R1*5 %20
@@ -181,7 +181,7 @@ GloriaFagottoI = {
     g8( fis e d) cis r a'4~->
     a8( g fis e) d r d'4~->
     d8( cis e d) h r d4~->
-    d8( e fis d) a r a4-> %165
+    d8( e fis d) a r a4~-> %165
     a8( cis e g) a,( cis d fis)
     a,4 r r2
     a2.\fz r4
@@ -206,7 +206,7 @@ GloriaFagottoI = {
     \clef "treble_8" r2 r4 d
     fis cis d2\trill %190
     e4 h cis2\trill
-    d4 cis h2\trill
+    d4 cis h2
     a4 r r2
     r4 d8 cis h4 e8 d
     cis d cis h a4 d8 cis %195

@@ -76,8 +76,8 @@ GloriaCello = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoGloria
-    \appoggiatura { a'16[ h cis] }
-      d4\f a d, h'
+    d'4\f a d, h' % for MIDI
+    % \appoggiatura { a'16[ h cis] } d4\f a d, h'
     fis h, e a,
     d8 d' a fis d a' fis d
     g h g d h d g h
@@ -90,7 +90,7 @@ GloriaCello = {
     g, r g' r
     fis, r fis' r
     cis r cis' r
-    \mvTr d,8-!\f-\arco fis'-! d-! a-! fis-! d'-! a-! fis-!
+    d,8 \mvTr fis'-!\f-\arco d-! a-! fis-! d'-! a-! fis-!
     d4 r r2 %15
     r8 d-! fis'-! e-! d-! cis-! h-! ais-!
     h4 r r2
@@ -147,8 +147,8 @@ GloriaCello = {
     a h cis d e fis g a
     d, d' c d h d g, h
     a a, d fis a4 a, %70
-    d4 r8 d'-! a'-! fis-! d-! a-!
-    fis'-! d-! a-! fis-! d4 d
+    d4 r8 d' a' fis d a
+    fis' d a fis d4 d
     \slurpos #2 #0 \once \override Slur.layer = #-1000 \mvTr d2(\p-\sempreel b'
     a g
     f e %75
@@ -165,10 +165,10 @@ GloriaCello = {
     a a a a
     a a, a a
     a a a a
-    a a' a a
+    a a' a\cresc a
     a a a a %90
     ais ais ais ais
-    h! h h, h
+    h!\p h h, h
     \slurpos #3 #0 e2( c'
     h a
     g fis %95
@@ -178,8 +178,8 @@ GloriaCello = {
     g fis
     e dis) %100
     e( g
-    fis a
-    g dis
+    fis a)
+    g( dis
     e ais,)
     h4 h' h h %105
     c-> c c c
@@ -194,8 +194,8 @@ GloriaCello = {
     f2( c' %115
     \oneVoice d e
     f g
-    a b
-    a) e2(\cresc
+    a b)
+    a( e\cresc
     f g %120
     a b
     c d)
@@ -252,9 +252,9 @@ GloriaCello = {
     d8 d' fis d h d g, h
     a, a' fis d a4 a'
     d, r d'8-! fis-! h,-! d-! %175
-    g,-! h-! e,4 e'8-! g-! cis,-! e-!
-    a,-! cis-! fis,4 fis'8-! a-! d,-! fis-!
-    h,-! d-! g,-! h-! e,-! g-! cis,-! e-!
+    g, h e,4 e'8 g cis, e
+    a, cis fis,4 fis'8 a d, fis
+    h, d g, h e, g cis, e
     d d' fis d cis cis, c c'
     h g fis a g h e, g %180
     fis a d fis, cis e a cis,
@@ -272,7 +272,7 @@ GloriaCello = {
     a8 gis a h cis a h cis
     d4 d,2 cis8 h
     a4 a'8 g! fis e d4 %195
-    \clef "treble_8" h'8^\critnote cis \clef bass h[ a] g fis g a
+    r4 h'8 a g fis g a
     fis g fis e d e fis d
     a'4 a, \clef "treble_8" a' gis8 fis
     e4 e'8 d cis h a4
@@ -280,8 +280,8 @@ GloriaCello = {
     cis d cis h a4 \clef bass a
     h fis g!2\trill
     a4 e fis2\trill
-    g4 fis e2\trill
-    d cis %205
+    g4 fis e2
+    d cis\trill %205
     h4 \clef "treble_8" d' e \clef bass cis8 h
     ais h ais gis fis4 h8 ais
     gis ais h2 a4~
@@ -348,7 +348,7 @@ GloriaCello = {
     a4 e fis2\trill
     g8 a g fis e fis e d %270
     cis cis' d d, a' g a a,
-    \mvDl d\ff d' a fis d fis a d
+    d\ff d' a fis d fis a d
     h, h' fis d h d fis h
     fis, fis' d a d a fis fis'
     g h g fis e g e d %275

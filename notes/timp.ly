@@ -4,7 +4,7 @@ GloriaTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       c4\f g c c
     c r r2
     c8 c16 c c8 c c4 c
@@ -32,7 +32,7 @@ GloriaTimpani = {
     c1~\f\startTrillSpan
     c2. r4\stopTrillSpan %65
     R1*3
-    c2~\trill c4 r
+    c2~\startTrillSpan c4\stopTrillSpan r
     g g8. g16 g4 g %70
     c r r2
     c4 r8 c16 c c4 c

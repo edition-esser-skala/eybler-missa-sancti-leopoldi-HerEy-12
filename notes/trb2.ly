@@ -30,7 +30,7 @@ KyrieTromboneII = {
 GloriaTromboneII = {
   \relative c' {
     \key d \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       a4\f cis d d
     d r r2
     a a
@@ -111,7 +111,7 @@ GloriaTromboneII = {
     cis d
     cis4 r r\fermata r %185
     R1*19 %204
-    r2 r4 fis\fE %205
+    r2 r4 fis %205
     g d e2
     fis4 cis d2
     e4 d cis2
@@ -119,7 +119,7 @@ GloriaTromboneII = {
     g fis %210
     e4 e'8 d! c a h c
     d e d c h g a h
-    c4 g a2\trill
+    c4 g a2
     h4 fis g r
     r h8 a g4 c8 h %215
     a h a g fis4 h8 a
@@ -138,17 +138,17 @@ GloriaTromboneII = {
     e d8 cis h cis h a
     gis4 r r2 %230
     r4 h cis gis
-    a2\trill h4 fis
+    a2 h4 fis
     gis h cis gis
     a cis d ais
-    h2\trill cis4 gis %235
+    h2 cis4 gis %235
     a!2 h8 cis d4~
     d cis8 h ais2
     h4 g8 a h4 fis8 g
     a gis a h c4 g8 a
     h ais h cis! d4 fis, %240
-    e a g2\trill
-    fis4 h a2\trill
+    e a g2
+    fis4 h a2
     g4 a h cis
     d r r2
     R1 %245
@@ -159,7 +159,7 @@ GloriaTromboneII = {
     g4 a8 h cis h cis d %250
     e d cis h a g fis e
     d4 d' e h
-    cis2\trill d4 a
+    cis2 d4 a
     h e8 d cis2
     d4 r r2 %255
     R1
@@ -167,7 +167,7 @@ GloriaTromboneII = {
     fis4 d'8 cis h a h cis
     a4 fis'8 e d cis d e
     cis4 r r dis %260
-    e h cis2\trill
+    e h cis2
     d!4 r r2
     r r4 e~
     e8 fis e d cis d cis h

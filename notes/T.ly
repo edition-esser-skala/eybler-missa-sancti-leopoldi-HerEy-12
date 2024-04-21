@@ -136,7 +136,7 @@ GloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       R1*2
     \mvDl d4\f^\tuttiE d8 d d4 d
     d2 d
@@ -150,7 +150,7 @@ GloriaTenore = {
     a fis a d
     a1
     a4 r r2
-    fis'2\fE d8([ cis)] h([ cis)] %15
+    fis'2\f d8([ cis)] h([ cis)] %15
     d2 r
     d4\mf fis h,8([ ais)] gis ais
     h2 r
@@ -220,13 +220,8 @@ GloriaTenore = {
     e2 r %85
     R1
     r2 a4 a
-    << {
-      \dynamicUp s2\< s\>
-      s1\!
-    } \\ \context Voice = "Tenore" {
-      a1
-      a2 r
-    } >>
+    \after 2 \> a1\<
+    a2\! r
     r cis4\mf cis %90
     cis2 cis
     h!1\p
@@ -246,7 +241,7 @@ GloriaTenore = {
     R1*2
     a2.^> fis4
     dis2 r
-    a'2\fp h4 c %110
+    a'2\fz h4 c %110
     h2\pp h
     c b
     a4( es' d) b
@@ -298,7 +293,7 @@ GloriaTenore = {
     a2 d4 fis %165
     e e e( d)
     cis r r2
-    cis\fz r4 a
+    cis\fz r4 a\p
     a2 a4 r
     fis2\fz r4 cis' %170
     h4. d8 d4 r
@@ -318,7 +313,7 @@ GloriaTenore = {
     r2 r4 d
     fis cis d2\trill %190
     e4 h cis2\trill
-    d4 cis h2\trill
+    d4 cis h2
     a4 r r2
     r4 d8[ cis] h4 e8[ d]
     cis[ d cis h] a4 d8[ cis] %195
@@ -368,7 +363,7 @@ GloriaTenore = {
     h[ ais h cis!] d4 fis, %240
     e a g2\trill
     fis4 h a2\trill
-    g4 a h( cis)
+    g4 a( h cis)
     d r r2
     R1 %245
     r4 e~ e8[ dis e fis]
@@ -634,7 +629,7 @@ GloriaTenoreLyrics = \lyricmode {
   _ men, a -- %240
   _ _ _
   _ _ _
-  _ men, a --
+  men, a --
   men,
   %245
   a --

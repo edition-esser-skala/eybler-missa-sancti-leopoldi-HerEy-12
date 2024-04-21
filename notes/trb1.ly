@@ -32,7 +32,7 @@ GloriaTromboneI = {
   \relative c' {
     \clef alto
     \key d \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       d4\f e fis g
     a r r2
     d, fis
@@ -113,7 +113,7 @@ GloriaTromboneI = {
     e fis
     e4 r r\fermata r %185
     R1*16 %201
-    r4 d2\f cis8 h
+    r4 d2 cis8 h
     a4 a'8 g fis e d4
     r h'8 a g fis g a
     \pa fis e fis g e d e fis %205
@@ -122,12 +122,12 @@ GloriaTromboneI = {
     h4 r r2
     R1
     r2 r4 h' %210
-    c g a2\trill
-    h4 fis g2\trillE
+    c g a2
+    h4 fis g2
     r4 g8 fis e4 a8 g
     fis g fis e d4 g
-    h fis g2\trill %215
-    a4 e fis2\trill
+    h fis g2 %215
+    a4 e fis2
     g4. fis8 e d e fis
     g4 e fis8 e fis gis
     a4 fis gis8 fis gis ais
@@ -140,17 +140,17 @@ GloriaTromboneI = {
     cis4 fis~ fis8 g fis e
     d!4 gis~ gis8 a gis fis
     e4 gis a e
-    fis2\trill gis4 dis
-    e2\trill fis4 e %230
-    d!2\trillE cis4 r
+    fis2 gis4 dis
+    e2 fis4 e %230
+    d!2 cis4 r
     r fis8 e d4 r
     r gis8 fis e4 r
     r a8 g fis g fis e
     d4 h'8 a gis a gis fis %235
     e4 a8 g fis e d4
     g2. fis8 e
-    d4 g fis2\trill
-    e4 a g2\trill
+    d4 g fis2
+    e4 a g2
     fis4 h a r %240
     r a2 h8 cis
     d4 d,8 e fis g a4
@@ -166,21 +166,21 @@ GloriaTromboneI = {
     fis4 h8 a g a g fis
     e4 a8 g fis e d4
     r2 r4 a'
-    h fis g2\trill %255
-    a4 e fis2\trill
-    g4 fis e2\trillE
+    h fis g2 %255
+    a4 e fis2
+    g4 fis e2
     fis8 g a4 gis2
     a8 h cis4 h2
     cis4 a h fis %260
-    g!2\trill a4 e
+    g!2 a4 e
     fis4 a8 g fis g fis e
     d e d cis h d e d
     cis d cis h a4 e'~
     e8 fis e d cis4 cis~ %265
     cis8 d cis h a4 e'8 d
     cis d e fis g! a h cis
-    d4 a\cresc h2\trillE\!
-    cis4 g a2\trillE
+    d4 a\cresc h2\!
+    cis4 g a2
     h8 c h a g a h4 %270
     a a a4. g8 \pd
     fis4 fis\ff fis fis

@@ -66,7 +66,7 @@ GloriaFagottoII = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       d4\f a d, h'
     fis h e, a
     d, d' d, fis
@@ -182,7 +182,7 @@ GloriaFagottoII = {
     \clef "treble_8" r2 r4 d'
     fis cis d2\trill %190
     e4 h cis2\trill
-    d4 cis h2\trill
+    d4 cis h2
     a4 r r2
     r4 d8 cis h4 e8 d
     cis d cis h a4 d8 cis %195

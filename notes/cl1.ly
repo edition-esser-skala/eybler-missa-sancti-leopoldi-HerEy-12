@@ -69,7 +69,7 @@ GloriaClarinettoI = {
   \relative c' {
     \clef treble
     \key f \major \time 4/4 \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       c'4\f c c d
     \pao c2 d4 c
     c1
@@ -82,7 +82,7 @@ GloriaClarinettoI = {
     c8( b a g) f r f'4~-> %10
     f8( e g f) d r f4~->
     f8( g a f) c r c4~->
-    c8( b' g e) c( b g b)
+    c8 b'( g e) c( b g b)
     a4 c8.\f c16 c4 c
     c r r2 %15
     R1*4
@@ -120,7 +120,7 @@ GloriaClarinettoI = {
     a2 f'
     r g8( f e! d)
     cis2 a'
-    r b8( a g f)
+    r b!8( a g f)
     e2 c'! %55
     r4 c,2 c4
     c es d8( f, b d)
@@ -173,7 +173,7 @@ GloriaClarinettoI = {
     b8( a g f) e8 r c'4~->
     c8( b a g) f r f'4~->
     f8( e g f) d r f4~->
-    f8( g a f) c r c4-> %165
+    f8( g a f) c r c4~-> %165
     c8( e g b) c,( e f a)
     c,4 r r2
     c2.\fz r4
@@ -203,7 +203,7 @@ GloriaClarinettoI = {
     r2 r4 a'
     h fis g2\trill
     a4 e fis2\trill %195
-    g4 fis e2\trill
+    g4 fis e2\trillE
     d4 r r2
     r4 a'8 gis fis4 h8 a
     gis a gis fis e4 a8 gis
@@ -219,7 +219,7 @@ GloriaClarinettoI = {
     R1
     r2 r4 h' %210
     c g a2\trill
-    h4 fis g2\trillE
+    h4 fis g2
     r4 g8 fis e4 a8 g
     fis g fis e d4 g
     h fis g2\trill %215
@@ -238,7 +238,7 @@ GloriaClarinettoI = {
     e4 gis a e
     fis2\trill gis4 dis
     e2\trill fis4 e %230
-    d!2\trillE cis4 r
+    d!2 cis4 r
     r fis8 e d4 r
     r gis8 fis e4 r
     r a8 g fis g fis e
@@ -264,7 +264,7 @@ GloriaClarinettoI = {
     r2 r4 a'
     h fis g2\trill %255
     a4 e fis2\trill
-    g4 fis e2\trillE
+    g4 fis e2
     fis8 g a4 gis2
     a8 h cis4 h2
     cis4 a h fis %260
@@ -275,8 +275,8 @@ GloriaClarinettoI = {
     e8 fis e d cis4 cis~ %265
     cis8 d cis h a4 e'8 d
     cis d e fis g! a h cis
-    d4 a\cresc h2\trillE
-    cis4 g a2\trillE
+    d4 a\cresc h2
+    cis4 g a2
     h8 c h a g a h4 %270
     a a a4. g8
     fis4 } } c2\ff c4

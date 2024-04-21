@@ -81,8 +81,8 @@ GloriaViola = {
   \relative c' {
     \clef alto
     \key d \major \time 4/4 \tempoGloria
-    \appoggiatura { a'16[ h cis] }
-      d4\f <cis e, a,> <d fis, a,> <h g>
+    d'4\f <cis e, a,> <d fis, a,> <h g> % for MIDI
+    % \appoggiatura { a'16[ h cis] } d4\f <cis e, a,> <d fis, a,> <h g>
     <a d,> a h cis
     d8 d, fis a fis d a fis
     g d'' h g d h d g
@@ -95,15 +95,15 @@ GloriaViola = {
     d r d r
     d r d r
     e r a, r
-    \mvTr a8-!\f-\arco fis'-! d-! a-! fis-! d'-! a-! fis-!
+    a8 \mvTr fis'\f-\arco d a fis d' a fis
     d4 r r2 %15
-    r8 d-! fis'-! e-! d-! cis-! h-! ais-!
+    r8 d fis' e d cis h ais
     h4 r r2
-    r8 h-!\mf d-! c-! h-! a-! g-! fis-!
+    r8 h\mf d c h a g fis
     g4 r r2
     R1 %20
-    r4 a2(\p g4)
-    fis8 d'\f a fis d fis' d a
+    r4 a2(\p g4
+    fis8) d'\f a fis d fis' d a
     fis g a h cis d e fis
     g, g' e e, d fis' a a~
     a d, fis a e a4 a8~ %25
@@ -140,7 +140,7 @@ GloriaViola = {
     d fis4 fis8 a, a'4 a8
     d, a'4 a8 d, g4 g8
     fis a4 fis8 d a4 g'8
-    fis4 a8-! d-! fis,-! a-! d,-! fis-!
+    fis4 a8 d fis, a d, fis
     a,\p a4 a a a8~ %60
     a a4 a a a8
     a\cresc a4 a8 cis cis4 cis8
@@ -170,7 +170,7 @@ GloriaViola = {
     a a a a
     a a a a
     a a a a
-    a a\cresc a a
+    a a a\cresc a
     a a a a %90
     ais ais ais ais
     h!\p h h h
@@ -183,8 +183,8 @@ GloriaViola = {
     g fis
     e dis) %100
     e( g
-    fis a
-    g dis
+    fis a)
+    g( dis
     e ais)
     h4 h h h %105
     c-> c c c
@@ -199,8 +199,8 @@ GloriaViola = {
     \slurpos #-5 #0 f2( c %115
     d e
     f g
-    a b
-    a) e(\cresc
+    a b)
+    a( e\cresc
     f g %120
     a b
     c d)
@@ -291,7 +291,7 @@ GloriaViola = {
     R1
     r2 r4 h' %210
     c g a2\trill
-    h4 fis g2\trillE
+    h4 fis g2
     r4 g8 fis e4 a8 g
     fis g fis e d4 g
     h fis g2\trill %215
@@ -310,7 +310,7 @@ GloriaViola = {
     e4 gis a e
     fis2\trill gis4 dis
     e2\trill fis4 e %230
-    d!2\trillE cis4 r
+    d!2 cis4 r
     r fis8 e d4 r
     r gis8 fis e4 r
     r a8 g fis g fis e
@@ -336,7 +336,7 @@ GloriaViola = {
     r2 r4 a'
     h fis g2\trill %255
     a4 e fis2\trill
-    g4 fis e2\trillE
+    g4 fis e2
     fis8 g a4 gis2
     a8 h cis4 h2
     cis4 a h fis %260

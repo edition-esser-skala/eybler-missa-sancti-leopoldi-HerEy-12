@@ -138,7 +138,7 @@ GloriaSoprano = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \grace { s16*3 }
+    % \grace { s16*3 }
       R1*2
     \mvDl d'4\f^\tuttiE d8 d fis4 d
     h2 g'
@@ -152,7 +152,7 @@ GloriaSoprano = {
     a d d, fis
     a2.( g4)
     fis r r2
-    d'2\fE fis8([ e)] d([ e)] %15
+    d'2\f fis8([ e)] d([ e)] %15
     fis2 r
     h,4\mf h d8([ cis)] h cis
     d2 r
@@ -243,7 +243,7 @@ GloriaSoprano = {
     R1*2
     a2.^> fis4
     dis2 r
-    c'\fpE h4 a %110
+    c'\fz h4 a %110
     g2\pp g
     g gis
     a4( c! b) g
@@ -296,7 +296,7 @@ GloriaSoprano = {
     d4. a8 a4 a~ %165
     a g' g( fis)
     e r r2
-    e\fz r4 g,
+    e\fz r4 g,\p
     g( fis) e r
     fis'2\fz r4 fis, %170
     d'4. h8 h4 r
@@ -338,7 +338,7 @@ GloriaSoprano = {
     h4 c8[ h] a[ g a h] %210
     g4 e r2
     r r4 d'
-    e h c2\trillE
+    e h c2\trill
     d4 a h r
     r d8[ c] h4 e8[ d] %215
     c[ d c h] a4 d8[ c]
@@ -361,7 +361,7 @@ GloriaSoprano = {
     h d( e! h)
     cis e fis cis
     d2\trill e4 h %235
-    cis2\trillE d4 r
+    cis2 d4 r
     r2 r4 cis
     h e d2\trill
     cis4 fis e2\trill
