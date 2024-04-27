@@ -652,8 +652,8 @@ SanctusViolinoI = {
     g!4 r a, dis16( e g fis)
     a4 r d cis16( d fis d)
     h4 r r2
-    r fis'4\p e16( d cis d) \noBreak
-    h4 a16( g fis g) e4 gis16( a h a) %10
+    r fis'4(\p e16 d cis d) \noBreak
+    h4( a16 g fis g) e4 gis16( a h a) %10
     \tempoPleni d,2 r4 r16 a-!\f h-! cis-! \noBreak
     d2 r4 r16 a-! h-! cis-!
     d4 r16 a-! h-! cis-! d4 r16 a-! h-! cis-!
@@ -668,11 +668,11 @@ SanctusViolinoI = {
     fis cis cis ais ais cis cis fis d h h fis fis h h d
     g d d h h d d g e c c g g c c e
     a f f c c a a a' a f f cis cis a a a'
-    a f f d d a a a' a\cresc es es c c a a a' %25
+    a\cresc f f d d a a a' a es es c c a a a' %25
     b\ff b, d f b b, b' a g a f g e f d e
     cis! e' cis a a cis a e e a e cis cis e cis a
-    a-!\p cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-!
-    a-! cis-! h-! cis-!  a-! cis-! h-! cis-!  a-! cis-! h-! cis-!  a-! cis-! h-! cis-!
+    a-!\p cis-! h-! cis-! a-! cis-! h-! cis-! a cis h cis a cis h cis
+    a cis h cis a cis h cis a cis h cis a cis h cis
     d fis g fis g, e' fis e fis, d' e d e, cis' d cis %30
     d\f fis d a a d a fis fis a fis d d fis d a
     a4 r r2

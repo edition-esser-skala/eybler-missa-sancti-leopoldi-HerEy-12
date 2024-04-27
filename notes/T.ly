@@ -1191,8 +1191,8 @@ SanctusTenore = {
     cis2 h
     cis d4 d
     d2 e
-    f? cis!
-    d es\cresc %25
+    f cis!
+    d\cresc es %25
     d\ff d4 d
     e! cis! r2
     R1*3 %30

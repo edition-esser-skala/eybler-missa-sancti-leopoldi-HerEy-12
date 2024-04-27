@@ -522,7 +522,7 @@ SanctusOboeII = {
     cis d~
     d e
     f cis!
-    d es\cresc %25
+    d\cresc es %25
     d4\ff f, g gis
     a2 r
     cis1\p

@@ -649,8 +649,8 @@ SanctusViola = {
     R1
     r2 fis,4(\p g
     fis) r r2
-    r a4( gis
-    a) d,( cis) g'16( fis d e) %5
+    r a4( gis)
+    a( d,) cis g'16( fis d e) %5
     cis4 r cis a'16( g e fis)
     d4 r fis' a
     d, r r2
@@ -670,17 +670,17 @@ SanctusViola = {
     fis, ais cis fis h, d fis h
     g, h d g c, e g c
     f,, f' a f f, f' a f
-    f, f' a f f,\cresc f' a f %25
+    f,\cresc f' a f f, f' a f %25
     b\ff b, d b b' b, d b
     a cis! e a cis a e cis
     a\p r a r a r a r
     a r a r a r a r
     d r g, r a r a r %30
     d r a'\f d fis, a d, fis
-    a,16-!\p cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-! a-! cis-! h-! cis-!
+    a,16-!\p cis-! h-! cis-! a-! cis-! h-! cis-! a cis h cis a cis h cis
     a cis h cis a cis h cis a cis h cis a cis h cis
     d fis g fis g, e' fis e fis, d' e d e, cis' d cis
-    d4 fis\fzE g a %35
+    d4 fis g a %35
     g d g h
     <d d,>1\fermata \bar "|." %37 finis
   }

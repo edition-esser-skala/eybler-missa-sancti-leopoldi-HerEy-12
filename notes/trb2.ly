@@ -429,7 +429,7 @@ SanctusTromboneII = {
     a2. r4 %20
     R1*3
     a1~\f
-    \after 2 \cresc a %25
+    a\cresc %25
     b4\ff d2 d4
     cis! r r2
     R1*3 %30

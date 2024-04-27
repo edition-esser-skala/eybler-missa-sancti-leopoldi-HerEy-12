@@ -576,9 +576,9 @@ SanctusFagottoI = {
     a' g!
     fis h
     g c
-    \pa f,1~
-    \after 2 \cresc f %25
-    b,2\ff \pd b'
+    f,1~
+    f\cresc %25
+    b,2\ff b'
     a r
     R1*4 %31
     \pao a1\p

@@ -1024,7 +1024,7 @@ SanctusBasso = {
     fis h4 h
     g2 c
     f,1~
-    \after 2 \cresc f %25
+    f\cresc %25
     b2\ff b4 b
     a a, r2
     R1*3 %30

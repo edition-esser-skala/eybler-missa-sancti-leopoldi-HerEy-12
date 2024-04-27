@@ -536,7 +536,7 @@ SanctusOboeI = {
     fis1
     g
     a~
-    \after 2 \cresc a %25
+    a\cresc %25
     b4.\ff a8 g f e d
     cis!4 e r2
     e1\p

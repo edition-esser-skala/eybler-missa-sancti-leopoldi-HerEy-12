@@ -1029,7 +1029,7 @@ SanctusAlto = {
     ais h4 h
     h2 c
     c a~
-    a c\cresc %25
+    a\cresc c %25
     d4\ff f, g gis
     a a r a
     cis,4.\p a'8 a4. cis8

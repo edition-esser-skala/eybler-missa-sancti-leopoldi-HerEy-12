@@ -345,7 +345,7 @@ SanctusTromboneIII = {
     a2. r4 %20
     R1*3
     f1~\f
-    \after 2 \cresc f %25
+    f\cresc %25
     b,2\ff b'
     a4 r r2
     R1*3 %30

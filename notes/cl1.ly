@@ -554,7 +554,7 @@ SanctusClarinettoI = {
     r2 c'4(\p d16 c g a)
     f4 r r2
     R1
-    g4 a16( g d e) c4 r %5
+    g4( a16 g d e) c4 r %5
     R1
     r2 c'
     b4 r r2
@@ -571,14 +571,14 @@ SanctusClarinettoI = {
     cis d~
     d es~
     es c~
-    c es\cresc %25
+    c\cresc es\! %25
     f1\ff
     c2 r
     c1\p
     e
     f8 r g r c, r c r %30
     c4 r r2
-    g1
+    g1\p
     b
     a8 r g r f r e r
     f r a4\f b c %35

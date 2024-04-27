@@ -551,7 +551,7 @@ SanctusFagottoII = {
     fis h
     g c
     f,1~
-    \after 2 \cresc f %25
+    f\cresc %25
     \mvDll b,2\ff b'
     a r
     R1*4 %31

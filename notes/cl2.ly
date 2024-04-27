@@ -530,7 +530,7 @@ SanctusClarinettoII = {
     \tempoPleni f r r2
     R1*4 %15
     r4 d\f e f
-    g2 g
+    g2 g4-\critnote g
     f2. r4
     c'2 a4 f
     c r r2 %20
@@ -538,14 +538,14 @@ SanctusClarinettoII = {
     cis d~
     d es~
     es c~
-    c es\cresc %25
+    c\cresc es\! %25
     des\ff f,
     g4 e! r2
     c'1~\p
     c
     c8 r b r a r g r %30
     f4 r r2
-    e1
+    e1\p
     g
     f8 r d r c r c r
     c r f4\f g a %35

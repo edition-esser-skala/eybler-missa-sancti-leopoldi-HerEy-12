@@ -1033,7 +1033,7 @@ SanctusSoprano = {
     fis fis4 fis
     g2 g
     a1~
-    \after 2 \cresc a %25
+    a\cresc %25
     b4.\ff a8 g([ f)] e([ d)]
     cis!4 e r a,
     a4.\p cis8 cis4. e8

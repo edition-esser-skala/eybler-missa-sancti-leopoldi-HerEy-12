@@ -1263,7 +1263,7 @@ SanctusOrgano = {
     g r r2
     r d\p \noBreak
     g, a %10
-    \tempoPleni d r4 r16 a-!\f^\unisonoE h-! cis-! \noBreak
+    \tempoPleni d r4 r16 a-!\f h-! cis-! \noBreak
     d2 r4 r16 a-! h-! cis-!
     d4 r16 a-! h-! cis-! d4 r16 a-! h-! cis-!
     d a h cis d a h cis d a h cis d cis d e
@@ -1277,7 +1277,7 @@ SanctusOrgano = {
     fis, ais cis fis h, d fis h
     g, h d g c, e g c
     f,, f' a f f, f' a f
-    f, f' a f f,\cresc f' a f %25
+    f,\cresc f' a f f, f' a f %25
     b,\ff b' d b b, b' d b
     a a, cis! e a cis! e a
     a,4 r r2

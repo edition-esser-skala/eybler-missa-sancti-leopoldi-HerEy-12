@@ -667,14 +667,14 @@ SanctusCello = {
     fis, ais cis fis h, d fis h
     g, h d g c, e g c
     f,, f' a f f, f' a f
-    f, f' a f f,\cresc f' a f %25
+    f,\cresc f' a f f, f' a f %25
     b,\ff b' d b b, b' d b
     a a, cis! e a cis! e a
     a,\p r a r a r a r
     a r a r a r a r
     d, r g r a r a, r %30
-    d r a'-!\f d-! fis,-! a-! d,-! fis-!
-    cis16-!\p e-! d-! e-! cis-! e-! d-! e-!  cis-! e-! d-! e-!  cis-! e-! d-! e-!
+    d\f r a' d fis, a d, fis
+    cis16-!\p e-! d-! e-! cis-! e-! d-! e-! cis e d e cis e d e
     cis e d e cis e d e cis e d e cis e d e
     fis a h a h g a g d fis g fis g e fis e
     d4 d'2\fz d,4 %35

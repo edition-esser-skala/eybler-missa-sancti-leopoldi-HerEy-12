@@ -430,7 +430,7 @@ SanctusTromboneI = {
     \pao a2. r4 %20
     R1*3
     c2\f cis
-    d es\cresc %25
+    d\cresc es %25
     d4\ff f g gis
     a r r2
     R1*3 %30
