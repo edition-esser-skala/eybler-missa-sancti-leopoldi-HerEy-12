@@ -78,8 +78,8 @@ GloriaViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    d'4\f <e cis a> <fis d d,> <g d d,> % for MIDI
-    % \appoggiatura { a'16[ h cis] } d4\f <e cis a> <fis d d,> <g d d,>
+    % d'4\f <e cis a> <fis d d,> <g d d,> % for MIDI
+    \appoggiatura { a'16[ h cis] } d4\f <e cis a> <fis d d,> <g d d,>
     <a a, d,> d16 cis h a g fis e d cis h a g
     fis d e fis g a h cis d e fis g a h cis d
     h g, a h c d e fis g fis g a h a g fis
@@ -415,7 +415,7 @@ CredoViolinoI = {
     \twotwotime \key h \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
       R1 \noBreak
     R\fermata %50
-    dis'2(\pE\<^\conSord fis4.\! e8)
+    \mvDl dis'2(\pE\<^\conSord fis4.\! e8)
     e4( dis\trill cis) r
     R1*4 %56
     r2 r4 fis,\p
@@ -434,10 +434,10 @@ CredoViolinoI = {
     cis,(\pp ais) h( eis,) %70
     fis g2(\fz e4) \noBreak
     cis4-! fis2(\fz d4)
-    \key h \minor \mvTr h8\f(-\sempreel ais d-> cis h ais d-> cis) \noBreak
+    \key h \minor \mvDl h8\f(-\sempreel\< ais d cis\! h\< ais d cis)\! \noBreak
     h( ais h cis d cis d h)
-    ais( h d-> cis ais h d-> cis) %75
-    ais(\< h cis d e\! g fis cis)
+    ais(\< h d cis\! ais\< h d cis)\! %75
+    ais(\< h cis d e g fis cis)\!
     d( fis g fis e d cis h)
     a!( h cis d e fis g e)
     fis( g fis e d e d cis)
@@ -515,7 +515,7 @@ CredoViolinoI = {
     fis8 fis, fis'16 fis fis fis
     g8 g, g'16 g g g
     a8 a, a'16 a a a
-    h!8 h,! h'16 h h h
+    h!8 h, h'16 h h h
     d8 d, d'16 d d d %155
     fis,8 fis, fis'16 fis fis fis
     g8 g, g'16 g g g
@@ -613,7 +613,7 @@ CredoViolinoI = {
     e8 g16 e cis8 e16 cis
     g4 r %250
     R2\fermata
-    <d' fis, a,>4\ff d16 d d d
+    \mvDll <d' fis, a,>4\ff d16 d d d
     e8 e, e'16 e e e
     fis8 fis, fis'16 fis fis fis
     d8 d, d'16 d d d %255

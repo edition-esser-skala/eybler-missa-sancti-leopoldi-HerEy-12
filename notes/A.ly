@@ -138,7 +138,7 @@ GloriaAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       R1*2
     \mvDl fis4\f^\tuttiE fis8 fis a4 a
     g2 g
@@ -732,8 +732,8 @@ CredoAlto = {
     dis4. dis,8 dis2\fermata %50
     R1
     r2 r4 \clef "treble_8" \mvTr fis,\pE^\solo
-    h2\< cis4. cis8
-    h2\! ais4 r
+    h2\< cis4.\! cis8
+    h2 ais4 r
     gis4.\pp gis8 gis4 ais %55
     h2 e->\cresc
     e8([ dis)] cis h ais4.(\p h16[ cis)]
@@ -747,9 +747,9 @@ CredoAlto = {
     \mvTr fis,4\pE^\solo dis h'\cresc eis, %65
     cis' ais cis e!
     dis2\f h4 gis(\<
-    h)\! ais\p gis\pp h
+    \after 8 \! h) ais\p gis\pp h
     ais \clef treble \mvTr fis'\f^\tutti fis h
-    ais(\pp fis eis) gis %70
+    ais(\pp fis) eis( gis) %70
     fis r r2 \noBreak
     r fis4\f fis
     \key h \minor h2 fis \noBreak
@@ -772,7 +772,7 @@ CredoAlto = {
     R\fermata \bar "||"
     \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
       R2*5 %96
-    r4 r8 \mvTr a'\f^\tuttiE
+    r4 r8 a'\f
     h4 a8 g
     fis([ g)] a4
     R2*7 %106
@@ -830,7 +830,7 @@ CredoAlto = {
     h a
     a4. a8
     fis4 r8 fis(\< %260
-    g4\! fis8) e
+    \after 8 \! g4 fis8) e
     d([ e)] fis r
     R2*2
     r4 a~ %265
@@ -838,8 +838,8 @@ CredoAlto = {
     h8 h a4
     fis4 r8 d(
     fis4) d8 fis(
-    a4) fis8 a %270
-    d2~
+    a4) fis8 a( %270
+    d2~)
     d
     d,4 r
     R2
@@ -915,7 +915,7 @@ CredoAltoLyrics = \lyricmode {
   fa -- ctus, ho --
   mo fa -- ctus
   est, et ho -- mo
-  fa -- ctus %70
+  fa -- ctus __ %70
   est.
   Cru -- ci --
   fi -- xus,
@@ -1002,7 +1002,6 @@ CredoAltoLyrics = \lyricmode {
   men, a --
   men, a --
   men, a -- %270
-  _
 
   men. %273 finis
 }

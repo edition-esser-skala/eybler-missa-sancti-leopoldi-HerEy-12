@@ -59,7 +59,7 @@ GloriaOboeI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       \pao d'4\f e fis g
     a d,2 cis4
     d2 fis4 d
@@ -332,7 +332,7 @@ CredoOboeI = {
     g2 e %80
     fis d
     R1*2
-    c2~ c8 h-!\ff c-! d-!
+    c2~\f c8 h-!\ff c-! d-!
     e4-! r r2 %85
     R1*5 \noBreak %90
     R1\fermata \bar "||"
@@ -503,7 +503,7 @@ CredoOboeI = {
     a fis
     e8 g cis,4
     d r
-    \pao d,2\ff
+    \pao d,2
     fis %270
     a
     d4 d

@@ -66,7 +66,7 @@ GloriaFagottoII = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       d4\f a d, h'
     fis h e, a
     d, d' d, fis
@@ -300,7 +300,7 @@ CredoFagottoII = {
     h4 h d fis r r
     h,2. gis4 gis gis
     a!2. fis'4 e d
-    cis e g, fis2 a4 %25
+    cis e g,! fis2 a4 %25
     h2 d4 e,2 g4
     a2. fis'4 e d
     cis h a d2 gis,4
@@ -337,7 +337,7 @@ CredoFagottoII = {
     h2 cis %80
     ais h
     R1*2
-    e2~ e8 f-!\ff e-! d-!
+    e2~\f e8 f-!\ff e-! d-!
     c4-! r r2 %85
     R1*5 \noBreak %90
     R1\fermata \bar "||"
@@ -518,7 +518,7 @@ CredoFagottoII = {
     d, h'
     g8 e a a,
     d4 r
-    d,2\ff
+    d,2
     d %270
     d
     d4 d

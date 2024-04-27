@@ -136,7 +136,7 @@ GloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       R1*2
     \mvDl d4\f^\tuttiE d8 d d4 d
     d2 d
@@ -724,8 +724,8 @@ CredoTenore = {
     dis4. dis,8 dis2\fermata %50
     R1
     r2 r4 \clef bass \mvTr fis\pE^\solo
-    fis2\< fis4. fis8
-    fis2\! fis4 r
+    fis2\< fis4.\! fis8
+    fis2 fis4 r
     e4.\pp fis8 gis4 fis %55
     dis2 r4 h'->\cresc
     h fis8 fis fis2\p
@@ -764,7 +764,7 @@ CredoTenore = {
     R1 \noBreak %90
     R\fermata \bar "||"
     \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
-      r4 \mvTr a'\f^\markup \remark "sempre"^\tuttiE
+      r4 \mvTr a'\f^\markup \remark "sempre"
     h d
     d d
     d cis8 d %95
@@ -883,7 +883,7 @@ CredoTenore = {
     r4 a,~ %235
     a a
     cis e
-    g2\f
+    g2\fz
     fis4 d
     h cis %240
     d2
@@ -908,15 +908,15 @@ CredoTenore = {
     d4 r %260
     R2
     r4 r8 a(\<
-    c4\! h8) a
+    \after 8 \! c4 h8) a
     g8([ a)] h g'(
     e4) cis! %265
     fis d
     g8 g e4
     d r8 d,(
     fis4) d8 fis(
-    a4) fis8 a %270
-    d2~
+    a4) fis8 a( %270
+    d2~)
     d
     d,4 r
     R2
@@ -992,7 +992,7 @@ CredoTenoreLyrics = \lyricmode {
   fa -- ctus,
   fa -- ctus
   est, et ho -- mo
-  fa -- ctus %70
+  fa -- ctus __ %70
   est.
 
   Cru -- ci --
@@ -1165,7 +1165,6 @@ CredoTenoreLyrics = \lyricmode {
   men, a --
   men, a --
   men, a -- %270
-  _
 
   men. %273 finis
 }

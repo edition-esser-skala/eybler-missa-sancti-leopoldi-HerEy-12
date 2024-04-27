@@ -58,7 +58,7 @@ GloriaOboeII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       d'4\f cis d d
     d fis g e
     d1
@@ -325,7 +325,7 @@ CredoOboeII = {
     d2 cis~ %80
     cis h
     R1*2
-    g2~ g8 g-!\ff g-! h-!
+    g2~\f g8 g-!\ff g-! h-!
     c4-! r r2 %85
     R1*5 \noBreak %90
     R1\fermata \bar "||"
@@ -384,7 +384,7 @@ CredoOboeII = {
     cis\cresc cis
     cis2\f
     d %145
-    e4 d
+    e4 d~
     d cis
     d r
     R2*6 %154
@@ -408,7 +408,7 @@ CredoOboeII = {
     ais4. h8
     cis4 r
     R2*3 %176
-    r4 h\f
+    r4 h~\f
     h cis~
     cis h~
     h ais %180
@@ -497,7 +497,7 @@ CredoOboeII = {
     e e,
     fis r
     R2
-    d\ff %270
+    d %270
     fis
     fis4 fis
     fis r

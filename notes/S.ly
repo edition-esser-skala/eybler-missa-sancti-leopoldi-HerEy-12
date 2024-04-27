@@ -138,7 +138,7 @@ GloriaSoprano = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       R1*2
     \mvDl d'4\f^\tuttiE d8 d fis4 d
     h2 g'
@@ -732,8 +732,8 @@ CredoSoprano = {
     dis4. dis,8 dis2\fermata %50
     R1
     r2 r4 \clef "treble_8" \mvTr fis,\pE^\solo
-    dis'2\< fis4. e8
-    e4(\! dis) cis r
+    dis'2\< fis4.\! e8
+    e4( dis) cis r
     e4.\pp dis8 cis4 dis %55
     h2 gis'->\cresc
     gis8([ fis)] e dis cis4.(\p dis16[ e)]
@@ -773,7 +773,7 @@ CredoSoprano = {
     R\fermata \bar "||"
     \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
       R2*5 %96
-    r4 r8 \mvTr a'\f^\tuttiE
+    r4 r8 a'\f
     h4 a8 g
     fis([ g)] a4
     R2*7 %106
@@ -831,7 +831,7 @@ CredoSoprano = {
     g fis
     e4. e8
     d4 r8 a(\< %260
-    h4\! a8) g
+    \after 8 \! h4 a8) g
     fis([ g)] a r
     R2
     r4 r8 h(
@@ -840,8 +840,8 @@ CredoSoprano = {
     e8 g cis,4
     d r8 d,(
     fis4) d8 fis(
-    a4) fis8 a %270
-    d2~
+    a4) fis8 a( %270
+    d2~)
     d
     d,4 r
     R2
@@ -1006,7 +1006,6 @@ CredoSopranoLyrics = \lyricmode {
   men, a --
   men, a --
   men, a -- %270
-  _
 
   men. %273 finis
 }

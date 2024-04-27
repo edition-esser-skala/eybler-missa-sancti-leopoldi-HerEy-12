@@ -76,8 +76,8 @@ GloriaCello = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoGloria
-    d'4\f a d, h' % for MIDI
-    % \appoggiatura { a'16[ h cis] } d4\f a d, h'
+    % d'4\f a d, h' % for MIDI
+    \appoggiatura { a'16[ h cis] } d4\f a d, h'
     fis h, e a,
     d8 d' a fis d a' fis d
     g h g d h d g h
@@ -414,7 +414,7 @@ CredoCello = {
     \twotwotime \key h \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
       R1 \noBreak
     R\fermata %50
-    h,2(\p\< ais)\!
+    \mvDl h,2(\p\< ais)\!
     h4( dis fis) r
     R1*4 %56
     r2 r4 fis,\p
@@ -422,7 +422,7 @@ CredoCello = {
     h2 fis'
     h,4 r h r %60
     fis' r cis r
-    fis, fis'\cresc dis h
+    fis, fis' dis\cresc h
     ais r cis\pp r
     fis ais,2 ais4
     h r h'\cresc r %65
@@ -433,10 +433,10 @@ CredoCello = {
     cis2\pp cis, %70
     fis4 g2(\fz e!4) \noBreak
     cis-! fis2(\fz d4)
-    \key h \minor \mvTr h8\f(-\sempreel ais d-> cis h ais d-> cis) \noBreak
+    \key h \minor \mvDl h8\f(-\sempreel\< ais d cis\! h\< ais d cis)\! \noBreak
     h( ais h cis d cis d h)
-    ais( h d-> cis ais h d-> cis) %75
-    ais(\< h cis d e\! g fis cis)
+    ais(\< h d cis\! ais\< h d cis)\! %75
+    ais(\< h cis d e g fis cis)\!
     d( fis g fis e d cis h)
     a!( h cis d e fis g e)
     fis( g fis e d e d cis)
@@ -444,7 +444,7 @@ CredoCello = {
     ais( h ais cis h cis h d)
     e(\< dis e eis fis g fis eis)\!
     e(\< dis e eis fis g fis eis)\!
-    e( g, a h c) f'-!\ff e-! d-!
+    e( g, a h \kneeBeam c) f'-!\ff e-! d-!
     c4-! r r2 %85
     e,,2\p^\tenuto r
     R1*2
@@ -492,7 +492,7 @@ CredoCello = {
     b b'16 a b8 b,
     f f'16 e f8 f, %130
     d' d'16 cis! d8 d,
-    c c'16 b? c8 c,
+    c c'16 h c8 c,
     f f'16 e f8 f,
     d d'16 c d8 d,
     a a'16 g a8 a, %135

@@ -268,7 +268,7 @@ CredoClarinoII = {
     c %255
     c
     g4 r
-    r c~
+    r c
     c g
     e r %260
     R2*8 %268

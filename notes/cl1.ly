@@ -69,7 +69,7 @@ GloriaClarinettoI = {
   \relative c' {
     \clef treble
     \key f \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       c'4\f c c d
     \pao c2 d4 c
     c1
@@ -355,7 +355,7 @@ CredoClarinettoI = {
     d2 b %80
     a1
     R1*2
-    g2~ g8 f-!\ff g-! b-!
+    g2~\f g8 f-!\ff g-! b-!
     b4-! r r2 %85
     R1*5 \noBreak %90
     R1\fermata \bar "||"
@@ -363,7 +363,7 @@ CredoClarinettoI = {
       f2\f \noBreak
     f
     f
-    f %95
+    f~ %95
     f4 e
     f2
     f
@@ -462,7 +462,7 @@ CredoClarinettoI = {
     R2
     a,~
     a
-    g! %195
+    h^\critnote %195
     a
     g
     h
@@ -522,7 +522,7 @@ CredoClarinettoI = {
     c\ff
     e
     f~
-    f~ %255
+    f %255
     f
     e
     d8 e f4~
@@ -536,7 +536,7 @@ CredoClarinettoI = {
     c d~
     d c
     c r
-    c,2\ff
+    c,2
     f %270
     a
     c4 c

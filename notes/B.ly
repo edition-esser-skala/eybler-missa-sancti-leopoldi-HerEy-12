@@ -135,7 +135,7 @@ GloriaBasso = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       R1*2
     \mvDl d'4\f^\tuttiE a8 fis d4 fis
     g2 h
@@ -725,8 +725,8 @@ CredoBasso = {
     dis4. dis,8 dis2\fermata %50
     R1
     r2 r4 \forceclef \mvTr fis\pE^\solo
-    h,2\< ais4. ais8
-    h4(\! dis) fis r
+    h,2\< ais4.\! ais8
+    h4( dis) fis r
     cis4.\pp dis8 e4 fis %55
     h,2 h'->\cresc
     h,4 h8 dis fis4(\p fis,)
@@ -765,7 +765,7 @@ CredoBasso = {
     R\fermata \bar "||"
     \twofourtime \key d \major \time 2/4 \tempoEtResurrexit \newSpacingSection
       R2*5 %96
-    r4 r8 \mvTr a'\f^\tuttiE
+    r4 r8 a'\f
     h4 a8 g
     fis([ g)] a4
     R2*7 %106
@@ -825,15 +825,15 @@ CredoBasso = {
     d,4 r %260
     R2
     r4 r8 fis(\<
-    a4\! g8) fis
+    \after 8 \! a4 g8) fis
     e([ fis)] g e(
     cis!4) a' %265
     d, h'
     g8 e a4
     d, r8 d(
     fis4) d8 fis(
-    a4) fis8 a %270
-    d2~
+    a4) fis8 a( %270
+    d2~)
     d
     d,4 r
     R2
@@ -997,7 +997,6 @@ CredoBassoLyrics = \lyricmode {
   men, a --
   men, a --
   men, a -- %270
-  _
 
   men. %273 finis
 }

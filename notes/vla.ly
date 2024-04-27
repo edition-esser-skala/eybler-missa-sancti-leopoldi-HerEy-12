@@ -81,8 +81,8 @@ GloriaViola = {
   \relative c' {
     \clef alto
     \key d \major \time 4/4 \tempoGloria
-    d'4\f <cis e, a,> <d fis, a,> <h g> % for MIDI
-    % \appoggiatura { a'16[ h cis] } d4\f <cis e, a,> <d fis, a,> <h g>
+    % d'4\f <cis e, a,> <d fis, a,> <h g> % for MIDI
+    \appoggiatura { a'16[ h cis] } d4\f <cis e, a,> <d fis, a,> <h g>
     <a d,> a h cis
     d8 d, fis a fis d a fis
     g d'' h g d h d g
@@ -417,7 +417,7 @@ CredoViola = {
     \twotwotime \key h \major \time 2/2 \tempoEtIncarnatus \newSpacingSection
       R1 \noBreak
     R\fermata %50
-    \after 2 \! <fis fis'>1\pE\<^\conSord
+    \mvDl \after 2 \! <fis fis'>1\pE\<^\conSord
     q2. r4
     R1*4 %56
     r2 r4 ais\p
@@ -436,10 +436,10 @@ CredoViola = {
     ais(\pp fis gis gis,) %70
     fis <g g'>2(\fz e'!4) \noBreak
     cis-! fis2(\fz d4)
-    \key h \minor \mvTr h8\f(-\sempreel ais d-> cis h ais d-> cis) \noBreak
-    h( ais h cis d cis d h)
-    ais( h d-> cis ais h d-> cis) %75
-    ais(\< h cis d e\! g fis cis)
+    \key h \minor \mvDl h8\f(-\sempreel\< ais d cis\! h\< ais d cis)\! \noBreak
+    h_( ais h cis d^[ cis d h])
+    ais(\< h d cis\! ais\< h d cis)\! %75
+    ais_[(\< h cis d] e g fis cis)\!
     d( fis g fis e d cis h)
     a!( h cis d e fis g e)
     fis( g fis e d e d cis)
@@ -628,7 +628,7 @@ CredoViola = {
     d a16 g fis8 a
     fis' g16 a h,8 fis'
     e e,16 dis e8 e'
-    cis e16 cis a'8 a %265
+    cis! e16 cis a'8 a %265
     d,! fis16 d h'8 h
     g e16 g a8 a,
     d4 r
