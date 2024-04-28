@@ -680,3 +680,13 @@ AgnusClarinettoII = {
     R2\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoAgnus
+    R2.*36 %36
+    e2.\f
+    g\fermata \bar "||" %38 finis
+  }
+}

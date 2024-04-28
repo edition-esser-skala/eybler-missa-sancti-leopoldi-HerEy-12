@@ -1441,3 +1441,61 @@ AgnusBassoLyrics = \lyricmode {
   pa -- %100
   cem. %101 finis
 }
+
+AgnusLongBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*10 %10
+    r4^\markup \remark "T" _\markup \remark "B" << { \autoBeamOff
+      d8 d d d
+      f4 d
+    } \\ \context Voice = "Basso" {
+      \voiceTwo \mvTrr d8\pp^\tutti d d d
+      f4 d \oneVoice
+    } >> r
+    R2.
+    r4 << { \autoBeamOff
+      f8 f f f
+      c'2. %15
+      a4
+    } \\ \context Voice = "Basso" {
+      \voiceTwo f8 f f f
+      c2. %15
+      f,4 \oneVoice
+    } >> r r
+    R2.*6 %22
+    r4 \mvTrr a8\pp^\tutti a a a
+    c4 a r
+    R2. %25
+    r4 c8 c c c
+    g2.
+    c4 r r
+    R2.*6 %34
+    r4 \mvTr fis\p^\tutti e %35
+    d(\cresc cis) h
+    a!(\f cis e)
+    a2.\fermata \bar "||" %38 finis
+  }
+}
+
+AgnusLongBassoLyrics = \lyricmode {
+  Mi -- se -- re -- re %11
+  no -- bis,
+
+  mi -- se -- re -- re
+  no -- %15
+  bis.
+
+  Mi -- se -- re -- re %23
+  no -- bis,
+  %25
+  mi -- se -- re -- re
+  no --
+  bis.
+
+  Do -- na %35
+  no -- bis
+  pa --
+  cem. %38 finis
+}

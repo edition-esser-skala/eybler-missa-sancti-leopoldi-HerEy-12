@@ -866,3 +866,48 @@ AgnusViolinoI = {
     fis4 r\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr h'8\pE-\pizz r a r r4
+    g8 r fis r r4
+    e8 r c' r h r
+    a4 r r
+    r c8 r e r %5
+    r4 d8 r c r
+    r4 h8 r a r
+    r4 g8 r b r
+    r4 a8 r g r
+    r4 f8 r a r %10
+    r4 d,8 r f r
+    r4 f8 r d r
+    cis4 r r
+    r f(-\arco d)
+    c!2( e4) %15
+    f r r
+    r b8-\pizz r d r
+    r4 c8 r b r
+    r4 a8 r g r
+    r4 f8 r a r %20
+    r4 gis8 r d' r
+    r4 c8 r h! r
+    r4 a8 r f r
+    r4 c'8 r dis, r
+    e4 r r %25
+    r c'(-\arco a)
+    \once \slurDashed g!2( h4)
+    c r r
+    r f,8-\pizz r a r
+    r4 g8 r f r %30
+    r4 e8 r h' r
+    r4 c8 r h r
+    r4 ais8 r cis r
+    d4 r r
+    R2. %35
+    r8 h(\cresc^\arco cis d e fis)
+    g(\f e cis a g e)
+    cis2.\fermata \bar "||" %38 finis
+  }
+}

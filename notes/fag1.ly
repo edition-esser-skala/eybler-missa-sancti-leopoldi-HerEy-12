@@ -737,3 +737,30 @@ AgnusFagottoI = {
     fis4 r\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongFagottoI = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*3
+    \clef "treble_8" d'2(\p\< dis4
+    fis4.\! e8 c a) %5
+    fis4 r r
+    R2.*9 %15
+    c'2(\p\< cis4
+    e4.\! d8 b g)
+    e4 r r
+    e'2.\p
+    f4 r r %20
+    h,!2.
+    c4 r r
+    R2.*8 %30
+    e2.\p
+    c!4 r r
+    fis!2.
+    d4 r r
+    R2.*2 %36
+    \clef bass a2.\f
+    a\fermata \bar "||" %38 finis
+  }
+}

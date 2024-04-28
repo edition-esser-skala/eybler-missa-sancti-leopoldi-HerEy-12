@@ -1447,3 +1447,60 @@ AgnusAltoLyrics = \lyricmode {
   pa -- %100
   cem. %101 finis
 }
+
+AgnusLongAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*10 %10
+    r4 \mvTrr d8\pp^\tutti d d d
+    f4 d r
+    R2.
+    r4 f8 f f f
+    f2( e4) %15
+    f r r
+    R2.*6 %22
+    r4 \mvTrr a,8\pp^\tutti a a a
+    c4 a r
+    R2. %25
+    r4 c8 c c c
+    e2( d4)
+    c r r
+    r \mvTr f\pE^\solo a
+    g2( f4) %30
+    e r r8 e
+    e8.([ c'16)] c4 r8 h
+    ais8.([\cresc cis16)] e4 r8 fis,\f
+    d'4 h8 fis d h
+    ais4 << \context Voice = "Alto" { \once \stemUp \mvTr fis'\p^\tutti } \\ { fis } >> fis %35
+    fis(\cresc e) d
+    cis(\f e g)
+    g2.\fermata \bar "||" %38 finis
+  }
+}
+
+AgnusLongAltoLyrics = \lyricmode {
+  Mi -- se -- re -- re %11
+  no -- bis,
+
+  mi -- se -- re -- re
+  no -- %15
+  bis.
+
+  Mi -- se -- re -- re %23
+  no -- bis,
+  %25
+  mi -- se -- re -- re
+  no --
+  bis.
+  A -- gnus
+  De -- %30
+  i, qui
+  tol -- lis, qui
+  tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di:_Do -- na %35
+  no -- bis
+  pa --
+  cem. %38 finis
+}

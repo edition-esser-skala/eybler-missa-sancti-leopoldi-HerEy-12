@@ -863,3 +863,48 @@ AgnusViola = {
     a4 r\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr d8\pE-\pizz r d r r4
+    h8 r h r r4
+    g8 r c r d r
+    d4 r r
+    r e8 r a, r %5
+    r4 d8 r fis r
+    r4 h,8 r h r
+    r4 h8 r g r
+    r4 a8 r a r
+    r4 a8 r a r %10
+    r4 d8 r b r
+    r4 d,8 r d r
+    e4 r r
+    r d(-\arco f)~
+    f( a g) %15
+    f r r
+    r d'8-\pizz r g, r
+    r4 c8 r e r
+    r4 a,8 r a r
+    r4 a8 r d, r %20
+    r4 h'!8 r e r
+    r4 e8 r h r
+    r4 c8 r a r
+    r4 dis8 r a r
+    h4 r r %25
+    r a(-\arcoE c)~
+    c( e d)
+    c r r
+    r a8-\pizz r d, r
+    r4 g8 r h r %30
+    r4 h8 r h r
+    r4 a8 r h r
+    r4 cis8 r cis r
+    h4 r r
+    r8 fis(\p^\arco gis ais h cis) %35
+    d4(\cresc e d)
+    cis8(\f a' e cis a cis)
+    e,2.\fermata \bar "||" %38 finis
+  }
+}

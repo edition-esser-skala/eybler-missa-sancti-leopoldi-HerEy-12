@@ -1606,3 +1606,62 @@ AgnusTenoreLyrics = \lyricmode {
   pa -- %100
   cem. %101 finis
 }
+
+AgnusLongTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*4
+    r4 \mvTr c\pE^\solo e %5
+    d2( c4)
+    h r r8 fis'
+    g8.([ e16)] h4 r8 b
+    a8.([ cis16)] e4 r8 a,
+    f'2 e4
+    d4.( c!8) b a
+    gis2.
+    a4 e' e
+    \appoggiatura e8 g4.(\espressivo f8) e([ d)]
+    c2( b4) %15
+    a r r
+    R2.*6 %22
+    r4 \mvTrr a8\pp^\tutti a a a
+    c4 a r
+    R2. %25
+    r4 c8 c c c
+    c2( h4)
+    c r r
+    R2.*6 %34
+    r4 \mvTr ais\p^\tutti ais %35
+    h(\cresc cis) d
+    e2(\f cis4)
+    e2.\fermata \bar "||" %38 finis
+  }
+}
+
+AgnusLongTenoreLyrics = \lyricmode {
+  A -- gnus %5
+  De --
+  i, qui
+  tol -- lis, qui
+  tol -- lis pec --
+  ca -- ta %10
+  mun -- di, pec --
+  ca --
+  ta: Mi -- se --
+  re -- re __
+  no -- %15
+  bis.
+
+  Mi -- se -- re -- re %23
+  no -- bis,
+  %25
+  mi -- se -- re -- re
+  no --
+  bis.
+
+  Do -- na %35
+  no -- bis
+  pa --
+  cem. %38 finis
+}

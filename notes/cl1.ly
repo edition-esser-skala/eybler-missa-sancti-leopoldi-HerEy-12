@@ -734,3 +734,34 @@ AgnusClarinettoI = {
     R2\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoAgnus
+    R2.*3
+    f'2(\p\< fis4
+    a4.\! g8 es c) %5
+    a4 r r
+    d2.\p
+    b4 r r
+    c2.
+    as4 r r %10
+    R2.*5 %15
+    es'2(\p\< e4
+    g4.\! f8 des b)
+    g4 r r
+    R2.*2 %20
+    d'!2.\p
+    es4 r r
+    R2.*5 %27
+    b2(\p\< h4
+    d4.\! c8 as f)
+    d4 r r %30
+    g'2.\p
+    es4 r r
+    R2.*4 %36
+    c2.\f
+    c\fermata \bar "||" %38 finis
+  }
+}

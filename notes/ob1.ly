@@ -659,3 +659,28 @@ AgnusOboeI = {
     R2\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*6 %6
+    h''2.\p
+    g4 r r
+    a2.
+    f4 r r %10
+    R2.*8 %18
+    e2.\p
+    f4 r r %20
+    R2.*7 %27
+    g2(\p\< gis4
+    h4.\! a8 f d)
+    h4 r r %30
+    R2.*2
+    fis'!2.\p
+    d4 r r
+    R2.*2 %36
+    g2\f e4
+    cis2.\fermata \bar "||" %38 finis
+  }
+}

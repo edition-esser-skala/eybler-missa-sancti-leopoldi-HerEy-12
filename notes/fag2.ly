@@ -691,3 +691,13 @@ AgnusFagottoII = {
     d4 r\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongFagottoII = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*36 %36
+    a2.\f
+    a\fermata \bar "||" %38 finis
+  }
+}

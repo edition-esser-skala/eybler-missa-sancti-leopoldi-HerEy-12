@@ -863,3 +863,48 @@ AgnusCello = {
     d4 r\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongCello = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr g'8\pE-\pizz r d r r4
+    e8 r h r r4
+    c8 r a r g r
+    d'4 r r
+    c8 r c' r r4 %5
+    r fis,8 r d r
+    r4 dis8 r h' r
+    r4 e,8 r d r
+    r4 cis8 r a' r
+    r4 d8 r c! r %10
+    r4 b8 r b r
+    r4 b,8 r b r
+    a4 r r
+    r d(-\arco h!)
+    r c c
+    f, r r
+    b8-\pizz r b' r r4
+    r4 e,8 r c r
+    r4 cis8 r a' r
+    r4 d,8 r f r %20
+    r4 e8 r h'! r
+    r4 a8 r g! r
+    r4 f8 r f r
+    r4 f,8 r f' r
+    e4 r r %25
+    r a(-\arco fis!)
+    r \once \slurDashed g( g,)
+    c r r
+    f,8-\pizz r f' r r4
+    r h,8 r g r %30
+    r4 gis8 r gis' r
+    r4 a8 r g r
+    r4 fis!8 r ais r
+    h4 r r
+    r fis(\p^\arco e) %35
+    d(\cresc cis h)
+    a!\f cis e
+    a2.\fermata \bar "||" %38 finis
+  }
+}

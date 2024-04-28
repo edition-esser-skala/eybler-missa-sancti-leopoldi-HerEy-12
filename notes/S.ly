@@ -1448,30 +1448,61 @@ AgnusSopranoLyrics = \lyricmode {
 
   pa -- %100
   cem. %101 finis
-  % Do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
-  % do -- na no -- bis pa -- cem,
+}
+
+AgnusLongSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*10 %10
+    r4 \mvTrr d8\pp^\tutti d d d
+    f4 d r
+    R2.
+    r4 f8 f f f
+    a2( g4) %15
+    f r r
+    r \mvTr b\pE^\solo d
+    c2( b4)
+    a r r8 e'
+    f8.([ d16)] a4 r8 a %20
+    gis8.([ h!16)] d4 r8 e,
+    c'2 h4
+    a4.( g8) f e
+    dis2.
+    e4 h' h %25
+    c4.( f16[ e] d[ c)] h([ a)]
+    g2( f4)
+    e r r
+    R2.*6 %34
+    r4 \mvTr cis'\p^\tutti cis %35
+    d(\cresc e) fis
+    g2(\f e4)
+    cis2.\fermata \bar "||" %38 finis
+  }
+}
+
+AgnusLongSopranoLyrics = \lyricmode {
+  Mi -- se -- re -- re %11
+  no -- bis,
+
+  mi -- se -- re -- re
+  no -- %15
+  bis.
+  A -- gnus
+  De --
+  i, qui
+  tol -- lis, qui %20
+  tol -- lis pec --
+  ca -- ta
+  mun -- di, pec --
+  ca --
+  ta: Mi -- se -- %25
+  re -- re __
+  no --
+  bis.
+
+  Do -- na %35
+  no -- bis
+  pa --
+  cem. %38 finis
 }

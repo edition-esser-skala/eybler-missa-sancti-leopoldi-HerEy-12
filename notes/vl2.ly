@@ -864,3 +864,48 @@ AgnusViolinoII = {
     d4 r\fermata \bar "|." %101 finis
   }
 }
+
+AgnusLongViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    \mvTr g'8\pE-\pizz r fis r r4
+    e8 r dis r r4
+    e8 r fis r g r
+    fis4 r r
+    r a8 r c r %5
+    r4 a8 r a r
+    r4 fis8 r dis r
+    r4 e8 r e r
+    r4 e8 r cis r
+    r4 d!8 r e r %10
+    r4 f8 r d r
+    r4 gis,8 r gis r
+    a4 r r
+    r a(-\arco gis)
+    a( c b) %15
+    a r r
+    r g'8-\pizz r b r
+    r4 g8 r g r
+    r4 e8 r cis r
+    r4 d8 r d r %20
+    r4 e8 r gis r
+    r4 a8 r e r
+    r4 f8 r c r
+    r4 a8 r a' r
+    gis4 r r %25
+    r e(-\arcoE dis)
+    e( g f)
+    e r r
+    r d8-\pizz r f r
+    r4 d8 r d r %30
+    r4 e8 r e r
+    r4 e8 r e r
+    r4 fis!8 r fis r
+    fis4 r r
+    r8 fis(\p^\arco gis ais h cis) %35
+    d\cresc h,( cis d e fis)
+    g(\f cis e e, cis e)
+    g,2.\fermata \bar "||"
+  }
+}
