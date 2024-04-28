@@ -1251,8 +1251,8 @@ AgnusAlto = {
     R2.*4
     \mvTll r4^\tuttiE \mvTr a'\p^\edolce a %5
     a2.
-    fis4 r r8 fis
-    g4\cresc g8 g e e
+    fis4 r r8 fis\cresc
+    g4 g8 g e e
     e4 e r
     d( a') g %10
     f(\decresc fis) g

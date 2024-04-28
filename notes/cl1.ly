@@ -643,7 +643,7 @@ BenedictusClarinettoI = {
 AgnusClarinettoI = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoAgnus
+    \key f \major \time 3/4 \tempoAgnus
     R2.*3
     f'2(\p\< fis4
     a4.\! g8 es c) %5
@@ -660,7 +660,7 @@ AgnusClarinettoI = {
     d'!2.\p
     es!4 r r
     R2.*2 %21
-    b2(\p\< h4
+    b!2(\p\< h4
     d4.\! c8 as f
     d4) r r
     g'2.\p %25
@@ -668,13 +668,13 @@ AgnusClarinettoI = {
     R2.*4 %30
     c2.\f \noBreak
     c\fermata \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoDona \newSpacingSection
+    \twofourtime \time 2/4 \tempoDona \newSpacingSection
       R2*4 %36
     c4\p e,
     f4. d'8
     c4. b8
     a4 r %40
-    r a\f
+    r a~\f
     a g8 h
     c d e f
     e g,4 g8

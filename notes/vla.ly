@@ -805,8 +805,8 @@ AgnusViola = {
     r4 a8 r h r
     r4 cis8\cresc r cis r
     h4\! r r
-    r r8 \mvTr fis(\p-\arco gis ais)
-    h( h cis\cresc d e d) %30
+    r r8 fis(\p^\arco gis ais)
+    h( h cis d\cresc e d) %30
     cis(\f a'! e cis a cis) \noBreak
     e,2.\fermata \bar "||"
     \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection

@@ -1520,7 +1520,7 @@ AgnusOrgano = {
     r4 a8 r g r
     r4 fis!8\cresc r ais r
     h4\! r r
-    r \mvTr fis(\p-\arco e)
+    r fis(\p^\arco e)
     d( cis\cresc h) %30
     \mvTr a!\f-\tutti cis e \noBreak
     a2.\fermata \bar "||"
@@ -1538,7 +1538,7 @@ AgnusOrgano = {
     fis, fis' h, h'
     e,, e' a, a' %50
     d, h e e,
-    a a'-\tasto a a
+    a a' a-\tasto a
     a, a' a a
     a, a' a a
     a, a' a a %55
@@ -1583,7 +1583,7 @@ AgnusOrgano = {
     a fis d fis a gis a a,
     d4 r %95
     R2*4
-    \mvTr d8\p-\pizz r d r %100
+    \mvTr d8\pE-\pizz r d r %100
     d4 r\fermata \bar "|." %101 finis
   }
 }
@@ -1621,28 +1621,28 @@ AgnusBassFigures = \figuremode {
   <6> q %65
   <6 4> \bc <[5 3]>
   r2
-  r8 <6\\> <8> <6 _+>
+  r8 <6\\> <8> <6 5>
   r4 <6[!]>8 <5>
   <6> q <8> <6> %70
   <_+>4 \once \bassFigureExtendersOn q8 <6>
   <5 3> <\t 3> <5 3> <\t 3>
   <5 3> <\t 3> <8 3> <6\\>
   <_+> <\t> <6>4
-  r2 %75
+  <_+>2 %75
   r
   r
   r
-  r4 <5!>
+  r4 <\fivehatnatural>
   <7 _+> <8> %80
   <7> <8>
-  <6> <6 4>8 <[7] 3>
+  <6> <6 4>8 <5 3>
   r4 <6>
   r q
   r q %85
   <4>8 <6> q <7>
   <_+>4. \once \bassFigureExtendersOn q8
   <6>4 q
-  r q
+  <_+> <6>
   q4.. \bassFigureExtendersOn q16 %90
   <6\!>4.. <6>16 \bassFigureExtendersOff
   <6 _!>2

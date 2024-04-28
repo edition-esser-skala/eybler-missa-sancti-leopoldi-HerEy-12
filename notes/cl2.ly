@@ -610,17 +610,17 @@ BenedictusClarinettoII = {
 AgnusClarinettoII = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoAgnus
+    \key f \major \time 3/4 \tempoAgnus
     R2.*30 %30
     e2.\f \noBreak
     g\fermata \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoDona \newSpacingSection
+    \twofourtime \time 2/4 \tempoDona \newSpacingSection
       R2*4 %36
     e4\p g
     f2~
     f4 e
     f r %40
-    r a\f
+    r a~\f
     a g8 h
     c d e f
     e g,4 g8

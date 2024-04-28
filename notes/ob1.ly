@@ -621,7 +621,7 @@ AgnusOboeI = {
     d cis %50
     \pa h8 d a gis
     a4 \pd r
-    \once \tieDashed a2~
+    a2~
     a4^\critnote g'!8. fis16
     e8. d16 cis8 d %55
     fis( e) r4

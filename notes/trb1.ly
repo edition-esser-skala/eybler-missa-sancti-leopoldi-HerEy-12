@@ -512,9 +512,9 @@ AgnusTromboneI = {
     \pa d8 fis e d \pd
     cis4 r
     e4. fis8
-    \once \slurDashed fis( e) cis8. d16
+    fis e cis8. d16
     e4. fis8 %55
-    fis( e) r4
+    fis e r4
     R2*10 %66
     r4 h'~\f
     h8 a g fis

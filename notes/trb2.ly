@@ -509,9 +509,9 @@ AgnusTromboneII = {
     fis'8 d cis h
     a4 r
     cis4. d8
-    \once \slurDashed d( cis) a8. h16
+    d cis a8. h16
     cis4. d8 %55
-    d( cis) r4
+    d cis r4
     R2*11 %67
     h2~\f
     h4 r

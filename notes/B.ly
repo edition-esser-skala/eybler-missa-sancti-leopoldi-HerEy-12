@@ -1247,8 +1247,8 @@ AgnusBasso = {
     R2.*4
     \mvTll r4^\tuttiE \mvTr c\p^\edolce a %5
     fis'2.
-    dis4 r r8 h'
-    e,4\cresc e8 e d! d
+    dis4 r r8 h'\cresc
+    e,4 e8 e d! d
     cis4 cis r
     d2 a'4 %10
     b2\decresc b,4

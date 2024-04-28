@@ -303,8 +303,8 @@ AgnusTimpani = {
     g2\pp\startTrillSpan
     c4\stopTrillSpan r %65
     R2*4
-    g2\f\trill %70
-    c4 r
+    g2\f\startTrillSpan %70
+    c4\stopTrillSpan r
     c r
     R2*2
     g4 r %75
@@ -325,8 +325,8 @@ AgnusTimpani = {
     R2*2 %91
     g4 c
     R2
-    g\trill
-    c4 r %95
+    g\startTrillSpan
+    c4\stopTrillSpan r %95
     R2*3
     c2~\pp\startTrillSpan
     c4\stopTrillSpan r %100

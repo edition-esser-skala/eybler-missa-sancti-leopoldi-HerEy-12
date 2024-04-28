@@ -795,8 +795,8 @@ AgnusViolinoII = {
     r4 e8 r e r
     r4 fis!8\cresc r fis r
     fis4\! r r
-    r8 \mvTr fis(\p-\arco gis ais h cis)
-    d( fis, ais\cresc h cis d) %30
+    r8 fis(\p^\arco gis ais h cis)
+    d( fis, ais h\cresc cis d) %30
     e(\f cis a e cis e) \noBreak
     g,2.\fermata \bar "|| "
     \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
@@ -822,7 +822,7 @@ AgnusViolinoII = {
     e8-! fis16([ g] a g fis e)
     r8 cis32( d) r16 r8 dis32( e) r16 %60
     r8 his32( cis) r16 r8 cis32( d) r16
-    r8 \slurDashed h32( cis) r16 cis32( d) r16 d32( e) r16 \slurSolid
+    r8 h32( cis) r16 cis32( d) r16 d32( e) r16
     r8 fis32( ais) r16 ais32( cis) r16 cis32( fis) r16
     r8 fis,32( g) r16 r8 e32( cis) r16
     r8 d32( fis) r16 r8 h,32( g') r16 %65
@@ -858,9 +858,9 @@ AgnusViolinoII = {
     d, r r4
     R2
     r8 \mvTr d(\p-\edolce cis h) %95
-    a8.( gis16 \acciaccatura a8 g16[ fis g e])
+    a8.( gis16 \grace a g[ fis g e])
     d8 r r4
-    d8-\pizz r d r %100
+    \mvTr d8\pE-\pizz r d r %100
     d4 r\fermata \bar "|." %101 finis
   }
 }

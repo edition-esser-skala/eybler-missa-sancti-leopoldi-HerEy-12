@@ -1253,8 +1253,8 @@ AgnusSoprano = {
     R2.*4
     \mvTll r4^\tuttiE \mvTr c'\p^\edolce e %5
     d2( c4)
-    h r r8 h
-    h8.([\cresc e16)] e8 e fis g
+    h r r8 h\cresc
+    h8.([ e16)] e8 e fis g
     g8.([ a,16)] a4 r
     a( f') cis %10
     d4.(\decresc a8) b([ g)]
@@ -1264,9 +1264,9 @@ AgnusSoprano = {
     c2( b4) %15
     a r r8 a\cresc
     a8.([ d16)] d8 c h! a
-    gis4 h r
+    gis4 h! r
     c2 cis4
-    d4.(\decresc f16[ e] d[ c)] h([ a)] %20
+    d4.( f16[\decresc e] d[ c)] h([ a)] %20
     g2(\pp f4)
     e r r
     r \mvTr f\p^\edolce a
@@ -1276,7 +1276,7 @@ AgnusSoprano = {
     ais8.([ cis16)] e4 r8 fis,\f
     d'4 h8 fis d h
     ais4 fis' r
-    r8\p h([ cis)]\cresc d e fis %30
+    r8 h([\p cis)] d\cresc e fis %30
     g2(\f e4) \noBreak
     cis2.\fermata \bar "||"
     \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection

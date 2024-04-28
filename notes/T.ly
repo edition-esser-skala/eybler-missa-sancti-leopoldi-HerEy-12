@@ -1410,8 +1410,8 @@ AgnusTenore = {
     R2.*4
     \mvTll r4^\tuttiE \mvTr c\p^\edolce c %5
     a2.
-    h4 r r8 dis
-    e8.([\cresc h16)] h8 h b b
+    h4 r r8 dis\cresc
+    e8.([ h16)] h8 h b b
     a8.([ cis16)] e4 r
     f2 e4 %10
     d2\decresc d8([ b)]
@@ -1433,7 +1433,7 @@ AgnusTenore = {
     cis8.([ ais16)] ais4 r8 cis\f
     h4 d8 fis d h
     ais4 fis r
-    r8\p fis([ ais)]\cresc h cis d %30
+    r8 fis([\p ais)] h\cresc cis d %30
     \mvDl e2\f( cis4) \noBreak
     e2.\fermata \bar "||"
     \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection

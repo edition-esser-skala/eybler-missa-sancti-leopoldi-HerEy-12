@@ -769,7 +769,7 @@ AgnusCello = {
     \clef bass
     \key g \major \time 3/4 \tempoAgnus
     \mvTr g'8\pE-\pizz r d r r4
-    e8 r h^\critnote r r4
+    e8 r h-\critnote r r4
     c8 r a r g r
     d'4 r r
     c8 r c' r r4 %5
@@ -796,7 +796,7 @@ AgnusCello = {
     r4 a8 r g r
     r4 fis!8\cresc r ais r
     h4\! r r
-    r \mvTr fis(\p-\arco e)
+    r fis(\p^\arco e)
     d( cis\cresc h) %30
     a!\f cis e \noBreak
     a2.\fermata \bar "||"
@@ -859,7 +859,7 @@ AgnusCello = {
     a fis d fis a gis a a,
     d4 r %95
     R2*4
-    \mvTr d8\p-\pizz r d r %100
+    \mvTr d8\pE-\pizz r d r %100
     d4 r\fermata \bar "|." %101 finis
   }
 }
