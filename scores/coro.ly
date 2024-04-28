@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 \include "../definitions.ly"
 \include "score_settings/coro.ly"
@@ -251,6 +251,41 @@
         >>
         \new Staff { \AgnusOrgano }
         \new FiguredBass { \AgnusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6a" "Agnus Dei (long version)"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \AgnusLongSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \AgnusLongSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \AgnusLongAlto }
+          }
+          \new Lyrics \lyricsto Alto \AgnusLongAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \AgnusLongTenore }
+          }
+          \new Lyrics \lyricsto Tenore \AgnusLongTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \AgnusLongBasso }
+          }
+          \new Lyrics \lyricsto Basso \AgnusLongBassoLyrics
+        >>
+        \new Staff { \AgnusLongOrgano }
+        \new FiguredBass { \AgnusLongBassFigures }
       >>
     }
   }

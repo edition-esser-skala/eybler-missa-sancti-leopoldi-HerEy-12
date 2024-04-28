@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 \include "../definitions.ly"
 #(define option-instrument-name "org")
@@ -66,6 +66,17 @@
       <<
         \new Staff { \AgnusOrgano }
         \new FiguredBass { \AgnusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6a" "Agnus Dei (long version)"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \AgnusLongOrgano }
+        \new FiguredBass { \AgnusLongBassFigures }
       >>
     }
   }

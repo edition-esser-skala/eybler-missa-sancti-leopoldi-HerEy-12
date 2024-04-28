@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 \include "../definitions.ly"
 #(define option-instrument-name "cl 2")
@@ -78,6 +78,19 @@
         \new Staff {
           \set Staff.instrumentName = \transposedNameShort "cl 2" "A" ""
           \AgnusClarinettoII
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6a" "Agnus Dei (long version)"
+    \addTocEntry
+    \paper { systems-per-page = #1 }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "cl 2" "A" ""
+          \AgnusLongClarinettoII
         }
       >>
     }

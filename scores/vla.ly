@@ -1,7 +1,7 @@
-\version "2.24.0"
+\version "2.24.2"
 
 \include "../definitions.ly"
-#(define option-instrument-name (markup #:center-column ("vla" "1, 2")))
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Viola I, II"
+          \set Staff.instrumentName = "Viole"
           \KyrieViola
         }
       >>
@@ -61,6 +61,16 @@
     \score {
       <<
         \new Staff { \AgnusViola }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6a" "Agnus Dei (long version)"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \AgnusLongViola }
       >>
     }
   }

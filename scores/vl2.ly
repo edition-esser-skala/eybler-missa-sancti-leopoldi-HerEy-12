@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 \include "../definitions.ly"
 #(define option-instrument-name "vl 2")
@@ -61,6 +61,16 @@
     \score {
       <<
         \new Staff { \AgnusViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6a" "Agnus Dei (long version)"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \AgnusLongViolinoII }
       >>
     }
   }
