@@ -4,7 +4,7 @@ GloriaTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       c4\f g c c
     c r r2
     c8 c16 c c8 c c4 c

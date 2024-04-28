@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.2"
 
 #(define option-movement-title-format "number-title")
 #(define option-print-all-bar-numbers #f)
@@ -15,17 +15,11 @@ silevano = \markup \whiteout \remark "si levano i sordini"
 vlne = \markup \remark "vlne"
 
 forceclef = \set Staff.forceClef = ##t
+fzp = \dynScript "fzp" ##f
 mvDr = \once \override DynamicText.X-offset = #2
 mvTll = \once \override TextScript.X-offset = #-3
 tinyGroupDistance = \setGroupDistance #12 #12
-fivehat = \markup {
-  \combine
-  \figured-bass 5
-  \path #.15 #'(
-    (rmoveto 0 1.2)
-    (rlineto .5 .5)
-    (rlineto .5 -.5))
-}
+fivehatnatural = \markup { \concat { \raise #.3 \fontsize #-5 \natural \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) } }
 slurpos = #(define-music-function
   (parser location beg end)
   (number? number?)
@@ -34,6 +28,7 @@ slurpos = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Adagio ma non tanto"
 tempoGloria = \tempoMarkup "Allegro spiritoso"
+  % disable appoggiatura in first bar for MIDI generation
 tempoCredo = \tempoMarkup "Allegro"
   tempoEtIncarnatus = \tempoMarkup "Adagio ma non troppo"
   tempoEtResurrexit = \tempoMarkup "Allegro vivace"

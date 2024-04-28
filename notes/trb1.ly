@@ -32,7 +32,7 @@ GloriaTromboneI = {
   \relative c' {
     \clef alto
     \key d \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       d4\f e fis g
     a r r2
     d, fis

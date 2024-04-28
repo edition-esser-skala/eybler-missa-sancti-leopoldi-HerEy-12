@@ -4,28 +4,34 @@ composer:
 title: Missa Sancti Leopoldi
 id: HerEy 12
 genre: mass
-scoring: S, A, 2 T, 2 B (solo), S, A, T, B (coro),\\2 ob, 2 cl (A/\flat B), 2 fag, 2 cor (\flat B/D), 2 clno (D), 3 trb, timp (D–A),\\2 vl, 2 vla, vlc, b, org
+scoring: S, A, 2 T, 2 B (solo), S, A, T, B (coro),\\2 ob, 2 cl (A/\flat B), 2 fag, 2 cor (D/\flat B), 2 clno (D), 3 trb, timp (D–A),\\2 vl, 2 vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 561
+    date: 1820
+    license: public domain
+    principal: true
+    notes: full score (101 pages); trb, clno, and timp are written on 15 separate pages
   C1:
     siglum: A-Wn
     shelfmark: F24.St.Peter.A68(I)
     date: 1827
     url: https://data.onb.ac.at/rec/AC14328819
     license: public domain
-    principal: true
     notes: full score; Tobias Haslinger, Vienna, plate number 5045
-  D1:
-    siglum: A-Ed
-    shelfmark: A 168
-    rism: 600037958
-    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/624.html
+  C2:
+    siglum: A-Wn
+    shelfmark: F24.St.Peter.A68(II)
+    date: 1827
+    url: https://data.onb.ac.at/rec/AC14328822
     license: public domain
-    notes: parts for S (2×), A (2×), T, B, cl 1, cl 2, vl 1 (2×), vl 2 (2×), vla 1, vla 2, vlc, vlne, and org
+    notes: parts; Tobias Haslinger, Vienna, plate number 5048
 imslp: Missa_Sancti_Leopoldi,_HerEy_12_(Eybler,_Joseph)
 parts:
   cl1: Clarinetto I in A/\flat B
   cl2: Clarinetto II in A/\flat B
-  cor12: Corno I, II in \flat B/D
+  cor12: Corno I, II in D/\flat B
   ottoni: Clarino I, II in D\\Timpani in D–A
-  vla: Viola I, II
+  vla: Viole

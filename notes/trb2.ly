@@ -30,7 +30,7 @@ KyrieTromboneII = {
 GloriaTromboneII = {
   \relative c' {
     \key d \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       a4\f cis d d
     d r r2
     a a

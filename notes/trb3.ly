@@ -32,7 +32,7 @@ GloriaTromboneIII = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoGloria
-    % \grace { s16*3 }
+    \grace { s16*3 }
       fis4\f a d, h'
     fis r r2
     fis d
