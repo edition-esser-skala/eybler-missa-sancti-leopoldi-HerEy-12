@@ -1098,20 +1098,20 @@ BenedictusSopranoSolo = {
     d4 e8 f
     c([ a')] g16([ f)] e([ d)] %20
     c4. b8
-    a c \after 8 \< f4~
-    f16[ a] g f\! e([ d)] c([ h)]
+    a c f4~
+    f16[\< a] g f\! e([ d)] c([ h)]
     c4 r
     R2 %25
-    r8 c\< d16([ e)] f g
-    a4\> g16([ f)]\! e([ d)]
-    c8.\! b16 a8 f'
+    r8 c d16([\< e)] f g\!
+    a4 g16([\> f)] e([ d)]\!
+    c8. b16 a8 f'
     f16([ d)] b g c8.\fz e,16
     f8 a b c16 d %30
     c([ f a f] c[ a)] f a
     c4.-> e,8
     f4 r
     R2*4 %37
-    f'4.\pE d8
+    f'4. d8
     f([ es!)] c4
     R2 %40
     r4 r8 f,

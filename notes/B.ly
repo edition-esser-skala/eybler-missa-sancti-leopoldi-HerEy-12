@@ -1094,12 +1094,12 @@ BenedictusBassoSolo = {
     b b, r b'
     a4 a8 a %20
     e g16 g e8 c
-    f4 r8 f\<
-    d e16 f\! g8 g,
+    f4 r8 f
+    d\< e16 f\! g8 g,
     c4 g'8.-> f16
     f8 e a8.-> g16 %25
     g8 f r4
-    r8 a,\< b16([ c)] d e\!
+    r8 a,b16([\<  c)] d e\!
     \after 8 \turn f8. g16 a8 a,
     b b16 b c8. c16
     f,8 es'! d c16 h %30
@@ -1107,7 +1107,7 @@ BenedictusBassoSolo = {
     c8 a16 f c'8. c16
     f4 r
     R2*6 %39
-    d4~\pE d16([ f)] b([ c)] %40
+    d4~ d16([ f)] b([ c)] %40
     c8([ b)] f4
     r r8 b
     a([ f)] b r
@@ -1127,8 +1127,8 @@ BenedictusBassoSolo = {
     g a16 b c8 c,
     f4 r
     R2
-    r8 d\< es16([ f)] g a %60
-    b8.\! b,16 b8\< b'
+    r8 d es16([\< f)] g a\! %60
+    b8. b,16 b8 b'
     es,4\fz es8 es
     b'4 es,8 es
     f4. f8

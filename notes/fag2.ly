@@ -579,7 +579,7 @@ BenedictusFagottoII = {
     b8 r r4
     R2*4 %23
     r4 g8.-> f16
-    f8( e?) a8.-> g16 %25
+    f8( e) a8.-> g16 %25
     g8( f) r4
     f,2~\fp
     f8 f f r
@@ -590,8 +590,8 @@ BenedictusFagottoII = {
     \clef "treble_8" r8 f'16( g) g( a) a( h)
     h( c) c( es) d( b c f,)
     b4 r
-    \clef bass R2*10 %48
-    r8 f4\pp f8
+    R2*10 %48
+    \clef bass r8 f4\pp f8
     b2 %50
     f4 r
     R2
@@ -613,7 +613,7 @@ BenedictusFagottoII = {
     r8 es,4\fz es8
     b' d'16(\decresc c) c( b) b( a)\! %70
     b8 r r4
-    r8 as([-> \scriptOut g)]-! es(
+    r8 as([\p-> \scriptOut g)]-! es(
     \scriptOut d8)-! r f r
     d4 r\fermata \bar "|." %74 finis
   }

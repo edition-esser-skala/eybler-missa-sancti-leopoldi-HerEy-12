@@ -1342,15 +1342,15 @@ BenedictusOrgano = {
     r g r es
     f-! b,-! r4
     R2*4 %8
-    f'8-\pizz r b, r
+    \mvDl f'8\pE-\pizz r b, r
     f' r b r %10
     \mvTrh b,2\fp-\arco
     r8 es-\pizz es r
     d r es r
     f r f, r
-    b-!-\arco b'( d b) %15
+    b-\arco b'( d b) %15
     f r f, r
-    b-! b'( d b)
+    b b'( d b)
     f r f, r
     b r b' r
     a, r a' r %20
@@ -1361,7 +1361,7 @@ BenedictusOrgano = {
     c c' a, c %25
     f, f' r4
     f,8\fp f' f f
-    f16 f, a c f8 a,
+    f16( f, a c) f8 a,
     b r c r
     f, es'! d16( d' c h) %30
     c8 r c r
@@ -1381,9 +1381,9 @@ BenedictusOrgano = {
     r8 b-\pizz b d %45
     es r c r
     f r f, r
-    b(-\arco b' d b)
+    b-\arco b'( d b)
     f r f, r
-    b b' d b %50
+    b \once \slurDashed b'( d b) %50
     f r f, r
     b b c d
     es f es d
@@ -1403,8 +1403,8 @@ BenedictusOrgano = {
     R2
     \mvDll b8\fp b' b b
     es,, es' es es
-    b es\decresc f f, %70
-    \mvTr b2~\p-\tastoE
+    b\decresc es f f, %70
+    b2~\p
     b~
     b8 r b r
     b4 r\fermata \bar "|." %74 finis

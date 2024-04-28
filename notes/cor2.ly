@@ -358,8 +358,8 @@ BenedictusCornoII = {
     c4 r %5
     R2*9 %14
     e2\pp %15
-    g\<
-    c8\! r r4
+    g
+    c8 r r4
     R2*8 %25
     r8 g\< g g
     g2~\>

@@ -690,7 +690,7 @@ BenedictusViolinoII = {
     f( es c es) a,8. c16
     b( d g b) es,( g c es)
     <es, c>8-! <b d>-! r4
-    r8 d-\pizz f b %5
+    r8 \mvDl d\pE-\pizz f b %5
     r c, f a
     r b, d f
     r f f a
@@ -707,12 +707,12 @@ BenedictusViolinoII = {
     r b r b
     r f r f %20
     r g r e
-    f4 r8 c\<
-    a'16( f g a)\! g( f e d)
+    f4 r8 c
+    a'16(\< f g a)\! g( f e d)
     c4 r16 g'8 f16
     r f( e g) f a8 g16 %25
-    r g( f\< a b c d e)
-    f\> f,8 f'16\! e( d c b)
+    r g( f a b\< c d e)\!
+    f f,8 f'16 e(\> d c b)\!
     r a8 g16 f( a) a( c)
     d,8 g r e
     r16 f8 f16~ f b( a gis) %30
@@ -750,13 +750,13 @@ BenedictusViolinoII = {
     es(\fz g' es b) g8 es'
     r d r c
     r b r a
-    b16 \after 16 \cresc d,8 b'16 f( c' b d) %65
+    b16 d,8 b'16 f(\cresc c' b d) %65
     es8-!\! <es g, b,>-! r4
     R2
     r16 f,(\fp as f as f as f)
     g( es') g8~\fz g16( a!32 g f16 es)
-    es( d) d(\decresc c) c( b) b( a) %70
-    b8(\p as g c,)
+    es(\decresc d) d( c) c( b) b( a) %70
+    b8( as\p g c,)
     d( as g c)
     b r b r
     b4 r\fermata \bar "|." %74 finis

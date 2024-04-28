@@ -691,7 +691,7 @@ BenedictusCello = {
     f, f' a f
     r g r es
     f-! b,-! r4
-    b'-\pizz r %5
+    \mvDl b'\pE-\pizz r %5
     f r
     b, r8 a
     b d f r
@@ -714,7 +714,7 @@ BenedictusCello = {
     c c' a, c %25
     f, f' r4
     \mvDl f,8\fp f' f f
-    f16 f, a c f8 a,
+    f16( f, a c) f8 a,
     r b r c
     f, es! d16( d' c h) %30
     c8 r c r
@@ -748,7 +748,7 @@ BenedictusCello = {
     f r d f
     b, b' r4 %60
     b,8 b' b b
-    es,\fz es'~ es16( b g es)
+    es,\fz es'~ \once \slurDashed es16( b g es)
     b8 b' r es,
     r f r f,
     b( b'\cresc a as) %65
@@ -756,7 +756,7 @@ BenedictusCello = {
     R2
     b'8\fp b' b b
     es,, es' es es
-    b es\decresc f f, %70
+    b\decresc es f f, %70
     b2~\p
     b~
     b8 r b r

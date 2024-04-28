@@ -616,8 +616,8 @@ BenedictusFagottoI = {
     \clef "treble_8" r8 a16( b) b( c) c( d)
     d( es) es( g) f( d es c)
     d4 r
-    \clef bass R2*10 %48
-    r8 c4\pp c8
+    R2*10 %48
+    \clef bass r8 c4\pp c8
     d2 %50
     c4 r
     R2
@@ -639,7 +639,7 @@ BenedictusFagottoI = {
     r8 es,4\fz es8
     b' f'16(\decresc es) es( d) d( c)\! %70
     \pao b8 r r4
-    r8 d([-> \scriptOut es)]-! a,(
+    r8 d([\p-> \scriptOut es)]-! a,(
     \scriptOut b8)-! r d r
     b4 r\fermata \bar "|." %74 finis
   }

@@ -1095,20 +1095,20 @@ BenedictusAltoSolo = {
     d8 f r f
     f4 e16([ f)] g([ a)] %20
     g4~ g16([ b)] e, g
-    \after 8 \turn f8. a16 c8 c,\<
-    f g16 a\! g8. f16
+    \after 8 \turn f8. a16 c8 c,
+    f\< g16 a\! g8. f16
     e4 b'!8.-> a16
     a8 g c8.-> b16 %25
     b8 a r4
-    r8 c,\< d16([ e)] f g
-    \after 8 \turn a8.\! b16 c8 f,
+    r8 c, d16([\< e)] f g\!
+    \after 8 \turn a8. b16 c8 f,
     d g16 g f([ e)] c'([ b)]
     a8 f f f16 f %30
     a2~
     a16([ c)] f c c([ b)] a([ g)]
     f4 r
     R2*4 %37
-    d'4.\pE b8
+    d'4. b8
     d([ c)] f,4
     R2 %40
     r4 r8 f
@@ -1130,11 +1130,11 @@ BenedictusAltoSolo = {
     b16([ d)] c b a([ g)] e([ g)]
     \appoggiatura g8 f4 r
     R2
-    r8 f\< g16([ a)] b c %60
-    d8.\! b16 b8\< b
+    r8 f g16([\< a)] b c\! %60
+    d8. b16 b8 b
     b4\fz b8 b
     b4 b8 g
-    f16([ b)] b d f8. a,16
+    f16([ b)] b d f8.\fz a,16
     b8 f f b16 b %65
     b4\cresc g8 g
     f16([\! f')] d b a8. c16
@@ -1231,14 +1231,14 @@ BenedictusAltoLyrics = \lyricmode {
   O -- %32
   san -- na in ex --
   cel -- sis, o --
-  san -- na __ in __ ex -- %35
+  san -- na in ex -- %35
   cel --
   sis.
 
   O -- %67
   san -- na in ex --
   cel -- sis, o --
-  san -- na __ in __ ex -- %70
+  san -- na __ in ex -- %70
   cel --
 
   sis. %73 finis

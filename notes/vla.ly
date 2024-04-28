@@ -690,11 +690,11 @@ BenedictusViola = {
   \relative c' {
     \clef alto
     \twofourtime \key b \major \time 2/4 \tempoBenedictus
-    r8 <b d>\f r q
-    r <a c>r q
+    r8 << { d } \\ { b\f } >> r << { d } \\ { b } >>
+    r << { c } \\ { a } >> r << { c } \\ { a } >>
     r b r g'
     f-! f-! r4
-    r8 b,-\pizz d f %5
+    r8 \mvDl b,\pE-\pizz d f %5
     r a, c f
     r f b, f
     r b f' f,
@@ -707,7 +707,7 @@ BenedictusViola = {
     d b4 f8 %15
     r es'4 a,8
     b b4 d8
-    r c f a,
+    r c( f a,)
     b f' r f
     r c r c %20
     r c r c
@@ -721,7 +721,7 @@ BenedictusViola = {
       \after 8 \turn a8. b16 c8 f,~
       \oneVoice f[ d]
     } \\ {
-      a8 a16 b( c d e)
+      a8 a16 b(\< c d e)\!
       \after 8 \turn f8. g16 a8 f
       s4
     } >> r8 c
@@ -760,13 +760,13 @@ BenedictusViola = {
     g8\fz g,~ g16( b es g)
     r8 b r g
     r f r f
-    f16 \after 16 \cresc f8 f f b16 %65
+    f16 f8 f\cresc f b16 %65
     b8-!\! <b es, g,>-! r4
     R2
     r8 b,\pE b b
     es, es' es es
-    b es\decresc f f %70
-    d\p( f b, es)
+    b\decresc es f f %70
+    d( f\p b, es)
     d( f, g es)
     d r f r
     d4 r\fermata \bar "|." %74 finis

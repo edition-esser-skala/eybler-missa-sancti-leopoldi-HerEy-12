@@ -454,7 +454,7 @@ BenedictusTromboneI = {
     b4 r %5
     R2*9 %14
     d2\pp %15
-    \after 2 \! c\<
+    c
     R2*7 %23
     r8 c4\pp c8
     c2~ %25
@@ -472,16 +472,16 @@ BenedictusTromboneI = {
     d2
     c4 r
     R2*3 %52
-    g'2(\p
-    es4) r
-    f2( %55
-    d4) r
+    g'2\p
+    es4 r
+    f2 %55
+    d4 r
     R2
     r8 f4\pp f8
     f2~
     f4 r %60
     R2
-    \mvTr b,4.\fz-\tenuto r8
+    \mvTr b,4.\fz-\tenutoE r8
     R2*5 %67
     as'2\sfp
     g4 r

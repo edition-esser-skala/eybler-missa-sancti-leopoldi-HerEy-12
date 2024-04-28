@@ -604,7 +604,7 @@ BenedictusClarinettoI = {
     r4 c8.-> h16
     h8( a) d8.-> c16 %25
     c8( h) r4
-    r8 d,\< e16( fis g a)\!
+    r8 d, e16(\< fis g a)\!
     \after 8 \turn h8. c16 d8 r
     R2*3 %31
     r16 d,( g h) d( c h a)
@@ -624,16 +624,16 @@ BenedictusClarinettoI = {
     e4) r
     R2*3
     r8 g, a16(\< h c d)\! %60
-    e8 c~ c8.\< b16\!
+    \pa e8 c~ c8. b16 \pd
     \mvTrh a4.\fz-\tenuto r8
     R2*2
     r8 c(\< d e) %65
     f-!\! a-! r4
-    r16 e,8 g16~ g( e f d)
+    r16 e,8 g16~ g e( f d)
     e4 r
-    r8 c'~\fz c16( d32 c) h16( a)
+    r8 c'~\fz c16( d32 c h16 a)
     a( g) r8 r4 %70
-    r8 e'([-> \scriptOut f])-! h,(
+    r8 e'([\p-> \scriptOut f])-! h,(
     \scriptOut c-!) r r4
     R2
     R\fermata \bar "|." %74 finis

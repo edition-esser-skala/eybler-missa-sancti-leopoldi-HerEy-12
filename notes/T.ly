@@ -1257,12 +1257,12 @@ BenedictusTenoreSolo = {
     r4 r8 d
     f([ c)] c c %20
     c16([ d)] e f g8. e16
-    f8 c \after 8 \< a4~
-    a16([ f')] e d\! g([ f)] e([ d)]
+    f8 c a4~
+    a16([\< f')] e d\! g([ f)] e([ d)]
     c4 r
     R2 %25
-    r8 a\< b16([ c)] d e
-    f4\> e16([ d)]\! c([ b)]
+    r8 a b16([\< c)] d e\!
+    f4 e16([\> d)] c([ b)]\!
     a8. g16 f8 c'
     d16([ b)] d b a([ g)] e([ g)]
     f8 c' f, f'16 f %30
@@ -1270,7 +1270,7 @@ BenedictusTenoreSolo = {
     f16([ c)] c a a([ g)] c([ b)]
     a4 r
     R2*6 %39
-    b4~\pE b16([ c)] d([ es)] %40
+    b4~ b16([ c)] d([ es)] %40
     es8([ d)] c4
     r r8 d
     c8.([ d32 es)] d8 r
@@ -1396,7 +1396,7 @@ BenedictusTenoreLyrics = \lyricmode {
 
   O -- %67
   san -- na in ex --
-  cel -- sis, o --
+  cel -- sis, __ o --
   san -- na __ in __ ex -- %70
   cel --
 
