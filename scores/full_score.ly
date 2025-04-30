@@ -11,6 +11,9 @@
   markup-system-spacing.basic-distance = #10
   markup-system-spacing.minimum-distance = #10
   indent = 1.5\cm
+  % for print – also change paper block of Benedictus
+  % outer-margin = 1.7\cm
+  % inner-margin = 1.8\cm
 }
 
 \layout {
@@ -451,6 +454,13 @@
     \section "5" "Benedictus"
     \addTocEntry
     \paper { top-margin = 0.5\cm }
+    % \paper {
+    %   top-margin = 0.7\cm
+    %   top-system-spacing.basic-distance = #7
+    %   top-system-spacing.minimum-distance = #7
+    %   markup-system-spacing.basic-distance = #7
+    %   markup-system-spacing.minimum-distance = #7
+    % }
     \score { %\articulate
       <<
         \new StaffGroup <<
