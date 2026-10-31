@@ -724,24 +724,24 @@ CredoBasso = {
       r4 \mvDl dis'\f^\tutti dis dis \noBreak
     dis4. dis,8 dis2\fermata %50
     R1
-    r2 r4 \forceclef \mvTr fis\pE^\solo
+    r2 r4 \fC \mvTr fis\pE^\solo
     h,2\< ais4.\! ais8
     h4( dis) fis r
     cis4.\pp dis8 e4 fis %55
     h,2 h'->\cresc
     h,4 h8 dis fis4(\p fis,)
-    h r \forceclef \mvTr h2\p^\tutti
+    h r \fC \mvTr h2\p^\tutti
     h4 h8 dis fis2
-    h,4 r \forceclef \mvTr h\f^\solo h %60
+    h,4 r \fC \mvTr h\f^\solo h %60
     fis' fis cis\p cis
-    fis, \forceclef \mvTr fis'(\f^\tutti dis) h
+    fis, \fC \mvTr fis'(\f^\tutti dis) h
     ais8([ cis)] fis([ ais)] \mvDl cis4\p cis,
-    fis r \forceclef \mvTr ais,\pE^\solo ais
+    fis r \fC \mvTr ais,\pE^\solo ais
     \after 2 \cresc h2. h4 %65
     ais r r ais\f
     h h' r2
     r4 cis,2\pp cis4
-    fis, \forceclef \mvTr ais'\f^\tutti h gis
+    fis, \fC \mvTr ais'\f^\tutti h gis
     \mvDll cis2\pp cis, %70
     fis4 r r2 \noBreak
     r fis4\f fis
